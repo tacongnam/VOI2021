@@ -23,3 +23,13 @@ Trong folder Blog có các subfolder:
 
 ### Contest
 Trong folder Contest có chứa các subfolder lưu lại đề thi từ các contest training
+
+## Yêu cầu mỗi lần sửa đổi
+Ghi rõ tên file sửa đổi - nội dung sửa đổi - lí do sửa đổi (nếu có)
+
+## Kiểm tra và hoàn thiện Project mỗi ngày
+Truy cập vào mục Project để thực hiện kế hoạch đã nêu ra trong ngày
+
+## Viết bài về Algorithm mỗi tuần một lần và link vào wiki
+
+## Sau mỗi contest viết lại Editorial
