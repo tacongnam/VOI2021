@@ -33,3 +33,5 @@ Truy cập vào mục Project để thực hiện kế hoạch đã nêu ra tron
 ## Viết bài về Algorithm mỗi tuần một lần và link vào wiki
 
 ## Sau mỗi contest viết lại Editorial
+
+## Cập nhật kế hoạch ngày mới vào mỗi cuối ngày
