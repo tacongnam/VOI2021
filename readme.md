@@ -1,4 +1,5 @@
 # Luyện tập chuẩn bị cho kỳ thi VOI2021
+# Rule
 
 Nội dung repository:
 
@@ -33,5 +34,7 @@ Truy cập vào mục Project để thực hiện kế hoạch đã nêu ra tron
 ## Viết bài về Algorithm mỗi tuần một lần và link vào wiki
 
 ## Sau mỗi contest viết lại Editorial
+
+## Những vấn đề chưa được giải đáp lưu lại trên Issue, nếu được giải đáp rồi thì chọn solved
 
 ## Cập nhật kế hoạch ngày mới vào mỗi cuối ngày
