@@ -1,1 +1,16 @@
+# Dynamic Programming (QHD)
+      PreVOI CHV 9_10-11-2020/LCS.cpp
+  
+# Data Structure
+    ## Segment Tree / BIT
+      PreVOI CHV 9_10-11-2020/PIANO.cpp
+      PreVOI CHV 9_10-11-2020/SIGNAL.cpp
+    ## Segment Tree with Lazy update
+      PreVOI CHV 9_10-11-2020/PIANO.cpp
+      
+# Binary Search
+      PreVOI CHV 9_10-11-2020/SIGNAL.cpp
 
+# Minpath (Dijkstra)
+      PreVOI CHV 9_10-11-2020/ROADS.cpp
+      
