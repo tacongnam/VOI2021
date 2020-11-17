@@ -23,9 +23,11 @@ Chặt nhị phân thời gian. Với mỗi thời gian t sử dụng luồng đ
 
 # D. Erase to max
 Làm làm là ra
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk4MzYwNTk3LC0zOTM5NTgxMjgsLTk2ND
-gwMjEzNSw5MzU0Njc5OTksMTI2MjE2ODA4NiwtNTkxNzQ1ODA4
-LDEwODUyNDkzNjYsLTk0NTk3NTExOSwxNTk2ODc2OTQ3LDkwOT
-I5MTQxNywyOTY2OTg5MjVdfQ==
+eyJoaXN0b3J5IjpbNzQ5MzYwNDk3LDI5ODM2MDU5NywtMzkzOT
+U4MTI4LC05NjQ4MDIxMzUsOTM1NDY3OTk5LDEyNjIxNjgwODYs
+LTU5MTc0NTgwOCwxMDg1MjQ5MzY2LC05NDU5NzUxMTksMTU5Nj
+g3Njk0Nyw5MDkyOTE0MTcsMjk2Njk4OTI1XX0=
 -->
