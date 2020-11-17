@@ -31,11 +31,11 @@ Gọi $Count(b)$ = đáp án với $b_i = b$
 
 $Count(b) = max(Count(b - 1), Count(b - f(b) + 1)$
 
-Với $f(b) = max_{a_i}{3}$
+Với $f(b) = \textsubscript{this}  max_{a_i}{3}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTIxOTUyOSwxNDUzMzA1OTEwLDI5OD
-M2MDU5NywtMzkzOTU4MTI4LC05NjQ4MDIxMzUsOTM1NDY3OTk5
-LDEyNjIxNjgwODYsLTU5MTc0NTgwOCwxMDg1MjQ5MzY2LC05ND
-U5NzUxMTksMTU5Njg3Njk0Nyw5MDkyOTE0MTcsMjk2Njk4OTI1
-XX0=
+eyJoaXN0b3J5IjpbNjA5MTcyMTU3LDE0NTMzMDU5MTAsMjk4Mz
+YwNTk3LC0zOTM5NTgxMjgsLTk2NDgwMjEzNSw5MzU0Njc5OTks
+MTI2MjE2ODA4NiwtNTkxNzQ1ODA4LDEwODUyNDkzNjYsLTk0NT
+k3NTExOSwxNTk2ODc2OTQ3LDkwOTI5MTQxNywyOTY2OTg5MjVd
+fQ==
 -->
