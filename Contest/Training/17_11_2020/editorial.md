@@ -4,8 +4,10 @@ Chặt nhị phân thời gian. Với mỗi thời gian t sử dụng luồng đ
 
 # B. Planes
 > Nhận xét
-+) Nếu tạo đường được -> tạo luôn
-+) Nếu tạo đường mà cần phải dùng cung ngược -> chắc chắn những đỉnh đã tạo trước nó phải tìm được một đường khác để tạo đường (giống giống cặp ghép)
+>
+>+) Nếu tạo đường được -> tạo luôn
+>
+>+) Nếu tạo đường mà cần phải dùng cung ngược -> chắc chắn những đỉnh đã tạo trước nó phải tìm được một đường khác để tạo đường (giống giống cặp ghép)
 
 -> Tạo trước mạng với những người tham gia cuộc thi
 
@@ -17,7 +19,7 @@ Chặt nhị phân thời gian. Với mỗi thời gian t sử dụng luồng đ
 
 +) Chú ý: Sau khi kiểm tra xem có kết quả hay không, ta không reset lại flow mà add tiếp cạnh rồi chạy tiếp maxflow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDQ2MDQzOSw5MzU0Njc5OTksMTI2Mj
+eyJoaXN0b3J5IjpbLTk2NDgwMjEzNSw5MzU0Njc5OTksMTI2Mj
 E2ODA4NiwtNTkxNzQ1ODA4LDEwODUyNDkzNjYsLTk0NTk3NTEx
 OSwxNTk2ODc2OTQ3LDkwOTI5MTQxNywyOTY2OTg5MjVdfQ==
 -->
