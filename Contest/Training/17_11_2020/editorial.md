@@ -19,10 +19,11 @@ Chặt nhị phân thời gian. Với mỗi thời gian t sử dụng luồng đ
 
 +) Chú ý: Sau khi kiểm tra xem có kết quả hay không, ta không reset lại flow mà add tiếp cạnh rồi chạy tiếp maxflow
 
-# C. LAMP
+# C. LAMPS
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5ODY2MDE3LC05NjQ4MDIxMzUsOTM1ND
-Y3OTk5LDEyNjIxNjgwODYsLTU5MTc0NTgwOCwxMDg1MjQ5MzY2
-LC05NDU5NzUxMTksMTU5Njg3Njk0Nyw5MDkyOTE0MTcsMjk2Nj
-k4OTI1XX0=
+eyJoaXN0b3J5IjpbLTM5Mzk1ODEyOCwtOTY0ODAyMTM1LDkzNT
+Q2Nzk5OSwxMjYyMTY4MDg2LC01OTE3NDU4MDgsMTA4NTI0OTM2
+NiwtOTQ1OTc1MTE5LDE1OTY4NzY5NDcsOTA5MjkxNDE3LDI5Nj
+Y5ODkyNV19
 -->
