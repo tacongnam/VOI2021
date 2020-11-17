@@ -5,9 +5,9 @@ Chặt nhị phân thời gian. Với mỗi thời gian t sử dụng luồng đ
 # B. Planes
 Chỉ là xếp thí sinh trước mà thôi
 +) Nếu tạo đường được -> tạo luôn
-+) Nếu tạo đường mà cần phải dùng cung ngược -> chắc chắn những thằng đã tạo trước nó phải tìm được một đường khác để tạo đường
++) Nếu tạo đường mà cần phải dùng cung ngược -> chắc chắn những đỉnh đã tạo trước nó phải tìm được một đường khác để tạo đường (g
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NTk3NTExOSwxNTk2ODc2OTQ3LDkwOT
-I5MTQxNywyOTY2OTg5MjVdfQ==
+eyJoaXN0b3J5IjpbNzA0NTU0OTAyLC05NDU5NzUxMTksMTU5Nj
+g3Njk0Nyw5MDkyOTE0MTcsMjk2Njk4OTI1XX0=
 -->
