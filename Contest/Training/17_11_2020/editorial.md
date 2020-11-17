@@ -29,11 +29,12 @@ Làm làm là ra
 https://github.com/tacongnam/VOI2021/blob/main/Contest/Training/17_11_2020/Cash%20machine-hint.pdf
 
 # Fixing array
-Tính số cách chuyển: 1 -> X về bên trái
+https://github.com/tacongnam/VOI2021/blob/main/Contest/Training/17_11_2020/fixing-array-hint.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDI5NTMzMTYsNzY4ODg0MjksMTE0MT
-UxMzM4MywtNTMwNDM4OTUxLDE0NTMzMDU5MTAsMjk4MzYwNTk3
-LC0zOTM5NTgxMjgsLTk2NDgwMjEzNSw5MzU0Njc5OTksMTI2Mj
-E2ODA4NiwtNTkxNzQ1ODA4LDEwODUyNDkzNjYsLTk0NTk3NTEx
-OSwxNTk2ODc2OTQ3LDkwOTI5MTQxNywyOTY2OTg5MjVdfQ==
+eyJoaXN0b3J5IjpbMTgzNDI1MTEyNCwtMTkwMjk1MzMxNiw3Nj
+g4ODQyOSwxMTQxNTEzMzgzLC01MzA0Mzg5NTEsMTQ1MzMwNTkx
+MCwyOTgzNjA1OTcsLTM5Mzk1ODEyOCwtOTY0ODAyMTM1LDkzNT
+Q2Nzk5OSwxMjYyMTY4MDg2LC01OTE3NDU4MDgsMTA4NTI0OTM2
+NiwtOTQ1OTc1MTE5LDE1OTY4NzY5NDcsOTA5MjkxNDE3LDI5Nj
+Y5ODkyNV19
 -->
