@@ -26,29 +26,11 @@ Làm làm là ra
 
 # Cash machine (Tag: Dễ dàng thấy)
 
-Ta thấy công thức quy hoạch động như sau:
-
-• Gọi $m[b]$ là số tiền nhỏ nhất mà phải trả nhiều tờ tiền nhất
-
-• Gọi $dp[b]$ là số lượng tờ tiền dùng để trả $m[b]$
-
-• Gọi $c(b)$ là mệnh giá tiền lớn nhất mà không vượt quá $b$
-
-• Dễ dàng thấy được công thức quy hoạch động như sau: $dp[b] = max(dp[b−1], dp[b−c(b)] + 1)$
-
-• Nếu $b−c(b)−c(b) \geq c(b)$ thì $dp[b] = max(dp[b−1−c(b)], dp[b−2×c(b)] + 2)$
-
-• Gọi $t$ là số lớn nhất mà $b−t×c(b) \geq c(b)$ thì ta có công thức sau: $dp[b] = max(dp[b−1−(t−1)×c(b)], dp[b−t×c(b)] +t)$
-
-• Với $b−c(b) < c(b)$ ta có thể viết lại công thức thành: $dp[b] = max(max_{j=c(b)}^{b}(dp[j−c(b)] + 1), dp[c(b)−1])$.
-
-• Vì $dp[i]\geq d[j]$ với $i > j$ do đó: $max_{j=c(b)}^{b}(dp[j−c(b)] + 1) =dp[b−c(b)]$
-
-• Từ các công thức trên ta có thể viết lại công thức như sau: $dp[b] = max(dp[b−t×c(b)] +t, dp[c(b)−1] + (t−1))$. Vì $b−t×c(b)<\frac{b}{2}$, do đó số lượng mệnh giá tiền sử dụng để trả $b$ sẽ không vượt quá $logb$. Do đó ta cóthể tính được $dp[b]$ trong $O(logb)$ khi đã chuẩn bị trước được $dp[a_i−1]$
+https://github.com/tacongnam/VOI2021/blob/main/Contest/Training/17_11_2020/Cash%20machine-hint.pdf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY4ODg0MjksMTE0MTUxMzM4MywtNTMwND
-M4OTUxLDE0NTMzMDU5MTAsMjk4MzYwNTk3LC0zOTM5NTgxMjgs
-LTk2NDgwMjEzNSw5MzU0Njc5OTksMTI2MjE2ODA4NiwtNTkxNz
-Q1ODA4LDEwODUyNDkzNjYsLTk0NTk3NTExOSwxNTk2ODc2OTQ3
-LDkwOTI5MTQxNywyOTY2OTg5MjVdfQ==
+eyJoaXN0b3J5IjpbMTc4NDI0MjY5MCw3Njg4ODQyOSwxMTQxNT
+EzMzgzLC01MzA0Mzg5NTEsMTQ1MzMwNTkxMCwyOTgzNjA1OTcs
+LTM5Mzk1ODEyOCwtOTY0ODAyMTM1LDkzNTQ2Nzk5OSwxMjYyMT
+Y4MDg2LC01OTE3NDU4MDgsMTA4NTI0OTM2NiwtOTQ1OTc1MTE5
+LDE1OTY4NzY5NDcsOTA5MjkxNDE3LDI5NjY5ODkyNV19
 -->
