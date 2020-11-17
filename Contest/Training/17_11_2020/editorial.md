@@ -26,10 +26,14 @@ Làm làm là ra
 
 # E. Cash machine
 Nhận xét:
+
 Gọi $Count(b)$ = đáp án với $b_i = b$
-$Count(b) = max(Count(b - 1), Count()$
+
+$Count(b) = max(Count(b - 1), Count(b - f(b) + 1)$
+
+Với $f(b) = max{a_i}{
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NjMzMjA4OCwyOTgzNjA1OTcsLTM5Mz
+eyJoaXN0b3J5IjpbMTQ1MzMwNTkxMCwyOTgzNjA1OTcsLTM5Mz
 k1ODEyOCwtOTY0ODAyMTM1LDkzNTQ2Nzk5OSwxMjYyMTY4MDg2
 LC01OTE3NDU4MDgsMTA4NTI0OTM2NiwtOTQ1OTc1MTE5LDE1OT
 Y4NzY5NDcsOTA5MjkxNDE3LDI5NjY5ODkyNV19
