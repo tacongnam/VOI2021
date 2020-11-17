@@ -29,9 +29,9 @@ Làm làm là ra
 https://github.com/tacongnam/VOI2021/blob/main/Contest/Training/17_11_2020/Cash%20machine-hint.pdf
 
 # Fixing array
-
+Tìm giới hạn 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MDg1NzM1Myw3Njg4ODQyOSwxMTQxNT
+eyJoaXN0b3J5IjpbLTM3MTQ0NjM0MSw3Njg4ODQyOSwxMTQxNT
 EzMzgzLC01MzA0Mzg5NTEsMTQ1MzMwNTkxMCwyOTgzNjA1OTcs
 LTM5Mzk1ODEyOCwtOTY0ODAyMTM1LDkzNTQ2Nzk5OSwxMjYyMT
 Y4MDg2LC01OTE3NDU4MDgsMTA4NTI0OTM2NiwtOTQ1OTc1MTE5
