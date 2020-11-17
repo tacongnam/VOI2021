@@ -19,15 +19,18 @@ Chặt nhị phân thời gian. Với mỗi thời gian t sử dụng luồng đ
 
 +) Chú ý: Sau khi kiểm tra xem có kết quả hay không, ta không reset lại flow mà add tiếp cạnh rồi chạy tiếp maxflow
 
-# C. LAMPS
+# C. Lamps
 
 # D. Erase to max
 Làm làm là ra
 
-
+# E. Cash machine
+Nhận xét:
+Gọi $Count(b)$ = đáp án với $b_i = b$
+$Count(b) = max(Count(b - 1), Count()$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ5MzYwNDk3LDI5ODM2MDU5NywtMzkzOT
-U4MTI4LC05NjQ4MDIxMzUsOTM1NDY3OTk5LDEyNjIxNjgwODYs
-LTU5MTc0NTgwOCwxMDg1MjQ5MzY2LC05NDU5NzUxMTksMTU5Nj
-g3Njk0Nyw5MDkyOTE0MTcsMjk2Njk4OTI1XX0=
+eyJoaXN0b3J5IjpbMTg0NjMzMjA4OCwyOTgzNjA1OTcsLTM5Mz
+k1ODEyOCwtOTY0ODAyMTM1LDkzNTQ2Nzk5OSwxMjYyMTY4MDg2
+LC01OTE3NDU4MDgsMTA4NTI0OTM2NiwtOTQ1OTc1MTE5LDE1OT
+Y4NzY5NDcsOTA5MjkxNDE3LDI5NjY5ODkyNV19
 -->
