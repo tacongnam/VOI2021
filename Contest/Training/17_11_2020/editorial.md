@@ -24,18 +24,15 @@ Chặt nhị phân thời gian. Với mỗi thời gian t sử dụng luồng đ
 # D. Erase to max
 Làm làm là ra
 
-# E. Cash machine
-Nhận xét:
+# Cash machine
 
-Gọi $Count(b)$ = đáp án với $b_i = b$
+Ta thấy công thức quy hoạch động như sau:
 
-$Count(b) = max(Count(b - 1), Count(b - f(b) + 1)$
-
-Với $f(b) = max_{a_i \leq b}{a_i}$
+•Gọi $m[b]$ là số tiền nhỏ nhất mà phải trả nhiều tờ tiền nhất•Gọidp[b]là số lượng tờ tiền dùng để trảm[b]•Gọic(b)là mệnh giá tiền lớn nhất mà không vượt quáb•Dễ dàng thấy được công thức quy hoạch động như sau:dp[b] = max(dp[b−1], dp[b−c(b)] + 1)•Nếub−c(v)−c(v)≥c(v)thìdp[b] = max(dp[b−1−c(v)], dp[b−2×c(b)] + 2)•Gọitlà số lớn nhất màb−t×c(b)≥c(b)thì ta có công thức sau:dp[b] = max(dp[b−1−(t−1)×c(v)], dp[b−t×c(b)] +t)•Vớib−c(b)< c(b)ta có thể viết lại công thức thành:dp[b] = max(bmaxj=c(b)(dp[j−c(b)] + 1), dp[c(b)−1])•Vìdp[i]≥d[j]vớii > jdo đó:bmaxj=c(b)(dp[j−c(b)] + 1) =dp[b−c(b)]•Từ các công thức trên ta có thể viết lại công thức như sau:dp[b] = max(dp[b−t×c(b)] +t, dp[c(b)−1] + (t−1))Vìb−t×c(b)<b2, do đó số lượng mệnh giá tiền sử dụng để trảbsẽ không vượt quálogb. Do đó ta cóthể tính đượcdp[b]trong O(logb) khi đã chuẩn bị trước đượcdp[ai−1]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMDQzODk1MSwxNDUzMzA1OTEwLDI5OD
-M2MDU5NywtMzkzOTU4MTI4LC05NjQ4MDIxMzUsOTM1NDY3OTk5
-LDEyNjIxNjgwODYsLTU5MTc0NTgwOCwxMDg1MjQ5MzY2LC05ND
-U5NzUxMTksMTU5Njg3Njk0Nyw5MDkyOTE0MTcsMjk2Njk4OTI1
-XX0=
+eyJoaXN0b3J5IjpbLTk3NjAzNjU4NywtNTMwNDM4OTUxLDE0NT
+MzMDU5MTAsMjk4MzYwNTk3LC0zOTM5NTgxMjgsLTk2NDgwMjEz
+NSw5MzU0Njc5OTksMTI2MjE2ODA4NiwtNTkxNzQ1ODA4LDEwOD
+UyNDkzNjYsLTk0NTk3NTExOSwxNTk2ODc2OTQ3LDkwOTI5MTQx
+NywyOTY2OTg5MjVdfQ==
 -->
