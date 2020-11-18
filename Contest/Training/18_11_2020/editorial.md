@@ -37,10 +37,10 @@ void get_max(int pos, bool tightA, bool tightB, int val, int A, int B) {
 ```
 
 Subtask 3:
-Gọi f(i, 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMTM2NTY4MywxNzE3NTQwMDkzLDM1OD
-IzNzE5NywtMTQyODI0NjY0MCwxMTM0ODU0MTk4LDE2MzAzNDc3
-MTQsMTM5Nzk3MjgwNCwxMTk1MTM0MDExLDE5MTc3MDMxODBdfQ
-==
+eyJoaXN0b3J5IjpbMzU1OTk2NTcsLTUzMTM2NTY4MywxNzE3NT
+QwMDkzLDM1ODIzNzE5NywtMTQyODI0NjY0MCwxMTM0ODU0MTk4
+LDE2MzAzNDc3MTQsMTM5Nzk3MjgwNCwxMTk1MTM0MDExLDE5MT
+c3MDMxODBdfQ==
 -->
