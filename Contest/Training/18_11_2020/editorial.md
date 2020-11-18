@@ -18,11 +18,23 @@ int tinh(i, nho, ok1, ok2, ok3) {
 		if(ok1 & ok2 & ok3) return 0;
 		else return -inf;
 	}
-
+	
+	int best = -inf;
+	for(ai: 0 -> 9) {
+		if(ok2) min2 = 0;
+		else min2 = ai;
+		for(int bi: min2 -> 9) {
+			if(ok3) min3 = 0;
+			else min3 = bi;
+			for(int ci: min3 -> 9) {
+				
+			}
+		}
+	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYwNTA4ODQxLDgxNjUzNzYwNSwtMzQxMz
+eyJoaXN0b3J5IjpbMTIwODA0ODI4LDgxNjUzNzYwNSwtMzQxMz
 Y2NDgzLC01MzEzNjU2ODMsMTcxNzU0MDA5MywzNTgyMzcxOTcs
 LTE0MjgyNDY2NDAsMTEzNDg1NDE5OCwxNjMwMzQ3NzE0LDEzOT
 c5NzI4MDQsMTE5NTEzNDAxMSwxOTE3NzAzMTgwXX0=
