@@ -1,7 +1,10 @@
 # LRXOR + XOR
 Trie
 
-# XOR
+# XOR3
+Subtask 1 + 2:
+
+Ta sẽ cố định được giá trị $y$, $z$ => Cần tìm giá trị $x \in [A_1, B_1]$ sao cho $x ^ y ^ z$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTQ1NjE3MDAsMTkxNzcwMzE4MF19
+eyJoaXN0b3J5IjpbLTI5MTcxNzQ1MywxOTE3NzAzMTgwXX0=
 -->
