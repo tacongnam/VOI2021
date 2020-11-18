@@ -42,24 +42,24 @@ int get_min(int x) {
 		int b = bit(x, i);
 		int bA = bit(A, i);
 		int bB = bit(B, i);
-		int choose = 1 - b;
-		if(tightB == true) {
-			if(choose > bB)
-				choose = 1 - choose;
-			else if(choose < bB)
-				tightB = false;
-		}
+		int choose = b;
 		if(tightA == true) {
 			if(choose < bA)
 				choose = 1 - choose;
 			else if(choose > bA)
 				tightA = false;
 		}
+		if(tightB == true) {
+			if(choose > bB)
+				choose = 1 - choose;
+			else if(choose < bB)
+				tightB = false;
+		}
 		ans += mask(i) * choose;
 	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjA1OTY1NzAsMTE5NTEzNDAxMSwxOT
-E3NzAzMTgwXX0=
+eyJoaXN0b3J5IjpbMTM5Nzk3MjgwNCwxMTk1MTM0MDExLDE5MT
+c3MDMxODBdfQ==
 -->
