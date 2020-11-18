@@ -28,7 +28,7 @@ int tinh(i, nho, ok1, ok2, ok3) {
 			else min3 = bi;
 			for(int ci: min3 -> 9)
 				for(int nho2: 0 -> 2)
-					if((ai + bi + ci + nho2) / 10 == nho) {
+					if((ai + bi + ci + nho2) / 10 == nho && (ai + bi + ci + nho2) % 10 == ni)) {
 						tmp = (ai + bi + ci + nho) % 10 + tinh(i + 1, nho2, ok1 | (ai > 0), ok2 | (bi > ai), ok3 | (ci > bi));
 						if(tmp > best) best = tmp;
 					}
@@ -37,9 +37,9 @@ int tinh(i, nho, ok1, ok2, ok3) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI0Mzc0Nzk3LDEyMDgwNDgyOCw4MTY1Mz
-c2MDUsLTM0MTM2NjQ4MywtNTMxMzY1NjgzLDE3MTc1NDAwOTMs
-MzU4MjM3MTk3LC0xNDI4MjQ2NjQwLDExMzQ4NTQxOTgsMTYzMD
-M0NzcxNCwxMzk3OTcyODA0LDExOTUxMzQwMTEsMTkxNzcwMzE4
-MF19
+eyJoaXN0b3J5IjpbLTEwODYxMzI1NDEsMjI0Mzc0Nzk3LDEyMD
+gwNDgyOCw4MTY1Mzc2MDUsLTM0MTM2NjQ4MywtNTMxMzY1Njgz
+LDE3MTc1NDAwOTMsMzU4MjM3MTk3LC0xNDI4MjQ2NjQwLDExMz
+Q4NTQxOTgsMTYzMDM0NzcxNCwxMzk3OTcyODA0LDExOTUxMzQw
+MTEsMTkxNzcwMzE4MF19
 -->
