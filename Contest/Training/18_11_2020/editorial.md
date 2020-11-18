@@ -26,21 +26,20 @@ int tinh(i, nho, ok1, ok2, ok3) {
 		for(int bi: min2 -> 9) {
 			if(ok3) min3 = 0;
 			else min3 = bi;
-			for(int ci: min3 -> 9) {
+			for(int ci: min3 -> 9)
 				for(int nho2: 0 -> 2)
 					if((ai + bi + ci + nho2) / 10 == nho) {
 						tmp = (ai + bi + ci + nho) % 10 + tinh(i + 1, nho2, ok1 | (ai > 0), ok2 | (bi > ai), ok3 | (ci > bi));
 						if(tmp > best) best = tmp;
 					}
-			}
 		}
 	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDQ3Mjc3MjUsMTIwODA0ODI4LDgxNj
-UzNzYwNSwtMzQxMzY2NDgzLC01MzEzNjU2ODMsMTcxNzU0MDA5
-MywzNTgyMzcxOTcsLTE0MjgyNDY2NDAsMTEzNDg1NDE5OCwxNj
-MwMzQ3NzE0LDEzOTc5NzI4MDQsMTE5NTEzNDAxMSwxOTE3NzAz
-MTgwXX0=
+eyJoaXN0b3J5IjpbMjI0Mzc0Nzk3LDEyMDgwNDgyOCw4MTY1Mz
+c2MDUsLTM0MTM2NjQ4MywtNTMxMzY1NjgzLDE3MTc1NDAwOTMs
+MzU4MjM3MTk3LC0xNDI4MjQ2NjQwLDExMzQ4NTQxOTgsMTYzMD
+M0NzcxNCwxMzk3OTcyODA0LDExOTUxMzQwMTEsMTkxNzcwMzE4
+MF19
 -->
