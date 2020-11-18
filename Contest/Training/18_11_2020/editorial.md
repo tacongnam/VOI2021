@@ -2,13 +2,12 @@
 Just just Trie
 
 # XOR3
-Chú ý: $\oplus$ = xor
 
 Subtask 1 + 2:
 
-Ta sẽ cố định được giá trị $y$, $z$ => Cần tìm giá trị $x \in [A_1, B_1]$ sao cho $x \oplus y \oplus z$ là lớn nhất (nhỏ nhất)
+Ta sẽ cố định được giá trị y, z => Cần tìm giá trị x thuộc [A1, B1] sao cho x ^ y ^ z là lớn nhất (nhỏ nhất)
 
-Gọi $w = x \oplus y$. Để giá trị trên là lớn nhất thì nếu bit tương ứng của $w$ là $b$ thì bit tương ứng của $z$ là $1 - b$. Chú ý có thêm biến $tight$ để kiểm tra xem có vượt quá $B_1$ hoặc vượt dưới $A_1$ hay không. Nên sử dụng đệ quy để viết cho dễ
+Gọi w = x ^ y. Để giá trị trên là lớn nhất thì nếu bit tương ứng của w là b thì bit tương ứng của z là 1 - b. Chú ý có thêm biến tight để kiểm tra xem có vượt quá B_1 hoặc vượt dưới A_1 hay không. Nên sử dụng đệ quy để viết cho dễ
 
 ```
 void get_max(int pos, bool tightA, bool tightB, int val, int A, int B) {
@@ -36,7 +35,7 @@ void get_max(int pos, bool tightA, bool tightB, int val, int A, int B) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMjU2ODU2NSwtMTQyODI0NjY0MCwxMT
+eyJoaXN0b3J5IjpbMTU4NDg0OTgwOSwtMTQyODI0NjY0MCwxMT
 M0ODU0MTk4LDE2MzAzNDc3MTQsMTM5Nzk3MjgwNCwxMTk1MTM0
 MDExLDE5MTc3MDMxODBdfQ==
 -->
