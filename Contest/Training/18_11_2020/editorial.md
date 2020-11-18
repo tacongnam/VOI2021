@@ -18,18 +18,19 @@ int get_max(int x) {
 		int bA = bit(A, i);
 		int bB = bit(B, i);
 		int choose = 1 - b;
+		if(tightB == true) {
+			if(choose > bB) 
+		}
 		if(tightA == true) {
 			if(choose < bA)
 				choose = 1 - choose;
 			else if(choose > bA)
 				tightA = false;
 		}
-		
-		if
 	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQwMjQwMzIzLDExOTUxMzQwMTEsMTkxNz
-cwMzE4MF19
+eyJoaXN0b3J5IjpbLTEyMDc4MjUwNTUsMTE5NTEzNDAxMSwxOT
+E3NzAzMTgwXX0=
 -->
