@@ -36,11 +36,11 @@ void get_max(int pos, bool tightA, bool tightB, int val, int A, int B) {
 }
 ```
 
-Subtask 3:
-
+### Bài toán 2:
+Cho x thuộc [A, B], y thuộc [C, D]. Tính toàn bộ x^y (các phép tính kết quả giống nhau thì chỉ tính 1 lần)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU1OTk2NTcsLTUzMTM2NTY4MywxNzE3NT
-QwMDkzLDM1ODIzNzE5NywtMTQyODI0NjY0MCwxMTM0ODU0MTk4
-LDE2MzAzNDc3MTQsMTM5Nzk3MjgwNCwxMTk1MTM0MDExLDE5MT
-c3MDMxODBdfQ==
+eyJoaXN0b3J5IjpbMTM0NTMwMzY0OCwtNTMxMzY1NjgzLDE3MT
+c1NDAwOTMsMzU4MjM3MTk3LC0xNDI4MjQ2NjQwLDExMzQ4NTQx
+OTgsMTYzMDM0NzcxNCwxMzk3OTcyODA0LDExOTUxMzQwMTEsMT
+kxNzcwMzE4MF19
 -->
