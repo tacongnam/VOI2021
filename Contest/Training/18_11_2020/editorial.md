@@ -39,10 +39,10 @@ void get_max(int pos, bool tightA, bool tightB, int val, int A, int B) {
 ### Bài toán 2:
 Cho x thuộc [A, B], y thuộc [C, D]. Tính toàn bộ x^y (các phép tính kết quả giống nhau thì chỉ tính 1 lần) rồi sắp xếp lại tăng dần. Tìm kết quả lớn thứ k.
 
-
+# GIFTS
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjE5MTk2MDcsLTM0MTM2NjQ4MywtNT
-MxMzY1NjgzLDE3MTc1NDAwOTMsMzU4MjM3MTk3LC0xNDI4MjQ2
-NjQwLDExMzQ4NTQxOTgsMTYzMDM0NzcxNCwxMzk3OTcyODA0LD
-ExOTUxMzQwMTEsMTkxNzcwMzE4MF19
+eyJoaXN0b3J5IjpbODE2NTM3NjA1LC0zNDEzNjY0ODMsLTUzMT
+M2NTY4MywxNzE3NTQwMDkzLDM1ODIzNzE5NywtMTQyODI0NjY0
+MCwxMTM0ODU0MTk4LDE2MzAzNDc3MTQsMTM5Nzk3MjgwNCwxMT
+k1MTM0MDExLDE5MTc3MDMxODBdfQ==
 -->
