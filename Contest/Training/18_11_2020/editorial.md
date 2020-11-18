@@ -11,7 +11,8 @@ Cho x thuộc [A, B], y thuộc [C, D]. Tính toàn bộ x^y (các phép tính k
 
 # GIFT
 
-### GIFT2
+### GIFT2: 
+Tách N thành tổng của 3 số a, b, c sao cho 0 < a < b < c và S(a) + S(b) + S( c ) là nhỏ nhất với S(i) là tổng các chữ số của i
 ```
 int tinh(i, nho, ok1, ok2, ok3) {
 	if(i > k) {
@@ -37,9 +38,9 @@ int tinh(i, nho, ok1, ok2, ok3) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNTg5MDc1MCwyMjQzNzQ3OTcsMTIwOD
-A0ODI4LDgxNjUzNzYwNSwtMzQxMzY2NDgzLC01MzEzNjU2ODMs
-MTcxNzU0MDA5MywzNTgyMzcxOTcsLTE0MjgyNDY2NDAsMTEzND
-g1NDE5OCwxNjMwMzQ3NzE0LDEzOTc5NzI4MDQsMTE5NTEzNDAx
-MSwxOTE3NzAzMTgwXX0=
+eyJoaXN0b3J5IjpbLTE0OTc0NzMyODMsMTgwNTg5MDc1MCwyMj
+QzNzQ3OTcsMTIwODA0ODI4LDgxNjUzNzYwNSwtMzQxMzY2NDgz
+LC01MzEzNjU2ODMsMTcxNzU0MDA5MywzNTgyMzcxOTcsLTE0Mj
+gyNDY2NDAsMTEzNDg1NDE5OCwxNjMwMzQ3NzE0LDEzOTc5NzI4
+MDQsMTE5NTEzNDAxMSwxOTE3NzAzMTgwXX0=
 -->
