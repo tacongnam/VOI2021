@@ -12,9 +12,13 @@ Gọi $w = x \oplus y$. Để giá trị trên là lớn nhất thì nếu bit t
 
 ```
 int get_max(int x) {
-	rep
+	bool tight = true;
+	ford(i: 31 -> 0) {
+		int b = bit(x, i);
+		if(1 - b
+	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NzQxMDEwOSwxOTE3NzAzMTgwXX0=
+eyJoaXN0b3J5IjpbMTE5NTEzNDAxMSwxOTE3NzAzMTgwXX0=
 -->
