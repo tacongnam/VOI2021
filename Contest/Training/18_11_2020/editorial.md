@@ -19,7 +19,10 @@ int get_max(int x) {
 		int bB = bit(B, i);
 		int choose = 1 - b;
 		if(tightB == true) {
-			if(choose > bB) 
+			if(choose > bB)
+				choose = 1 - choose;
+			else if(choose < bB)
+				tightB = false;
 		}
 		if(tightA == true) {
 			if(choose < bA)
@@ -27,10 +30,36 @@ int get_max(int x) {
 			else if(choose > bA)
 				tightA = false;
 		}
+		ans += mask(i) * choose;
+	}
+}
+```
+
+```
+int get_min(int x) {
+	bool tightA = true, tightB = true;
+	ford(i: 31 -> 0) {
+		int b = bit(x, i);
+		int bA = bit(A, i);
+		int bB = bit(B, i);
+		int choose = 1 - b;
+		if(tightB == true) {
+			if(choose > bB)
+				choose = 1 - choose;
+			else if(choose < bB)
+				tightB = false;
+		}
+		if(tightA == true) {
+			if(choose < bA)
+				choose = 1 - choose;
+			else if(choose > bA)
+				tightA = false;
+		}
+		ans += mask(i) * choose;
 	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDc4MjUwNTUsMTE5NTEzNDAxMSwxOT
+eyJoaXN0b3J5IjpbLTE2NjA1OTY1NzAsMTE5NTEzNDAxMSwxOT
 E3NzAzMTgwXX0=
 -->
