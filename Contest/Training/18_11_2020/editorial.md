@@ -13,14 +13,17 @@ Cho x thuộc [A, B], y thuộc [C, D]. Tính toàn bộ x^y (các phép tính k
 
 ### GIFT2
 ```
-int tinh(i,  {
-	if(i > k) return (ok!;
-	
+int tinh(i, nho, ok1, ok2, ok3) {
+	if(i > k) {
+		if(ok1 & ok2 & ok3) return 0;
+		else return -inf;
+	}
+
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MjAxNTUyMiw4MTY1Mzc2MDUsLTM0MT
-M2NjQ4MywtNTMxMzY1NjgzLDE3MTc1NDAwOTMsMzU4MjM3MTk3
-LC0xNDI4MjQ2NjQwLDExMzQ4NTQxOTgsMTYzMDM0NzcxNCwxMz
-k3OTcyODA0LDExOTUxMzQwMTEsMTkxNzcwMzE4MF19
+eyJoaXN0b3J5IjpbODYwNTA4ODQxLDgxNjUzNzYwNSwtMzQxMz
+Y2NDgzLC01MzEzNjU2ODMsMTcxNzU0MDA5MywzNTgyMzcxOTcs
+LTE0MjgyNDY2NDAsMTEzNDg1NDE5OCwxNjMwMzQ3NzE0LDEzOT
+c5NzI4MDQsMTE5NTEzNDAxMSwxOTE3NzAzMTgwXX0=
 -->
