@@ -1,6 +1,9 @@
 # LRXOR + XOR
 Just just Trie
 
+### Bài toán 2
+Cho đoạn [L, R] tìm x thuộc [L, R] sao cho x ^ a[i] là lớn nhất.
+
 # XOR3
 
 Subtask 1 + 2:
@@ -35,7 +38,7 @@ void get_max(int pos, bool tightA, bool tightB, int val, int A, int B) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU4MjM3MTk3LC0xNDI4MjQ2NjQwLDExMz
-Q4NTQxOTgsMTYzMDM0NzcxNCwxMzk3OTcyODA0LDExOTUxMzQw
-MTEsMTkxNzcwMzE4MF19
+eyJoaXN0b3J5IjpbMTY2MTEyNDE1MSwzNTgyMzcxOTcsLTE0Mj
+gyNDY2NDAsMTEzNDg1NDE5OCwxNjMwMzQ3NzE0LDEzOTc5NzI4
+MDQsMTE5NTEzNDAxMSwxOTE3NzAzMTgwXX0=
 -->
