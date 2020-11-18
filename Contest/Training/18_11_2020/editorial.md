@@ -32,8 +32,31 @@ void get_max(int pos, bool tightA, bool tightB, int val, int A, int B) {
 	get_max(pos - 1, ntA, ntB, val, A, B);
 	ans -= mask(pos) * (choose ^ b);
 }
+
+void get_min(int pos, bool tightA, bool tightB, int val, int A, int B) {
+	if(pos == -1) {
+		res = min(ans, res);
+		return ;
+	}
+	int b = bit(val, pos);
+	int bitA = bit(A, pos);
+	int bitB = bit(B, pos);
+	int choose = b;
+
+	if(tightB == true && choose > bitB)
+		choose = 1 - choose;
+	if(tightA == true && choose < bitA)
+		choose = 1 - choose;
+
+	bool ntA = (choose == bitA) ? tightA : false;
+	bool ntB = (choose == bitB) ? tightB : false;
+	ans += mask(pos) * (choose ^ b);
+	get_min(pos - 1, ntA, ntB, val, A, B);
+	ans -= mask(pos) * (choose ^ b);
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNDg1NDE5OCwxNjMwMzQ3NzE0LDEzOT
-c5NzI4MDQsMTE5NTEzNDAxMSwxOTE3NzAzMTgwXX0=
+eyJoaXN0b3J5IjpbLTE0MjgyNDY2NDAsMTEzNDg1NDE5OCwxNj
+MwMzQ3NzE0LDEzOTc5NzI4MDQsMTE5NTEzNDAxMSwxOTE3NzAz
+MTgwXX0=
 -->
