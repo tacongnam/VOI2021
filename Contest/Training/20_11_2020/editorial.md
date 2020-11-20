@@ -17,7 +17,9 @@ Do đó, hoán vị có tổng khoảng cách giữa hai điểm xanh và đỏ 
 dp[i][l]: tạo được i số, lcm của a1 -> ai = l
 lcm = x chia hết cho D <=> gcd(x, D) = D.
 gcd(D, lcm(x, l))
+
+# S
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDk0OTEzMDIsLTExMTg1NjYzOTgsMj
+eyJoaXN0b3J5IjpbLTIwNDg1MDk3NTIsLTExMTg1NjYzOTgsMj
 M2MTA3Mzg0XX0=
 -->
