@@ -23,9 +23,10 @@ gcd(D, lcm(x, l))
 dp bitmask
 
 # ABSTRACT PAINTING
-Quan sát theo hướng: từ mép bên phải ta vẽ một hình tròn. Ta chỉ cần quan tâm 10 ô gần nhất xem có thể được điền các mém bên trái
+Quan sát theo hướng: từ mép bên phải ta vẽ một hình tròn. Ta chỉ cần quan tâm 10 ô gần nhất xem có thể được điền các mém bên trái vào được không.
+ĐPT: $2^{10}.2^5$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjY4NTgyMCwtMTQzODE1NjY1NCw3ND
-A5ODEwOTksMjIzMjYyMDM2LC0xMTE4NTY2Mzk4LDIzNjEwNzM4
-NF19
+eyJoaXN0b3J5IjpbNTMxNDk0NTgyLC0xNDM4MTU2NjU0LDc0MD
+k4MTA5OSwyMjMyNjIwMzYsLTExMTg1NjYzOTgsMjM2MTA3Mzg0
+XX0=
 -->
