@@ -22,8 +22,9 @@ gcd(D, lcm(x, l))
 
 dp bitmask
 
-# A
+# ABSTRACT PAINTING
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzI3MDI4NDMsNzQwOTgxMDk5LDIyMz
+eyJoaXN0b3J5IjpbLTE0MzgxNTY2NTQsNzQwOTgxMDk5LDIyMz
 I2MjAzNiwtMTExODU2NjM5OCwyMzYxMDczODRdfQ==
 -->
