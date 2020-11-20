@@ -25,9 +25,9 @@ dp bitmask
 # ABSTRACT PAINTING
 
 Quan sát theo hướng: từ mép bên phải ta vẽ một hình tròn. Ta chỉ cần quan tâm 10 ô gần nhất xem có thể được điền các mép bên trái vào được không.
-dp[N, 2^10] . 2^5
+dp[i][mask]: Xét điểm mép phải là i, 10 ô gần nhất có trạng thái là mask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI1Mjg5MTc5LC0xNDM4MTU2NjU0LDc0MD
-k4MTA5OSwyMjMyNjIwMzYsLTExMTg1NjYzOTgsMjM2MTA3Mzg0
-XX0=
+eyJoaXN0b3J5IjpbOTc4MDY4MTUyLDkyNTI4OTE3OSwtMTQzOD
+E1NjY1NCw3NDA5ODEwOTksMjIzMjYyMDM2LC0xMTE4NTY2Mzk4
+LDIzNjEwNzM4NF19
 -->
