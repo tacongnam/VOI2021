@@ -14,7 +14,8 @@ Do đó, hoán vị có tổng khoảng cách giữa hai điểm xanh và đỏ 
 
 # SEREJA AND LCM
 
-dp[i][l]: tạo được i số, 
+dp[i][l]: tạo được i số, lcm của a1 -> ai = l
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMjYzNDQ2NSwyMzYxMDczODRdfQ==
+eyJoaXN0b3J5IjpbOTczMDcxMTUyLDIzNjEwNzM4NF19
 -->
