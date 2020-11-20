@@ -20,8 +20,10 @@ gcd(D, lcm(x, l))
 
 # SWAP AND FLIP
 
+dp bitmask
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIzMjYyMDM2LC0xMTE4NTY2Mzk4LDIzNj
-EwNzM4NF19
+eyJoaXN0b3J5IjpbNzQwOTgxMDk5LDIyMzI2MjAzNiwtMTExOD
+U2NjM5OCwyMzYxMDczODRdfQ==
 -->
