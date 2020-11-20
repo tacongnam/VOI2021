@@ -4,7 +4,17 @@ Gọi dp[i][j][k] là số lượng số sao cho 8 bit đầu lập thành số 
 
 # XOR THE GRAPH
 
-Sử
+Sử dụng ý tưởng tô màu đồ thị. Chú ý verdict MLE on test 42.
+
+# INVITED SPEAKERS
+
+Duyệt hoán vị rồi nối hai điểm tương ứng bằng 1 đoạn thẳng.
+Xét hai cặp điểm (a1, b1), (a2, b2) cắt nhau. Chúng ta có thể nối lại bằng cách (a1, b2), (a2, b1). Do (a1, b2) + (a2, b1) < (a1, b1) + (a2, b2).
+Do đó, hoán vị có tổng khoảng cách giữa hai điểm xanh và đỏ là nhỏ nhất là đáp án.
+
+# SEREJA AND LCM
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MjM0MjczOF19
+eyJoaXN0b3J5IjpbMjM2MTA3Mzg0XX0=
 -->
