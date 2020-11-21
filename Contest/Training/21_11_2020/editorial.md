@@ -7,7 +7,9 @@ TH2: Đồ thị tổng quát:
 
 Trên cây song liên thông (mỗi đỉnh là 1 tpslt), mỗi thành phần bậc 1 -> 1 đỉnh. Giả sử có p lá, số đỉnh trong mỗi lá lần lượt là a1, a2, ..., ap.
 
-=> Đáp số: p a1.a2...ap
+=> Đáp số: p a1.a2...ap.
+
+Cách cài: Với mỗi tpslt ta cần biết 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4Mzc2MjA0Ml19
+eyJoaXN0b3J5IjpbLTkxMTk5MzkzOF19
 -->
