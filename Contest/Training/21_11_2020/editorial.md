@@ -18,8 +18,10 @@ Trên cây song liên thông (mỗi đỉnh là 1 tpslt), mỗi thành phần b�
 
 Bài toán quy về: Cho dãy $a_1 = h_2 - h_1$, ..., $a_{n-1} = h_n - h_{n-1}$. Đếm các dãy khác nhau của dãy {$a_1$, $a_2$, ..., $a_{n-1}$}.
 
+Chiến lược: 
 
+f
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MjM2ODcyMSwxNDU1ODI2NTU0LC0xOT
-YwODYwODk2XX0=
+eyJoaXN0b3J5IjpbMzg2OTc5MTMwLDE0NTU4MjY1NTQsLTE5Nj
+A4NjA4OTZdfQ==
 -->
