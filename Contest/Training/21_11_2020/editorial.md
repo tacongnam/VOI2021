@@ -20,8 +20,10 @@ Bài toán quy về: Cho dãy $a_1 = h_2 - h_1$, ..., $a_{n-1} = h_n - h_{n-1}$.
 
 Chiến lược: 
 
-f
+Đặt $f[i]$ = số lượng cách khác nhau kết thúc tại $i$. Đặt $prev[i] = k$ là vị trị $k < i$ gần nhất sao cho $a_k = a_i$.
+
+TH1: $prev[i] = 0$ => $f[i] = 1 + max(f[
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg2OTc5MTMwLDE0NTU4MjY1NTQsLTE5Nj
-A4NjA4OTZdfQ==
+eyJoaXN0b3J5IjpbMTczMzgwNjIwNSwxNDU1ODI2NTU0LC0xOT
+YwODYwODk2XX0=
 -->
