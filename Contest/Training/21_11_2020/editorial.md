@@ -8,6 +8,9 @@ TH2: Đồ thị tổng quát:
 Trên cây song liên thông (mỗi đỉnh là 1 tpslt), mỗi thành phần bậc 1 -> 1 đỉnh. Giả sử có p lá, số đỉnh trong mỗi lá lần lượt là a1, a2, ..., ap.
 
 => Đáp số: p a1.a2...ap.
+
+### Mục tiêu:
++) Tách thành các song liên thông
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjA4NjA4OTZdfQ==
+eyJoaXN0b3J5IjpbODYyMDc5NjAyLC0xOTYwODYwODk2XX0=
 -->
