@@ -15,8 +15,11 @@ Trên cây song liên thông (mỗi đỉnh là 1 tpslt), mỗi thành phần b�
 +) Đếm số tpslt có bậc 1.
 
 # MOU
-Tại mỗi bước, nếu đi bộ, ta sẽ đi từ hi -> hi 
+
+Tại mỗi bước, nếu đi bộ, ta sẽ đi từ $h_i$ -> $h_i$ + 1
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAwNjg4NDAzLDE0NTU4MjY1NTQsLTE5Nj
-A4NjA4OTZdfQ==
+eyJoaXN0b3J5IjpbMTM5MDQ2MDE3OSwxNDU1ODI2NTU0LC0xOT
+YwODYwODk2XX0=
 -->
