@@ -13,6 +13,10 @@ Trên cây song liên thông (mỗi đỉnh là 1 tpslt), mỗi thành phần b�
 +) Duyệt, gán xem mỗi đỉnh thuộc tpslt nào
 +) Tạo cạnh giữa các tpslt dựa theo các cạnh
 +) Đếm số tpslt có bậc 1.
+
+# MOU
+Tại mỗi bước, nếu đi bộ, ta sẽ đi từ hi -> hi 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NTgyNjU1NCwtMTk2MDg2MDg5Nl19
+eyJoaXN0b3J5IjpbODAwNjg4NDAzLDE0NTU4MjY1NTQsLTE5Nj
+A4NjA4OTZdfQ==
 -->
