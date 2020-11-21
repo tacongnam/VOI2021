@@ -22,8 +22,8 @@ Chiến lược:
 
 Đặt $f[i]$ = số lượng cách khác nhau kết thúc tại $i$. Đặt $prev[i] = k$ là vị trị $k < i$ gần nhất sao cho $a_k = a_i$.
 
-TH1: $prev[i] = 0$ => $f[i] = 1 + max(f[
+TH1: $prev[i] = 0$ => $f[i] = 1 + f[1] + f[2] + ... + f[n - 1$ với $j < i$.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMzgwNjIwNSwxNDU1ODI2NTU0LC0xOT
+eyJoaXN0b3J5IjpbLTQzMTU4MjA0NiwxNDU1ODI2NTU0LC0xOT
 YwODYwODk2XX0=
 -->
