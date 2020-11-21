@@ -16,10 +16,10 @@ Trên cây song liên thông (mỗi đỉnh là 1 tpslt), mỗi thành phần b�
 
 # MOU
 
-Tại mỗi bước, nếu đi bộ, ta sẽ đi từ $h_i$ -> $h_i$ + 1
+Bài toán quy về: Cho dãy $a_1 = h_2 - h_1$, ..., $a_{n-1} = h_n - h_{n-1}$. Đếm các dãy khác nhau của dãy {$a_1$, $a_2$, ..., $a_{n-1}$}.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MDQ2MDE3OSwxNDU1ODI2NTU0LC0xOT
+eyJoaXN0b3J5IjpbLTg1MjM2ODcyMSwxNDU1ODI2NTU0LC0xOT
 YwODYwODk2XX0=
 -->
