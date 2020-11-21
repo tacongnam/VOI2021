@@ -22,8 +22,12 @@ Chiến lược:
 
 Đặt $f[i]$ = số lượng cách khác nhau kết thúc tại $i$. Đặt $prev[i] = k$ là vị trị $k < i$ gần nhất sao cho $a_k = a_i$.
 
-TH1: $prev[i] = 0$ => $f[i] = 1 + f[1] + f[2] + ... + f[n - 1$ với $j < i$.
+TH1: $prev[i] = 0$ => $f[i] = 1 + f[1] + f[2] + ... + f[i - 1]$. (Kết thúc tại 1 điểm trước nó, sau đó thêm $a[i]$ vào cuối dãy).
+
+TH2: $prev[i] > 0$ => $f[i] = 1 + (f[1] + ... + f[i - 1]) - (f[1] + ... + f[k - 1])$.
+
+Đáp so
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMTU4MjA0NiwxNDU1ODI2NTU0LC0xOT
-YwODYwODk2XX0=
+eyJoaXN0b3J5IjpbLTIxMjY2MDU5MjEsMTQ1NTgyNjU1NCwtMT
+k2MDg2MDg5Nl19
 -->
