@@ -26,10 +26,10 @@ TH1: $prev[i] = 0$ => $f[i] = f[0] + f[1] + f[2] + ... + f[i - 1]$. (Kết thúc
 
 TH2: $prev[i] > 0$ => $f[i] = (f[0] + f[1] + ... + f[i - 1]) - (f[0] + f[1] + ... + f[k - 1])$.
 
-Đáp số là $f[1] + ... + f[n-1] = \sum_{i=nƯ}$.
+Đáp số là $f[1] + ... + f[n-1] = \sum_{i=0}^{n}{f[i]} - 1$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0MDk4NTYsMTgyNTg3NzM5OCwxNDU1OD
-I2NTU0LC0xOTYwODYwODk2XX0=
+eyJoaXN0b3J5IjpbMjA0MDEwMzgyMCw0OTQwOTg1NiwxODI1OD
+c3Mzk4LDE0NTU4MjY1NTQsLTE5NjA4NjA4OTZdfQ==
 -->
