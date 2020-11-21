@@ -10,7 +10,8 @@ Trên cây song liên thông (mỗi đỉnh là 1 tpslt), mỗi thành phần b�
 => Đáp số: p a1.a2...ap.
 
 ### Mục tiêu:
-+) Tách thành các song liên thông
++) Duyệt đê
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYyMDc5NjAyLC0xOTYwODYwODk2XX0=
+eyJoaXN0b3J5IjpbLTE5NTgyNDc1MDQsLTE5NjA4NjA4OTZdfQ
+==
 -->
