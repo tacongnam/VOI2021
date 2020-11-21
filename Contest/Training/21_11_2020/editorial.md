@@ -22,14 +22,14 @@ Chiến lược:
 
 Đặt $f[i]$ = số lượng cách khác nhau kết thúc tại $i$. Đặt $prev[i] = k$ là vị trị $k < i$ gần nhất sao cho $a_k = a_i$. Đặt $f[0] = 1$.
 
-TH1: $prev[i] = 0$ => $f[i] = 1 + f[1] + f[2] + ... + f[i - 1]$. (Kết thúc tại 1 điểm trước nó, sau đó thêm $a[i]$ vào cuối dãy).
+TH1: $prev[i] = 0$ => $f[i] = f[0] + f[1] + f[2] + ... + f[i - 1]$. (Kết thúc tại 1 điểm trước nó, sau đó thêm $a[i]$ vào cuối dãy).
 
-TH2: $prev[i] > 0$ => $f[i] = 1 + (f[1] + ... + f[i - 1]) - (f[1] + ... + f[k - 1])$.
+TH2: $prev[i] > 0$ => $f[i] = (f[0] + f[1] + ... + f[i - 1]) - (f[0] + f[1] + ... + f[k - 1])$.
 
-Đáp số là $f[n - 1]$.
+Đáp số là $f[1] + ... + f[n-1] = \sum_{[i]}$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNTg3NzM5OCwxNDU1ODI2NTU0LC0xOT
-YwODYwODk2XX0=
+eyJoaXN0b3J5IjpbLTI0ODEyOTU4LDE4MjU4NzczOTgsMTQ1NT
+gyNjU1NCwtMTk2MDg2MDg5Nl19
 -->
