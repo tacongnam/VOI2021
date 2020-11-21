@@ -10,8 +10,9 @@ Trên cây song liên thông (mỗi đỉnh là 1 tpslt), mỗi thành phần b�
 => Đáp số: p a1.a2...ap.
 
 ### Mục tiêu:
-+) Duyệt đê
++) Duyệt, gán xem mỗi đỉnh thuộc tpslt nào
++) Tạo cạnh giữa các tpslt dựa theo các cạnh
++) Đếm số tpslt có bậc 1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTgyNDc1MDQsLTE5NjA4NjA4OTZdfQ
-==
+eyJoaXN0b3J5IjpbMTQ1NTgyNjU1NCwtMTk2MDg2MDg5Nl19
 -->
