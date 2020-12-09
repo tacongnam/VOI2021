@@ -2,7 +2,7 @@
 /** Author: GrintonDH **/
 /** Problem: RIVER **/
 
-/** Đề bài: (Chèn link sau) **/
+/** Đề bài: https://github.com/tacongnam/VOI2021/blob/main/Workspace/De%20so%201718.pdf **/
 
 #include <bits/stdc++.h>
 
