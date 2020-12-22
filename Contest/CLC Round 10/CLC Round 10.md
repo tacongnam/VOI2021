@@ -53,7 +53,11 @@ Subtask 2 (25 điểm): $\sum{k} \leq 10^6$.
 
 Bài toán liên quan đến đoạn phủ rất nổi tiếng, ví dụ như bài tìm số đoạn ít nhất để phủ lên đoạn $[a, b]$ bất kỳ.  Nam cũng muốn nghĩ một bài đoạn phủ và anh ấy đã nghĩ ra một bài như sau:
 
-Cho các đoạn số, đoạn thứ $i$ phủ trên đoạn $[x_i, y_i]$ trên trục số. Ta xếp chồng các đoạn này lên trục số thì nhận thấy các đoạn có thể rời nhau, cạnh nhau, hoặc cắt nhau. Nếu hai đoạn cắt nhau thì phần chung sẽ tách thành một đoạn mới. Gọi $k_1$, $k_2$, ..., $k_m$ là các đoạn mới thuộc đoạn $[x_i, y_i]$. Gọi $c_u$ là số lượng đoạn ban đầu đi chứa đoạn mới thứ $u$. Ta định nghĩa $F_i$ là giá trị quan trọng của đoạn thứ $i$ ban đầu. Khi đó:  $F_i = \sum_{1}^m{c_{k_i}}$
+Cho các đoạn số, đoạn thứ $i$ phủ trên đoạn $[x_i, y_i]$ trên trục số. Ta xếp chồng các đoạn này lên trục số thì nhận thấy các đoạn có thể rời nhau, cạnh nhau, hoặc cắt nhau.
+
+Nếu hai đoạn cắt nhau thì phần chung sẽ tách thành một đoạn mới. Gọi $k_1$, $k_2$, ..., $k_m$ là các đoạn mới thuộc đoạn $[x_i, y_i]$ ban đầu. Gọi $c_u$ là số lượng đoạn ban đầu đi chứa đoạn mới thứ $u$. Ta định nghĩa $F_i$ là giá trị quan trọng của đoạn thứ $i$ ban đầu. Khi đó:  $F_i = \sum_{1}^m{c_{k_i}}$
+
+Xét ví dụ $n = 3$ và các đoạn phủ ban đầu có toạ độ: $[2, 5]$, $[1, 3]$, $[4, 8]$.
 
 ### Input: Nhập từ file PIZTOPP.INP
 
@@ -133,6 +137,6 @@ Subtask 3 (28 điểm): Không có ràng buộc gì thêm.
 > **Note**: Giải thích ví dụ đầu tiên: Dãy ($27$, $28$, $81$) là một dãy con hợp lệ và có độ dài lớn nhất.số nguyên tố.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTY3OTc3MTMsLTQ0ODIzMDE0MywtOT
+eyJoaXN0b3J5IjpbLTE4NzU0NjI3MzIsLTQ0ODIzMDE0MywtOT
 AwNDAyODY1LC0xMTM2NjQxOTE0LC0yMDg4NzQ2NjEyXX0=
 -->
