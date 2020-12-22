@@ -11,8 +11,20 @@
 
 ### Thời gian thi: 
 
-<br><br><br><br><br><br><br><br><br><br><br><br>
-# A. ** (FX – 60 điểm)**
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+# A. 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
 
 Xét hàm $F(x)$ có giá trị như sau:
@@ -140,6 +152,6 @@ Subtask 3 (28 điểm): Không có ràng buộc gì thêm.
 > **Note**: Giải thích ví dụ đầu tiên: Dãy ($27$, $28$, $81$) là một dãy con hợp lệ và có độ dài lớn nhất.số nguyên tố.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTM0OTUxMTIsLTIwODg3NDY2MTJdfQ
+eyJoaXN0b3J5IjpbLTExMzY2NDE5MTQsLTIwODg3NDY2MTJdfQ
 ==
 -->
