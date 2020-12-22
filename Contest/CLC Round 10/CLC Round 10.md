@@ -47,13 +47,11 @@ Subtask 2 (25 điểm): $\sum{k} \leq 10^6$.
 > $f(3) = 2f(1) + f(2) = 2.2 + 3 = 7$
 > $f(4) = 3f(1) + 2f(2) + f(3) = 3.2 + 2.3 + 7 = 19$
 
-# B. Đoạn phủ (– 70 điểm)
+# B. Đoạn phủ (SEGCOVER – 70 điểm)
 
-### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 2,5s**
+### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
 
-Đội tuyển tin năm học 2020 – 2021 đang chuẩn bị một chiếc bánh Pizza siêu to khổng lồ để cả đội liên hoan trước khi thi. Cả đội tuyển có $n$ người và có tất cả $m$ loại topping cho chiếc bánh này. Chiếc bánh này có thể có nhiều loại topping khác nhau.
-
-Mỗi người đều có sở thích ăn uống của riêng mình. Người thứ $i$ có hai  yêu cầu về sở thích của mình. Họ có thể thích hoặc không thích một món ăn nào đó. Hiệu muốn mua các loại topping sao cho thoả mãn cả $n$ người đó nhưng đôi khi có một vài xung đột (loại topping $i$ có thể có người thích, có người không thích) nên rất khó để mua. Tuy nhiên, do cũng là ngày trước khi thi nên anh ấy muốn thoả mãn ít nhất một nguyện vọng của mỗi người. Hãy lập một chương trình để giúp anh ấy đưa ra quyết định nên mua loại topping nào.
+Bài toán liên quan đến đoạn phủ rất nổi tiếng, ví dụ như bài tìm số đoạn ít nhất để phủ lên đoạn $[a, b]$ bất kỳ.  Nam muốn tìm một bài toán mới hơn
 
 ### Input: Nhập từ file PIZTOPP.INP
 
@@ -133,6 +131,6 @@ Subtask 3 (28 điểm): Không có ràng buộc gì thêm.
 > **Note**: Giải thích ví dụ đầu tiên: Dãy ($27$, $28$, $81$) là một dãy con hợp lệ và có độ dài lớn nhất.số nguyên tố.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MjIzMDQ2NCwtNDQ4MjMwMTQzLC05MD
+eyJoaXN0b3J5IjpbMTQyMjg0MjQ0MywtNDQ4MjMwMTQzLC05MD
 A0MDI4NjUsLTExMzY2NDE5MTQsLTIwODg3NDY2MTJdfQ==
 -->
