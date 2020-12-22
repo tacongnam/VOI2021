@@ -55,12 +55,13 @@ Bài toán liên quan đến đoạn phủ rất nổi tiếng, ví dụ như b�
 
 Cho các đoạn số, đoạn thứ $i$ phủ trên đoạn $[x_i, y_i]$ trên trục số. Ta xếp chồng các đoạn này lên trục số thì nhận thấy các đoạn có thể rời nhau, cạnh nhau, hoặc cắt nhau.
 
-Nếu hai đoạn cắt nhau thì phần chung sẽ tách thành một đoạn mới. Gọi $k_1$, $k_2$, ..., $k_m$ là các đoạn mới thuộc đoạn $[x_i, y_i]$ ban đầu. Gọi $c_u$ là số lượng đoạn ban đầu đi chứa đoạn mới thứ $u$. Ta định nghĩa $F_i$ là giá trị quan trọng của đoạn thứ $i$ ban đầu. Khi đó:  $F_i = \sum_{1}^m{c_{k_i}}$
+Nếu hai đoạn cắt nhau thì chúng sẽ tách thành các đoạn mới nhỏ hơn. Gọi $c_u$ là số lượng đoạn ban đầu đi chứa đoạn mới thứ $u$. Gọi $k_1$, $k_2$, ..., $k_m$ là các đoạn mới thuộc đoạn $[x_i, y_i]$ ban đầu. Ta định nghĩa $F_i$ là giá trị quan trọng của đoạn thứ $i$ ban đầu. Khi đó:  $F_i = \sum_{1}^m{c_{k_i}}$
 
 Xét ví dụ $n = 3$ và các đoạn phủ ban đầu có toạ độ: $[2, 5]$, $[1, 3]$, $[4, 7]$. Trục số khi đó sẽ được nhìn như sau:
 
-![enter image description here](https://ibb.co/x3HptdT)
+![Trục số](https://i.ibb.co/zNJyTDv/trucso.png)
 
+Ta thấy các đoạn trên cắt nhau và tạo ra thành các đoạn nhỏ hơn: $[1, 2]$, Ơ
 
 
 ### Input: Nhập từ file PIZTOPP.INP
@@ -141,6 +142,6 @@ Subtask 3 (28 điểm): Không có ràng buộc gì thêm.
 > **Note**: Giải thích ví dụ đầu tiên: Dãy ($27$, $28$, $81$) là một dãy con hợp lệ và có độ dài lớn nhất.số nguyên tố.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2ODAyNDU0OCwtNDQ4MjMwMTQzLC05MD
-A0MDI4NjUsLTExMzY2NDE5MTQsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMzAxOTIwMzQsLTQ0ODIzMDE0MywtOTAwND
+AyODY1LC0xMTM2NjQxOTE0LC0yMDg4NzQ2NjEyXX0=
 -->
