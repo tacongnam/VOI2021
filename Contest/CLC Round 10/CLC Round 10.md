@@ -28,9 +28,9 @@
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
 
-Cho dãy $x$ có dạng: $x_n = nx_0 + (n-1)x_1 + (n-2)x_2 + $
+Cho dãy $x$ có dạng: $x_n = nx_0 + (n-1)x_1 + (n-2)x_2 + ... + (n-i).x_i + ... + x_{n-1}$
 
-Cho trước hai số $x_1 = a$, $x_2 = b$. 
+Cho trước hai số $x_1 = a$, $x_2 = b$ và số $k$. Hãy in ra giá trị 
 
 ### Input: Nhập từ file FX.INP
 
@@ -142,6 +142,6 @@ Subtask 3 (28 điểm): Không có ràng buộc gì thêm.
 > **Note**: Giải thích ví dụ đầu tiên: Dãy ($27$, $28$, $81$) là một dãy con hợp lệ và có độ dài lớn nhất.số nguyên tố.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczOTM3NDEyNSwtMTEzNjY0MTkxNCwtMj
+eyJoaXN0b3J5IjpbLTkwMDQwMjg2NSwtMTEzNjY0MTkxNCwtMj
 A4ODc0NjYxMl19
 -->
