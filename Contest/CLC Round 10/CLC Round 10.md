@@ -149,11 +149,13 @@ In ra một dòng là kết quả bài toán.
 
 ### Scoring
 
-Subtask 1 (15 điểm): $1 \leq N \leq 50$
+Subtask 1 (5 điểm): $1 \leq |s| \leq 30$
 
-Subtask 2 (15 điểm): $1 \leq a_i, b_i \leq 10^4$
+Subtask 2 (10 điểm): $1 \leq |s| \leq 80$
 
-Subtask 3 (30 điểm): Không có ràng buộc gì thêm.
+Subtask 3 (10 điểm): $1 \leq N \leq 200$.
+
+Subtask 4 (15 điểm): $
 
 ### Example
 
@@ -163,7 +165,7 @@ Subtask 3 (30 điểm): Không có ràng buộc gì thêm.
 |4<br>1 3 2 4<br>1 3 2 4|0|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAxMzMzNTQ0LC0xNjY2MTczNjM3LDM0Mj
-I0Mzk5NCwtNDQ4MjMwMTQzLC05MDA0MDI4NjUsLTExMzY2NDE5
-MTQsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTM1MzM0MjA4MywtMTY2NjE3MzYzNywzND
+IyNDM5OTQsLTQ0ODIzMDE0MywtOTAwNDAyODY1LC0xMTM2NjQx
+OTE0LC0yMDg4NzQ2NjEyXX0=
 -->
