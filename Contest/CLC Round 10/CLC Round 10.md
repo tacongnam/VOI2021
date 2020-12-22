@@ -10,8 +10,7 @@
 |Đoạn phủ |SEGCOVER.CPP|SEGCOVER.INP|SEGCOVER.OUT|1s|60
 |Dãy số đẹp|GOODSEQ.CPP|GOODSEQ.INP|GOODSEQ.OUT|1s|40
 
-
-### Thời gian thi: 8/10/2020
+### Thời gian thi: 10/1/2020
 
 # A. Tìm số (FINDNUM - 40 điểm)
 
@@ -89,7 +88,7 @@ Bài toán liên quan đến đoạn phủ rất nổi tiếng, ví dụ như b�
 
 Cho các đoạn số, đoạn thứ $i$ phủ trên đoạn $[x_i, y_i]$ trên trục số. Ta xếp chồng các đoạn này lên trục số thì nhận thấy các đoạn có thể rời nhau, cạnh nhau, hoặc cắt nhau.
 
-Nếu hai đoạn cắt nhau thì chúng sẽ tách thành các đoạn mới nhỏ hơn. Gọi $c_u$ là số lượng đoạn ban đầu chứa đoạn mới thứ $u$. Gọi $k_1$, $k_2$, ..., $k_m$ là chỉ số các đoạn mới thuộc đoạn $[x_i, y_i]$ ban đầu. Ta định nghĩa $F_i$ là giá trị quan trọng của đoạn thứ $i$ ban đầu. Khi đó:  $F_i = \sum_{1}^m{c_{k_i}}$
+Khi xem lại trục số, ta thấy các đoạn ban đầu sẽ tách thành các đoạn mới nhỏ hơn. Gọi $c_u$ là số lượng đoạn ban đầu chứa đoạn mới thứ $u$. Gọi $k_1$, $k_2$, ..., $k_m$ là chỉ số các đoạn mới thuộc đoạn $[x_i, y_i]$ ban đầu. Ta định nghĩa $F_i$ là giá trị quan trọng của đoạn thứ $i$ ban đầu. Khi đó:  $F_i = \sum_{1}^m{c_{k_i}}$
 
 Xét ví dụ $n = 3$ và các đoạn phủ ban đầu có toạ độ: $[2, 5]$, $[1, 3]$, $[4, 7]$. Trục số khi đó sẽ được nhìn như sau:
 
@@ -167,7 +166,7 @@ Subtask 4 (15 điểm): $1 \leq |s| \leq 2000$.
 |aaa|5|
 |abacaba|36|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk3MjMyNDU4LC0xNjY2MTczNjM3LDM0Mj
+eyJoaXN0b3J5IjpbMjk5ODc5MzY3LC0xNjY2MTczNjM3LDM0Mj
 I0Mzk5NCwtNDQ4MjMwMTQzLC05MDA0MDI4NjUsLTExMzY2NDE5
 MTQsLTIwODg3NDY2MTJdfQ==
 -->
