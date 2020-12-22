@@ -63,9 +63,9 @@ Xét ví dụ $n = 3$ và các đoạn phủ ban đầu có toạ độ: $[2, 5]
 
 Ta thấy các đoạn trên cắt nhau và tạo ra thành các đoạn nhỏ hơn: $[1, 2]$, $[2, 3]$, $[3, 4]$, $[4, 5]$, $[5, 7]$. Khi đó giá trị $c_i$ của 5 đoạn trên lần lượt là ${1, 2, 1, 2, 1}$. Ta có thể tính được các giá trị $F$:
 
-$F_1 = 1 + 2 = 3$.
+$F_1 = 2 + 1 + 2 = 5$.
 
-$F_2 = 2 + 1 + 2 = 5$.
+$F_2 = 1 + 2 = 3$.
 
 $F_3 = 2 + 1 = 3$.
 
@@ -89,19 +89,14 @@ Subtask 1 (10 điểm): $n \leq 10^2$.
 
 Subtask 2 (15 điểm): $n \leq 10^5$, $1 \leq x_i, y_i \leq 10^3$.
 
-Subtask 3 (15 điểm): $n \leq 10^5$, $m \leq 10^6$.
+Subtask 3 (15 điểm): Không có điều kiện gì thêm.
 
 ### Example
 
 |PIZTOPP.INP                    |PIZTOPP.OUT                        |
 |-------------------------------|-----------------------------|
-|1<br>3 5<br>1 2<br>-1 3<br>4 -2<br> | 4<br>1 2 3 4
-|2<br>3 5<br>1 -2<br>-1 3<br>4 -2<br>| 3<br>1 3 4
-|3<br>3 3<br>1 -2<br>-1 3<br>-3 -2<br>|2<br>1 3
+|1<br>3<br>2 5<br>1 3<br>4 7<br> | 5 3 3|
 
-> **Note**:  Trong test 1, Hiệu có thể mua cả 5 loại topping (1 2 3 4 5) hoặc chỉ mua 3 loại (1, 3, 4) đều được.
-
-<br><br><br><br><br>
 # C. LISCOPRIME (COPRIME – 70 điểm)
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
@@ -143,6 +138,6 @@ Subtask 3 (28 điểm): Không có ràng buộc gì thêm.
 > **Note**: Giải thích ví dụ đầu tiên: Dãy ($27$, $28$, $81$) là một dãy con hợp lệ và có độ dài lớn nhất.số nguyên tố.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDI2MDg2MDAsLTQ0ODIzMDE0MywtOT
-AwNDAyODY1LC0xMTM2NjQxOTE0LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMzQyMjQzOTk0LC00NDgyMzAxNDMsLTkwMD
+QwMjg2NSwtMTEzNjY0MTkxNCwtMjA4ODc0NjYxMl19
 -->
