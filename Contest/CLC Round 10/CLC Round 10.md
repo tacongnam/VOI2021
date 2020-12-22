@@ -77,24 +77,19 @@ $T$ nhóm dòng tiếp theo có dạng:
 
 Dòng đầu tiên chứa số nguyên $n$ - số lượng đoạn phủ.
 
-$n$ dòng sau, dòng thứ $i$ gồm hai số nguyên $x_i$, $y_i$
+$n$ dòng sau, dòng thứ $i$ gồm hai số nguyên $x_i$, $y_i$ $(1 \leq x_i, y_i \leq 10^9)$.
+
 ### Output: In ra file PIZTOPP.OUT
 
-Dòng đầu tiên, in ra số nguyên $t$ – số loại topping mà Hiệu có thể mua.
-
-Dòng thứ hai in ra $t$ số nguyên dương – chỉ số của $t$ loại topping mà Hiệu mua.
-
-Nếu có nhiều đáp án, in ra một đáp án bất kỳ. Chú ý, một loại topping chỉ được mua một lần.
-
-Nếu không tồn tại đáp án, in duy nhất một dòng $t$ = -1.
+In ra $T$ dòng, mỗi dòng gồm $n$ số nguyên - giá trị của mảng $F$.
 
 ### Scoring
 
-Subtask 1 (8,4 điểm): $n \leq 10^3$, $m \leq 15$.
+Subtask 1 (10 điểm): $n \leq 10^2$.
 
-Subtask 2 (22,4 điểm): $n \leq 15$, $m \leq 10^3$.
+Subtask 2 (15 điểm): $n \leq 10^5$, $1 \leq x_i, y_i \leq 10^3$.
 
-Subtask 3 (39,2 điểm): $n \leq 10^5$, $m \leq 10^6$.
+Subtask 3 (15 điểm): $n \leq 10^5$, $m \leq 10^6$.
 
 ### Example
 
@@ -148,6 +143,6 @@ Subtask 3 (28 điểm): Không có ràng buộc gì thêm.
 > **Note**: Giải thích ví dụ đầu tiên: Dãy ($27$, $28$, $81$) là một dãy con hợp lệ và có độ dài lớn nhất.số nguyên tố.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NTYxODUwNywtNDQ4MjMwMTQzLC05MD
-A0MDI4NjUsLTExMzY2NDE5MTQsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTE5MDI2MDg2MDAsLTQ0ODIzMDE0MywtOT
+AwNDAyODY1LC0xMTM2NjQxOTE0LC0yMDg4NzQ2NjEyXX0=
 -->
