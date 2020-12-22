@@ -97,19 +97,11 @@ Subtask 3 (15 điểm): Không có điều kiện gì thêm.
 |-------------------------------|-----------------------------|
 |1<br>3<br>2 5<br>1 3<br>4 7<br> | 5 3 3|
 
-# C. LISCOPRIME (COPRIME – 70 điểm)
+# C. Cặp số (PAIRTOP – 60 điểm)
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
 
-Cho một dãy số nguyên $A$ gồm $N$ phần tử. Mọi phần tử $x$ trong $A$ đều có tính chất: nếu $x$ chia hết cho một số nguyên tố $p$ nào đó, thì $p$ phải bé hơn 12. Tìm một dãy con $B$ của dãy đã cho $A$ sao cho:
-
-+) $B$ là dãy con của $A$ , tức là có thể thu được $B$ bằng cách xóa đi một số phần tử của $A$ (theo định nghĩa này, $A$ cũng là dãy con của $A$ , dãy rỗng cũng là dãy con của $A$);
-
-+) $B$ là một dãy tăng, tức là phần tử đứng sau phải lớn hơn phần tử đứng trước (theo định nghĩa này, dãy gồm không hoặc một phần tử luôn là dãy tăng);
-
-+) Hai phần tử liên tiếp của $B$ phải nguyên tố cùng nhau.
-
-Hãy tìm ra dãy con $B$ có độ dài lớn nhất thỏa mãn các yêu cầu trên.
+Cho hai dãy $A$ và $B$ gồm $n$ phần tử. 
 
 ### Input: Nhập từ file COPRIME.INP
 Dòng đầu tiên chứa số nguyên dương $N$ ($1 \leq N \leq 10^5$);
@@ -138,6 +130,7 @@ Subtask 3 (28 điểm): Không có ràng buộc gì thêm.
 > **Note**: Giải thích ví dụ đầu tiên: Dãy ($27$, $28$, $81$) là một dãy con hợp lệ và có độ dài lớn nhất.số nguyên tố.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQyMjQzOTk0LC00NDgyMzAxNDMsLTkwMD
-QwMjg2NSwtMTEzNjY0MTkxNCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTExODQyNTgxMjAsMzQyMjQzOTk0LC00ND
+gyMzAxNDMsLTkwMDQwMjg2NSwtMTEzNjY0MTkxNCwtMjA4ODc0
+NjYxMl19
 -->
