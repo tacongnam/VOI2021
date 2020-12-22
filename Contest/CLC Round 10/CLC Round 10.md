@@ -137,14 +137,11 @@ Cho xâu $S$ gồm các chữ cái tiếng Anh in thường. Bạn cần phải 
 
 Xâu con liếp $s[a...b]$ của một xâu $s$ là xâu bao gồm dãy các phần tử liên tiếp $s_as_{a+1}...s_b$.
 
-Xâu $s$ được gọi
+Xâu $s$ được gọi là xâu đối xứng nếu ta viết xuôi hoặc viết ngược xâu đấy vẫn nhận được cùng một xâu. Ví dụ 'abacaba', 'abba', 'z' là xâu đối xứng.
 
-### Input: Nhập từ file PAIRTOP.INP
-Dòng đầu tiên chứa số nguyên dương $N$ ($2 \leq N \leq 2.10^5$);
+### Input: Nhập từ file GOODSEQ.INP
 
-Dòng thứ hai chứa $N$ số nguyên dương $A_i$ ($A_i \leq 10^9$).
-
-Dòng thứ ba chứa $N$ số nguyên dương $B_i$ ($B_i \leq 10^9$).
+Gồm một dòng chứa xâu $s$.
 
 ### Output: In ra file PAIRTOP.OUT
 
@@ -152,7 +149,7 @@ In ra một dòng là kết quả bài toán.
 
 ### Scoring
 
-Subtask 1 (15 điểm): $1 \leq N \leq 1000$
+Subtask 1 (15 điểm): $1 \leq N \leq 50$
 
 Subtask 2 (15 điểm): $1 \leq a_i, b_i \leq 10^4$
 
@@ -166,7 +163,7 @@ Subtask 3 (30 điểm): Không có ràng buộc gì thêm.
 |4<br>1 3 2 4<br>1 3 2 4|0|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDU0MjA1MjEsLTE2NjYxNzM2MzcsMz
-QyMjQzOTk0LC00NDgyMzAxNDMsLTkwMDQwMjg2NSwtMTEzNjY0
-MTkxNCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbNTAxMzMzNTQ0LC0xNjY2MTczNjM3LDM0Mj
+I0Mzk5NCwtNDQ4MjMwMTQzLC05MDA0MDI4NjUsLTExMzY2NDE5
+MTQsLTIwODg3NDY2MTJdfQ==
 -->
