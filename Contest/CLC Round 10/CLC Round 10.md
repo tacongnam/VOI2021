@@ -47,7 +47,7 @@ Subtask 2 (25 điểm): $\sum{k} \leq 10^6$.
 > $f(3) = 2f(1) + f(2) = 2.2 + 3 = 7$
 > $f(4) = 3f(1) + 2f(2) + f(3) = 3.2 + 2.3 + 7 = 19$
 
-# B. Đoạn phủ (SEGCOVER – 70 điểm)
+# B. Đoạn phủ (SEGCOVER – 40 điểm)
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
 
@@ -61,10 +61,15 @@ Xét ví dụ $n = 3$ và các đoạn phủ ban đầu có toạ độ: $[2, 5]
 
 ![Trục số](https://i.ibb.co/zNJyTDv/trucso.png)
 
-Ta thấy các đoạn trên cắt nhau và tạo ra thành các đoạn nhỏ hơn: $[1, 2]$, $[2, 3]$, $[3, 4]$, $[4, 5]$, $[5, 7]$. Khi đó giá trị $c_i$ của 5 đoạn trên lần lượt là ${1, 2, 1, 2, 1}$. 
+Ta thấy các đoạn trên cắt nhau và tạo ra thành các đoạn nhỏ hơn: $[1, 2]$, $[2, 3]$, $[3, 4]$, $[4, 5]$, $[5, 7]$. Khi đó giá trị $c_i$ của 5 đoạn trên lần lượt là ${1, 2, 1, 2, 1}$. Ta có thể tính được các giá trị $F$:
 
+$F_1 = 1 + 2 = 3$.
 
-### Input: Nhập từ file PIZTOPP.INP
+$F_2 = 2 + 1 + 2 = 5$.
+
+$F_3 = 2 + 1 = 3$.
+
+### Input: Nhập từ file SEGCOVER.INP
 
 Dòng đầu tiên chứa số nguyên $T$ – thứ tự của subtask.
 
@@ -142,6 +147,6 @@ Subtask 3 (28 điểm): Không có ràng buộc gì thêm.
 > **Note**: Giải thích ví dụ đầu tiên: Dãy ($27$, $28$, $81$) là một dãy con hợp lệ và có độ dài lớn nhất.số nguyên tố.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ5MTM0NzI4LC00NDgyMzAxNDMsLTkwMD
-QwMjg2NSwtMTEzNjY0MTkxNCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTEzODEzMDU0OTMsLTQ0ODIzMDE0MywtOT
+AwNDAyODY1LC0xMTM2NjQxOTE0LC0yMDg4NzQ2NjEyXX0=
 -->
