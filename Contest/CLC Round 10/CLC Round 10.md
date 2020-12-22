@@ -133,7 +133,11 @@ Subtask 3 (30 điểm): Không có ràng buộc gì thêm.
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
 
-Cho xâu $S$ gồm các chữ cái tiếng Anh in thường. Bạn cần phải đếm xem có bao nhiêu bộ $(i, j, u, v)$ với $1 \leq i \leq j < u \leq v \leq |s|$
+Cho xâu $S$ gồm các chữ cái tiếng Anh in thường. Bạn cần phải đếm xem có bao nhiêu bộ $(i, j, u, v)$ với $1 \leq i \leq j < u \leq v \leq |s|$ sao cho xâu con liên tiếp $s[i...j]$ và $s[u...v]$ đều là hai xâu đối xứng.
+
+Xâu con liếp $s[a...b]$ của một xâu $s$ là xâu bao gồm dãy các phần tử liên tiếp $s_as_{a+1}...s_b$.
+
+Xâu $s$ được gọi
 
 ### Input: Nhập từ file PAIRTOP.INP
 Dòng đầu tiên chứa số nguyên dương $N$ ($2 \leq N \leq 2.10^5$);
@@ -162,7 +166,7 @@ Subtask 3 (30 điểm): Không có ràng buộc gì thêm.
 |4<br>1 3 2 4<br>1 3 2 4|0|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NDU5MTEyOSwtMTY2NjE3MzYzNywzND
-IyNDM5OTQsLTQ0ODIzMDE0MywtOTAwNDAyODY1LC0xMTM2NjQx
-OTE0LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTExNDU0MjA1MjEsLTE2NjYxNzM2MzcsMz
+QyMjQzOTk0LC00NDgyMzAxNDMsLTkwMDQwMjg2NSwtMTEzNjY0
+MTkxNCwtMjA4ODc0NjYxMl19
 -->
