@@ -28,7 +28,7 @@
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
 
-Như thường lệ, bài đầu tiên của một kỳ thi thường là bài toán trên dãy số. Cứ bốc 
+Cho trước hai số $x_1 = a$, $x_2 = b$. 
 
 ### Input: Nhập từ file FX.INP
 
@@ -140,6 +140,6 @@ Subtask 3 (28 điểm): Không có ràng buộc gì thêm.
 > **Note**: Giải thích ví dụ đầu tiên: Dãy ($27$, $28$, $81$) là một dãy con hợp lệ và có độ dài lớn nhất.số nguyên tố.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMDY1MDI4MCwtMTEzNjY0MTkxNCwtMj
+eyJoaXN0b3J5IjpbMTc2NTgzOTc3MywtMTEzNjY0MTkxNCwtMj
 A4ODc0NjYxMl19
 -->
