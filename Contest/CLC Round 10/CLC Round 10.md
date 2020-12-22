@@ -3,12 +3,6 @@
 ### Hình thức thi: Thi offline, chấm ngay sau giờ làm bài trên Codeforces
 ### Thời gian thi: 3h
 
-|Tên  bài                 |File chương trình | Input | Output | TL
-|-------------------------------|-----------------------------|----|---|---| 
-|Tìm số      | FINDNUM.CPP | FX.INP | FX.OUT | 1s
-|Pizza               |PIZTOPP.CPP |PIZTOPP.INP |PIZTOPP.OUT| 2,5s
-|LISCOPRIME|COPRIME.CPP|COPRIME.INP|COPRIME.OUT|1s
-
 ### Thời gian thi: 
 
 # A. Tìm số (FINDNUM - 40 điểm)
@@ -111,7 +105,7 @@ Dòng đầu tiên chứa số nguyên $n$ - số lượng đoạn phủ.
 
 $n$ dòng sau, dòng thứ $i$ gồm hai số nguyên $x_i$, $y_i$ $(1 \leq x_i, y_i \leq 10^9)$.
 
-### Output: In ra file PIZTOPP.OUT
+### Output: In ra file SEGCOVER.OUT
 
 In ra $T$ dòng, mỗi dòng gồm $n$ số nguyên - giá trị của mảng $F$.
 
@@ -128,6 +122,13 @@ Subtask 3 (15 điểm): Không có điều kiện gì thêm.
 |SEGCOVER.INP                    |SEGCOVER.OUT                        |
 |-------------------------------|-----------------------------|
 |1<br>3<br>2 5<br>1 3<br>4 7<br> | 5 3 3|
+
+|Tên  bài                 |File chương trình | Input | Output | TL
+|-------------------------------|-----------------------------|----|---|---| 
+|Tìm số      | FINDNUM.CPP | FINDNUM.INP | FINDNUM.OUT | 1s
+|Cặp số |PAIRTOP.CPP |PAIRTOP.INP |PAIRTOP.OUT| s
+|Đoạn phủ |SEGCOVER.CPP|SEGCOVER.INP|SEGCOVER.OUT|1s
+|Dãy số đẹp|GOODSEQ.CPP|GOODSEQ.INP|GOODSEQ.OUT|1s
 
 # D. Dãy số đẹp (GOODSEQ– 40 điểm)
 
@@ -165,7 +166,7 @@ Subtask 4 (15 điểm): $1 \leq |s| \leq 2000$.
 |aaa|5|
 |abacaba|36|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMTg3OTk3NiwtMTY2NjE3MzYzNywzND
+eyJoaXN0b3J5IjpbMTc2ODU5NDMyMywtMTY2NjE3MzYzNywzND
 IyNDM5OTQsLTQ0ODIzMDE0MywtOTAwNDAyODY1LC0xMTM2NjQx
 OTE0LC0yMDg4NzQ2NjEyXX0=
 -->
