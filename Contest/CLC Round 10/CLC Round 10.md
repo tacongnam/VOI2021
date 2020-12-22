@@ -129,7 +129,7 @@ Subtask 3 (30 điểm): Không có ràng buộc gì thêm.
 |5<br>4 8 2 6 2<br>4 5 4 1 3|7|
 |4<br>1 3 2 4<br>1 3 2 4|0|
 
-# D. Cặp số (PAIRTOP – 40 điểm)
+# D. Dãy số đẹp (GOODSEQ– 40 điểm)
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
 
@@ -162,7 +162,7 @@ Subtask 3 (30 điểm): Không có ràng buộc gì thêm.
 |4<br>1 3 2 4<br>1 3 2 4|0|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIzNjg5MzM1LC0xNjY2MTczNjM3LDM0Mj
-I0Mzk5NCwtNDQ4MjMwMTQzLC05MDA0MDI4NjUsLTExMzY2NDE5
-MTQsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTI5NjUyMjI1MCwtMTY2NjE3MzYzNywzND
+IyNDM5OTQsLTQ0ODIzMDE0MywtOTAwNDAyODY1LC0xMTM2NjQx
+OTE0LC0yMDg4NzQ2NjEyXX0=
 -->
