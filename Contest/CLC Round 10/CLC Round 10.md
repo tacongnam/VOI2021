@@ -101,12 +101,12 @@ Subtask 3 (15 điểm): Không có điều kiện gì thêm.
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
 
-Cho hai dãy $A$ và $B$ gồm $n$ phần tử. 
+Cho hai dãy $A$ và $B$ gồm $$ phần tử. Hãy tìm số lượng các cặp $(i, j)$ ($i < j$) sao cho $a_i + a_j > b_i + b_j$.
 
 ### Input: Nhập từ file COPRIME.INP
-Dòng đầu tiên chứa số nguyên dương $N$ ($1 \leq N \leq 10^5$);
+Dòng đầu tiên chứa số nguyên dương $N$ ($2 \leq N \leq 2.10^5$);
 
-$N$ dòng tiếp theo, dòng thứ $i$ chứa số nguyên $a_i$ ($1 \leq a_i \leq 10^{18}$).
+Dòng thứ hai chứa $N$ số 
 
 ### Output: In ra file COPRIME.OUT
 
@@ -130,7 +130,7 @@ Subtask 3 (28 điểm): Không có ràng buộc gì thêm.
 > **Note**: Giải thích ví dụ đầu tiên: Dãy ($27$, $28$, $81$) là một dãy con hợp lệ và có độ dài lớn nhất.số nguyên tố.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODQyNTgxMjAsMzQyMjQzOTk0LC00ND
+eyJoaXN0b3J5IjpbLTIwNTc3ODIwMTksMzQyMjQzOTk0LC00ND
 gyMzAxNDMsLTkwMDQwMjg2NSwtMTEzNjY0MTkxNCwtMjA4ODc0
 NjYxMl19
 -->
