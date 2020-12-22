@@ -133,7 +133,7 @@ Subtask 3 (30 điểm): Không có ràng buộc gì thêm.
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
 
-Cho hai dãy $A$ và $B$ gồm $N$ phần tử. Hãy tìm số lượng các cặp $(i, j)$ ($i < j$) sao cho $a_i + a_j > b_i + b_j$.
+Cho xâu $S$ gồm các ký tự 
 
 ### Input: Nhập từ file PAIRTOP.INP
 Dòng đầu tiên chứa số nguyên dương $N$ ($2 \leq N \leq 2.10^5$);
@@ -162,7 +162,7 @@ Subtask 3 (30 điểm): Không có ràng buộc gì thêm.
 |4<br>1 3 2 4<br>1 3 2 4|0|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NjUyMjI1MCwtMTY2NjE3MzYzNywzND
+eyJoaXN0b3J5IjpbMjA3NzUyNDMyMCwtMTY2NjE3MzYzNywzND
 IyNDM5OTQsLTQ0ODIzMDE0MywtOTAwNDAyODY1LC0xMTM2NjQx
 OTE0LC0yMDg4NzQ2NjEyXX0=
 -->
