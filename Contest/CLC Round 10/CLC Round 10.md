@@ -19,13 +19,13 @@ Cho dãy $x$ có dạng: $x_n = nx_0 + (n-1)x_1 + (n-2)x_2 + ... + (n-i).x_i + .
 
 Cho trước hai số $x_1 = a$, $x_2 = b$ và số $k$. Hãy in ra giá trị của $x_k$.
 
-### Input: Nhập từ file FX.INP
+### Input: Nhập từ file FINDNUM.INP
 
 Dòng đầu tiên nhập một số nguyên $T$ – số test trong bài toán.
 
 $T$ dòng sau, mỗi dòng chứa ba số nguyên $a$, $b$, $k$ – chi tiết của các truy vấn.
 
-### Output: In ra file FX.OUT
+### Output: In ra file FINDNUM.OUT
 
 In ra $T$ dòng, mỗi dòng là kết quả của bài toán.
 
@@ -37,7 +37,7 @@ Subtask 2 (25 điểm): $\sum{k} \leq 10^6$.
 
 ### Example
 
-|FX.INP                   |FX.OUT                        |
+|FINDNUM.INP                   |FINDNUM.OUT                        |
 |-------------------------------|-----------------------------|
 |2 <br> 2 3 3 <br> 2 3 4       | 7 <br>19 |
 
@@ -93,7 +93,7 @@ Subtask 3 (15 điểm): Không có điều kiện gì thêm.
 
 ### Example
 
-|PIZTOPP.INP                    |PIZTOPP.OUT                        |
+|SEGCOVER.INP                    |SEGCOVER.OUT                        |
 |-------------------------------|-----------------------------|
 |1<br>3<br>2 5<br>1 3<br>4 7<br> | 5 3 3|
 
@@ -118,21 +118,23 @@ In ra một dòng là kết quả bài toán.
 
 Subtask 1 (15 điểm): $1 \leq N \leq 1000$
 
-Subtask 2 ( điểm): $1 \leq N \leq 100$, $1 \leq a_i \leq 10^9$
+Subtask 2 (15 điểm): $1 \leq a_i, b_i \leq 10^4$
 
-Subtask 3 (28 điểm): Không có ràng buộc gì thêm.
+Subtask 3 (30 điểm): Không có ràng buộc gì thêm.
 
 ### Example
 
-|COPRIME.INP                    |COPRIME.OUT                        |
+|PAIRTOP.INP                    |COPRIME.OUT                        |
 |-------------------------------|-----------------------------|
-|5<br>27<br>28<br>98<br>81<br>90 | 3
-|3<br>9<br>27<br>81| 1
+|5<br>4 8 2 6 2<br>4 5 4 1 3|7|
+|4<br>1 3 2 4<br>1 3 2 4|0|
+
+
 
 > **Note**: Giải thích ví dụ đầu tiên: Dãy ($27$, $28$, $81$) là một dãy con hợp lệ và có độ dài lớn nhất.số nguyên tố.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwOTIyMzAxOCwzNDIyNDM5OTQsLTQ0OD
-IzMDE0MywtOTAwNDAyODY1LC0xMTM2NjQxOTE0LC0yMDg4NzQ2
-NjEyXX0=
+eyJoaXN0b3J5IjpbNTkyNTU5ODA2LDM0MjI0Mzk5NCwtNDQ4Mj
+MwMTQzLC05MDA0MDI4NjUsLTExMzY2NDE5MTQsLTIwODg3NDY2
+MTJdfQ==
 -->
