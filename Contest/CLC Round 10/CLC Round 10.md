@@ -51,7 +51,9 @@ Subtask 2 (25 điểm): $\sum{k} \leq 10^6$.
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
 
-Bài toán liên quan đến đoạn phủ rất nổi tiếng, ví dụ như bài tìm số đoạn ít nhất để phủ lên đoạn $[a, b]$ bất kỳ.  Nam muốn tìm một bài toán mới hơn
+Bài toán liên quan đến đoạn phủ rất nổi tiếng, ví dụ như bài tìm số đoạn ít nhất để phủ lên đoạn $[a, b]$ bất kỳ.  Nam cũng muốn nghĩ một bài đoạn phủ và anh ấy đã nghĩ ra một bài như sau:
+
+Cho các đoạn, với đoạn thứ $i$ phủ trên đoạn $[x_i, y_i]$ trên trục số
 
 ### Input: Nhập từ file PIZTOPP.INP
 
@@ -131,6 +133,6 @@ Subtask 3 (28 điểm): Không có ràng buộc gì thêm.
 > **Note**: Giải thích ví dụ đầu tiên: Dãy ($27$, $28$, $81$) là một dãy con hợp lệ và có độ dài lớn nhất.số nguyên tố.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMjg0MjQ0MywtNDQ4MjMwMTQzLC05MD
+eyJoaXN0b3J5IjpbMTM1Njk1MDU2NSwtNDQ4MjMwMTQzLC05MD
 A0MDI4NjUsLTExMzY2NDE5MTQsLTIwODg3NDY2MTJdfQ==
 -->
