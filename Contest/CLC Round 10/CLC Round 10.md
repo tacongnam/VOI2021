@@ -11,19 +11,6 @@
 
 ### Thời gian thi: 
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 # A. Tìm số (FINDNUM - 40 điểm)
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
@@ -60,9 +47,7 @@ Subtask 2 (25 điểm): $\sum{k} \leq 10^6$.
 > $f(3) = 2f(1) + f(2) = 2.2 + 3 = 7$
 > $f(4) = 3f(1) + 2f(2) + f(3) = 3.2 + 2.3 + 7 = 19$
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-# B. PIZZA (PIZTOPP – 70 điểm)
+# B. Đoạn phủ (– 70 điểm)
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 2,5s**
 
@@ -148,6 +133,6 @@ Subtask 3 (28 điểm): Không có ràng buộc gì thêm.
 > **Note**: Giải thích ví dụ đầu tiên: Dãy ($27$, $28$, $81$) là một dãy con hợp lệ và có độ dài lớn nhất.số nguyên tố.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0ODIzMDE0MywtOTAwNDAyODY1LC0xMT
-M2NjQxOTE0LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTg2MjIzMDQ2NCwtNDQ4MjMwMTQzLC05MD
+A0MDI4NjUsLTExMzY2NDE5MTQsLTIwODg3NDY2MTJdfQ==
 -->
