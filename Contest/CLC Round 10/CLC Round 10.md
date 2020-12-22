@@ -101,22 +101,24 @@ Subtask 3 (15 điểm): Không có điều kiện gì thêm.
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
 
-Cho hai dãy $A$ và $B$ gồm $$ phần tử. Hãy tìm số lượng các cặp $(i, j)$ ($i < j$) sao cho $a_i + a_j > b_i + b_j$.
+Cho hai dãy $A$ và $B$ gồm $N$ phần tử. Hãy tìm số lượng các cặp $(i, j)$ ($i < j$) sao cho $a_i + a_j > b_i + b_j$.
 
-### Input: Nhập từ file COPRIME.INP
+### Input: Nhập từ file PAIRTOP.INP
 Dòng đầu tiên chứa số nguyên dương $N$ ($2 \leq N \leq 2.10^5$);
 
-Dòng thứ hai chứa $N$ số 
+Dòng thứ hai chứa $N$ số nguyên dương $A_i$ ($A_i \leq 10^9$).
 
-### Output: In ra file COPRIME.OUT
+Dòng thứ ba chứa $N$ số nguyên dương $B_i$ ($B_i \leq 10^9$).
 
-In ra độ dài lớn nhất của dãy con $B$.
+### Output: In ra file PAIRTOP.OUT
+
+In ra một dòng là kết quả bài toán.
 
 ### Scoring
 
-Subtask 1 (14 điểm): $1 \leq N \leq 20$, $1 \leq a_i \leq 10^9$
+Subtask 1 (15 điểm): $1 \leq N \leq 1000$
 
-Subtask 2 (28 điểm): $1 \leq N \leq 5000$, $1 \leq a_i \leq 10^9$
+Subtask 2 ( điểm): $1 \leq N \leq 100$, $1 \leq a_i \leq 10^9$
 
 Subtask 3 (28 điểm): Không có ràng buộc gì thêm.
 
@@ -130,7 +132,7 @@ Subtask 3 (28 điểm): Không có ràng buộc gì thêm.
 > **Note**: Giải thích ví dụ đầu tiên: Dãy ($27$, $28$, $81$) là một dãy con hợp lệ và có độ dài lớn nhất.số nguyên tố.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTc3ODIwMTksMzQyMjQzOTk0LC00ND
-gyMzAxNDMsLTkwMDQwMjg2NSwtMTEzNjY0MTkxNCwtMjA4ODc0
-NjYxMl19
+eyJoaXN0b3J5IjpbLTUwOTIyMzAxOCwzNDIyNDM5OTQsLTQ0OD
+IzMDE0MywtOTAwNDAyODY1LC0xMTM2NjQxOTE0LC0yMDg4NzQ2
+NjEyXX0=
 -->
