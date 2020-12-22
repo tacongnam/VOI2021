@@ -5,7 +5,7 @@
 
 |Tên  bài                 |File chương trình | Input | Output | TL
 |-------------------------------|-----------------------------|----|---|---| 
-|Truy vấn      | FX.CPP | FX.INP | FX.OUT | 1s
+|Tìm số      | FINDNUM.CPP | FX.INP | FX.OUT | 1s
 |Pizza               |PIZTOPP.CPP |PIZTOPP.INP |PIZTOPP.OUT| 2,5s
 |LISCOPRIME|COPRIME.CPP|COPRIME.INP|COPRIME.OUT|1s
 
@@ -47,7 +47,39 @@ Subtask 2 (25 điểm): $\sum{k} \leq 10^6$.
 > $f(3) = 2f(1) + f(2) = 2.2 + 3 = 7$
 > $f(4) = 3f(1) + 2f(2) + f(3) = 3.2 + 2.3 + 7 = 19$
 
-# B. Đoạn phủ (SEGCOVER – 60 điểm)
+# B. Cặp số (PAIRTOP – 60 điểm)
+
+### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
+
+Cho hai dãy $A$ và $B$ gồm $N$ phần tử. Hãy tìm số lượng các cặp $(i, j)$ ($i < j$) sao cho $a_i + a_j > b_i + b_j$.
+
+### Input: Nhập từ file PAIRTOP.INP
+Dòng đầu tiên chứa số nguyên dương $N$ ($2 \leq N \leq 2.10^5$);
+
+Dòng thứ hai chứa $N$ số nguyên dương $A_i$ ($A_i \leq 10^9$).
+
+Dòng thứ ba chứa $N$ số nguyên dương $B_i$ ($B_i \leq 10^9$).
+
+### Output: In ra file PAIRTOP.OUT
+
+In ra một dòng là kết quả bài toán.
+
+### Scoring
+
+Subtask 1 (15 điểm): $1 \leq N \leq 1000$
+
+Subtask 2 (15 điểm): $1 \leq a_i, b_i \leq 10^4$
+
+Subtask 3 (30 điểm): Không có ràng buộc gì thêm.
+
+### Example
+
+|PAIRTOP.INP                    |PAIRTOP.OUT                        |
+|-------------------------------|-----------------------------|
+|5<br>4 8 2 6 2<br>4 5 4 1 3|7|
+|4<br>1 3 2 4<br>1 3 2 4|0|
+
+# C. Đoạn phủ (SEGCOVER – 60 điểm)
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
 
@@ -97,38 +129,6 @@ Subtask 3 (15 điểm): Không có điều kiện gì thêm.
 |-------------------------------|-----------------------------|
 |1<br>3<br>2 5<br>1 3<br>4 7<br> | 5 3 3|
 
-# C. Cặp số (PAIRTOP – 60 điểm)
-
-### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
-
-Cho hai dãy $A$ và $B$ gồm $N$ phần tử. Hãy tìm số lượng các cặp $(i, j)$ ($i < j$) sao cho $a_i + a_j > b_i + b_j$.
-
-### Input: Nhập từ file PAIRTOP.INP
-Dòng đầu tiên chứa số nguyên dương $N$ ($2 \leq N \leq 2.10^5$);
-
-Dòng thứ hai chứa $N$ số nguyên dương $A_i$ ($A_i \leq 10^9$).
-
-Dòng thứ ba chứa $N$ số nguyên dương $B_i$ ($B_i \leq 10^9$).
-
-### Output: In ra file PAIRTOP.OUT
-
-In ra một dòng là kết quả bài toán.
-
-### Scoring
-
-Subtask 1 (15 điểm): $1 \leq N \leq 1000$
-
-Subtask 2 (15 điểm): $1 \leq a_i, b_i \leq 10^4$
-
-Subtask 3 (30 điểm): Không có ràng buộc gì thêm.
-
-### Example
-
-|PAIRTOP.INP                    |PAIRTOP.OUT                        |
-|-------------------------------|-----------------------------|
-|5<br>4 8 2 6 2<br>4 5 4 1 3|7|
-|4<br>1 3 2 4<br>1 3 2 4|0|
-
 # D. Dãy số đẹp (GOODSEQ– 40 điểm)
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
@@ -143,7 +143,7 @@ Xâu $s$ được gọi là xâu đối xứng nếu ta viết xuôi hoặc vi�
 
 Gồm một dòng chứa xâu $s$.
 
-### Output: In ra file PAIRTOP.OUT
+### Output: In ra file GOODSEQ.OUT
 
 In ra một dòng là kết quả bài toán.
 
@@ -153,19 +153,19 @@ Subtask 1 (5 điểm): $1 \leq |s| \leq 30$
 
 Subtask 2 (10 điểm): $1 \leq |s| \leq 80$
 
-Subtask 3 (10 điểm): $1 \leq N \leq 200$.
+Subtask 3 (10 điểm): $1 \leq |s| \leq 200$.
 
-Subtask 4 (15 điểm): $
+Subtask 4 (15 điểm): $1 \leq |s| \leq 2000$.
 
 ### Example
 
-|PAIRTOP.INP                    |PAIRTOP.OUT                        |
+|GOODSEQ.INP                    |GOODSEQ.OUT                        |
 |-------------------------------|-----------------------------|
-|5<br>4 8 2 6 2<br>4 5 4 1 3|7|
-|4<br>1 3 2 4<br>1 3 2 4|0|
-
+|aa|1|
+|aaa|5|
+|abacaba|36|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MzM0MjA4MywtMTY2NjE3MzYzNywzND
+eyJoaXN0b3J5IjpbMTgxMTg3OTk3NiwtMTY2NjE3MzYzNywzND
 IyNDM5OTQsLTQ0ODIzMDE0MywtOTAwNDAyODY1LC0xMTM2NjQx
 OTE0LC0yMDg4NzQ2NjEyXX0=
 -->
