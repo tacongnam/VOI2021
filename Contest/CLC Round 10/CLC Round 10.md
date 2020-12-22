@@ -30,17 +30,20 @@
 
 Cho dãy $x$ có dạng: $x_n = nx_0 + (n-1)x_1 + (n-2)x_2 + ... + (n-i).x_i + ... + x_{n-1}$
 
-Cho trước hai số $x_1 = a$, $x_2 = b$ và số $k$. Hãy in ra giá trị 
+Cho trước hai số $x_1 = a$, $x_2 = b$ và số $k$. Hãy in ra giá trị của $x_k$.
 
 ### Input: Nhập từ file FX.INP
 
 Dòng đầu tiên nhập một số nguyên $T$ – số test trong bài toán.
 
-$T$ dòng sau, mỗi dòng chứa một số nguyên $x$ – truy vấn.
+$T$ dòng sau, mỗi dòng chứa ba số nguyên $a$, $b$, $k$ – chi tiết của các truy vấn.
 
 ### Output: In ra file FX.OUT
+
 In ra $T$ dòng, mỗi dòng là kết quả của bài toán.
+
 ### Scoring
+
 Subtask 1 (15 điểm): $x \leq 100$.
 
 Subtask 2 (15 điểm): $T = 1$, $x \leq 10^5$.
@@ -142,6 +145,6 @@ Subtask 3 (28 điểm): Không có ràng buộc gì thêm.
 > **Note**: Giải thích ví dụ đầu tiên: Dãy ($27$, $28$, $81$) là một dãy con hợp lệ và có độ dài lớn nhất.số nguyên tố.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMDQwMjg2NSwtMTEzNjY0MTkxNCwtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE1NTAwNjc2MSwtOTAwNDAyODY1LC0xMT
+M2NjQxOTE0LC0yMDg4NzQ2NjEyXX0=
 -->
