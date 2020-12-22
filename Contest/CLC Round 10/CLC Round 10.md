@@ -158,7 +158,7 @@ Subtask 1 (10 điểm): $n \leq 10^2$.
 
 Subtask 2 (15 điểm): $n \leq 10^5$, $1 \leq x_i, y_i \leq 10^3$.
 
-Subtask 3 (15 điểm): Không có điều kiện gì thêm.
+Subtask 3 (15 điểm): $n \leq 10^5$.
 
 ### Example
 
@@ -166,7 +166,7 @@ Subtask 3 (15 điểm): Không có điều kiện gì thêm.
 |-------------------------------|-----------------------------|
 |1<br>3<br>2 5<br>1 3<br>4 7<br> | 5 3 3|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NTMzNjYxNCwtMTY2NjE3MzYzNywzND
+eyJoaXN0b3J5IjpbMTA1NzY3MTcyMywtMTY2NjE3MzYzNywzND
 IyNDM5OTQsLTQ0ODIzMDE0MywtOTAwNDAyODY1LC0xMTM2NjQx
 OTE0LC0yMDg4NzQ2NjEyXX0=
 -->
