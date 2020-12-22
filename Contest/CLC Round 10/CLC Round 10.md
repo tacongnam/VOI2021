@@ -7,8 +7,8 @@
 |-------------------------------|-----------------------------|----|---|---|--| 
 |Tìm số      | FINDNUM.CPP | FINDNUM.INP | FINDNUM.OUT | 1s |40
 |Cặp số |PAIRTOP.CPP |PAIRTOP.INP |PAIRTOP.OUT| 1s|60
-|Đoạn phủ |SEGCOVER.CPP|SEGCOVER.INP|SEGCOVER.OUT|1s|60
-|Dãy số đẹp|GOODSEQ.CPP|GOODSEQ.INP|GOODSEQ.OUT|1s|40
+|Dãy số đẹp|GOODSEQ.CPP|GOODSEQ.INP|GOODSEQ.OUT|1s|60
+|Đoạn phủ |SEGCOVER.CPP|SEGCOVER.INP|SEGCOVER.OUT|1s|40
 
 ### Thời gian thi: 10/1/2020
 
@@ -80,7 +80,43 @@ Subtask 3 (30 điểm): Không có ràng buộc gì thêm.
 |5<br>4 8 2 6 2<br>4 5 4 1 3|7|
 |4<br>1 3 2 4<br>1 3 2 4|0|
 
-# C. Đoạn phủ (SEGCOVER – 60 điểm)
+# C. Dãy số đẹp (GOODSEQ– 60 điểm)
+
+### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
+
+Cho xâu $S$ gồm các chữ cái tiếng Anh in thường. Bạn cần phải đếm xem có bao nhiêu bộ $(i, j, u, v)$ với $1 \leq i \leq j < u \leq v \leq |s|$ sao cho xâu con liên tiếp $s[i...j]$ và $s[u...v]$ đều là hai xâu đối xứng.
+
+Xâu con liếp $s[a...b]$ của một xâu $s$ là xâu bao gồm dãy các phần tử liên tiếp $s_as_{a+1}...s_b$.
+
+Xâu $s$ được gọi là xâu đối xứng nếu ta viết xuôi hoặc viết ngược xâu đấy vẫn nhận được cùng một xâu. Ví dụ 'abacaba', 'abba', 'z' là xâu đối xứng.
+
+### Input: Nhập từ file GOODSEQ.INP
+
+Gồm một dòng chứa xâu $s$.
+
+### Output: In ra file GOODSEQ.OUT
+
+In ra một dòng là kết quả bài toán.
+
+### Scoring
+
+Subtask 1 (10 điểm): $1 \leq |s| \leq 30$
+
+Subtask 2 (15 điểm): $1 \leq |s| \leq 80$
+
+Subtask 3 (15 điểm): $1 \leq |s| \leq 200$.
+
+Subtask 4 (20 điểm): $1 \leq |s| \leq 2000$.
+
+### Example
+
+|GOODSEQ.INP                    |GOODSEQ.OUT                        |
+|-------------------------------|-----------------------------|
+|aa|1|
+|aaa|5|
+|abacaba|36|
+
+# D. Đoạn phủ (SEGCOVER – 40 điểm)
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
 
@@ -129,44 +165,8 @@ Subtask 3 (15 điểm): Không có điều kiện gì thêm.
 |SEGCOVER.INP                    |SEGCOVER.OUT                        |
 |-------------------------------|-----------------------------|
 |1<br>3<br>2 5<br>1 3<br>4 7<br> | 5 3 3|
-
-# D. Dãy số đẹp (GOODSEQ– 40 điểm)
-
-### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
-
-Cho xâu $S$ gồm các chữ cái tiếng Anh in thường. Bạn cần phải đếm xem có bao nhiêu bộ $(i, j, u, v)$ với $1 \leq i \leq j < u \leq v \leq |s|$ sao cho xâu con liên tiếp $s[i...j]$ và $s[u...v]$ đều là hai xâu đối xứng.
-
-Xâu con liếp $s[a...b]$ của một xâu $s$ là xâu bao gồm dãy các phần tử liên tiếp $s_as_{a+1}...s_b$.
-
-Xâu $s$ được gọi là xâu đối xứng nếu ta viết xuôi hoặc viết ngược xâu đấy vẫn nhận được cùng một xâu. Ví dụ 'abacaba', 'abba', 'z' là xâu đối xứng.
-
-### Input: Nhập từ file GOODSEQ.INP
-
-Gồm một dòng chứa xâu $s$.
-
-### Output: In ra file GOODSEQ.OUT
-
-In ra một dòng là kết quả bài toán.
-
-### Scoring
-
-Subtask 1 (5 điểm): $1 \leq |s| \leq 30$
-
-Subtask 2 (10 điểm): $1 \leq |s| \leq 80$
-
-Subtask 3 (10 điểm): $1 \leq |s| \leq 200$.
-
-Subtask 4 (15 điểm): $1 \leq |s| \leq 2000$.
-
-### Example
-
-|GOODSEQ.INP                    |GOODSEQ.OUT                        |
-|-------------------------------|-----------------------------|
-|aa|1|
-|aaa|5|
-|abacaba|36|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NTE5OTc4LC0xNjY2MTczNjM3LDM0Mj
-I0Mzk5NCwtNDQ4MjMwMTQzLC05MDA0MDI4NjUsLTExMzY2NDE5
-MTQsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTI0NTMzNjYxNCwtMTY2NjE3MzYzNywzND
+IyNDM5OTQsLTQ0ODIzMDE0MywtOTAwNDAyODY1LC0xMTM2NjQx
+OTE0LC0yMDg4NzQ2NjEyXX0=
 -->
