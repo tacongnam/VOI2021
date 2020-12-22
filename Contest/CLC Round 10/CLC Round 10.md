@@ -24,23 +24,11 @@
 <br>
 <br>
 
-# A. 
+# A. Tìm số (FINDNUM - 40 điểm)
+
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
 
-Xét hàm $F(x)$ có giá trị như sau:
-
-+) $F(0) = 0$.
-
-+) $F(1) = 1$.
-
-+) $F(2) = 2$.
-
-+) $F(x) = 0$ với $x$ là số nguyên tố lẻ.
-
-+) $F(a.b) = F(a) + F(b)$ sao cho $a + b$ là nhỏ nhất.
-
-Cho các truy vấn chứa số $x$, trả về giá trị của hàm $F(x)$.
-
+Như thường lệ, bài đầu tiên của 
 
 ### Input: Nhập từ file FX.INP
 
@@ -152,6 +140,6 @@ Subtask 3 (28 điểm): Không có ràng buộc gì thêm.
 > **Note**: Giải thích ví dụ đầu tiên: Dãy ($27$, $28$, $81$) là một dãy con hợp lệ và có độ dài lớn nhất.số nguyên tố.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzY2NDE5MTQsLTIwODg3NDY2MTJdfQ
-==
+eyJoaXN0b3J5IjpbMTkyMjY5MTI0NCwtMTEzNjY0MTkxNCwtMj
+A4ODc0NjYxMl19
 -->
