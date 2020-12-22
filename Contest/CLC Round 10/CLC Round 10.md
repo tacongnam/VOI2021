@@ -46,7 +46,7 @@ In ra $T$ dòng, mỗi dòng là kết quả của bài toán.
 
 Subtask 1 (15 điểm): $\sum{k} \leq 15$.
 
-Subtask 2 (15 điểm): $T = 1$, $x \leq 10^5$.
+Subtask 2 (25 điểm): $\sum{k} \leq 1$.
 
 Subtask 3 (30 điểm): $T \leq 10^6$, $x \leq 10^{18}$.
 
@@ -145,6 +145,6 @@ Subtask 3 (28 điểm): Không có ràng buộc gì thêm.
 > **Note**: Giải thích ví dụ đầu tiên: Dãy ($27$, $28$, $81$) là một dãy con hợp lệ và có độ dài lớn nhất.số nguyên tố.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NDcwOTIxNiwtOTAwNDAyODY1LC0xMT
+eyJoaXN0b3J5IjpbLTMyNTMwMTg0MiwtOTAwNDAyODY1LC0xMT
 M2NjQxOTE0LC0yMDg4NzQ2NjEyXX0=
 -->
