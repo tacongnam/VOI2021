@@ -124,17 +124,45 @@ Subtask 3 (30 điểm): Không có ràng buộc gì thêm.
 
 ### Example
 
-|PAIRTOP.INP                    |COPRIME.OUT                        |
+|PAIRTOP.INP                    |PAIRTOP.OUT                        |
 |-------------------------------|-----------------------------|
 |5<br>4 8 2 6 2<br>4 5 4 1 3|7|
 |4<br>1 3 2 4<br>1 3 2 4|0|
 
+# D. Cặp số (PAIRTOP – 60 điểm)
 
+### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
 
-> **Note**: Giải thích ví dụ đầu tiên: Dãy ($27$, $28$, $81$) là một dãy con hợp lệ và có độ dài lớn nhất.số nguyên tố.
+Cho hai dãy $A$ và $B$ gồm $N$ phần tử. Hãy tìm số lượng các cặp $(i, j)$ ($i < j$) sao cho $a_i + a_j > b_i + b_j$.
+
+### Input: Nhập từ file PAIRTOP.INP
+Dòng đầu tiên chứa số nguyên dương $N$ ($2 \leq N \leq 2.10^5$);
+
+Dòng thứ hai chứa $N$ số nguyên dương $A_i$ ($A_i \leq 10^9$).
+
+Dòng thứ ba chứa $N$ số nguyên dương $B_i$ ($B_i \leq 10^9$).
+
+### Output: In ra file PAIRTOP.OUT
+
+In ra một dòng là kết quả bài toán.
+
+### Scoring
+
+Subtask 1 (15 điểm): $1 \leq N \leq 1000$
+
+Subtask 2 (15 điểm): $1 \leq a_i, b_i \leq 10^4$
+
+Subtask 3 (30 điểm): Không có ràng buộc gì thêm.
+
+### Example
+
+|PAIRTOP.INP                    |PAIRTOP.OUT                        |
+|-------------------------------|-----------------------------|
+|5<br>4 8 2 6 2<br>4 5 4 1 3|7|
+|4<br>1 3 2 4<br>1 3 2 4|0|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkyNTU5ODA2LDM0MjI0Mzk5NCwtNDQ4Mj
-MwMTQzLC05MDA0MDI4NjUsLTExMzY2NDE5MTQsLTIwODg3NDY2
-MTJdfQ==
+eyJoaXN0b3J5IjpbLTE2NjYxNzM2MzcsMzQyMjQzOTk0LC00ND
+gyMzAxNDMsLTkwMDQwMjg2NSwtMTEzNjY0MTkxNCwtMjA4ODc0
+NjYxMl19
 -->
