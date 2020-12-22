@@ -47,7 +47,7 @@ Subtask 2 (25 điểm): $\sum{k} \leq 10^6$.
 > $f(3) = 2f(1) + f(2) = 2.2 + 3 = 7$
 > $f(4) = 3f(1) + 2f(2) + f(3) = 3.2 + 2.3 + 7 = 19$
 
-# B. Đoạn phủ (SEGCOVER – 40 điểm)
+# B. Đoạn phủ (SEGCOVER – 60 điểm)
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
 
@@ -129,7 +129,7 @@ Subtask 3 (30 điểm): Không có ràng buộc gì thêm.
 |5<br>4 8 2 6 2<br>4 5 4 1 3|7|
 |4<br>1 3 2 4<br>1 3 2 4|0|
 
-# D. Cặp số (PAIRTOP – 60 điểm)
+# D. Cặp số (PAIRTOP – 40 điểm)
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
 
@@ -162,7 +162,7 @@ Subtask 3 (30 điểm): Không có ràng buộc gì thêm.
 |4<br>1 3 2 4<br>1 3 2 4|0|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjYxNzM2MzcsMzQyMjQzOTk0LC00ND
-gyMzAxNDMsLTkwMDQwMjg2NSwtMTEzNjY0MTkxNCwtMjA4ODc0
-NjYxMl19
+eyJoaXN0b3J5IjpbMzIzNjg5MzM1LC0xNjY2MTczNjM3LDM0Mj
+I0Mzk5NCwtNDQ4MjMwMTQzLC05MDA0MDI4NjUsLTExMzY2NDE5
+MTQsLTIwODg3NDY2MTJdfQ==
 -->
