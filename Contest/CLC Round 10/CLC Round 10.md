@@ -53,7 +53,7 @@ Subtask 2 (25 điểm): $\sum{k} \leq 10^6$.
 
 Bài toán liên quan đến đoạn phủ rất nổi tiếng, ví dụ như bài tìm số đoạn ít nhất để phủ lên đoạn $[a, b]$ bất kỳ.  Nam cũng muốn nghĩ một bài đoạn phủ và anh ấy đã nghĩ ra một bài như sau:
 
-Cho các đoạn, với đoạn thứ $i$ phủ trên đoạn $[x_i, y_i]$ trên trục số. Ta xếp chồng các đoạn này lên trục số thì nhận thấy các đoạn có thể rời nhau, cạnh nhau, hoặc cắt nhau. Nếu hai đoạn cắt nhau thì phần chung sẽ tách thành một đoạn mới. 
+Cho các đoạn, với đoạn thứ $i$ phủ trên đoạn $[x_i, y_i]$ trên trục số. Ta xếp chồng các đoạn này lên trục số thì nhận thấy các đoạn có thể rời nhau, cạnh nhau, hoặc cắt nhau. Nếu hai đoạn cắt nhau thì phần chung sẽ tách thành một đoạn mới. Gọi $k_1$, $k_2$, ..., $k_m$ là các đoạn mới thuộc đoạn $[x_i, y_i]$. Gọi $c_u$ là số lượng đoạn ban đầu đi chứa đoạn mới thứ $u$.
 
 ### Input: Nhập từ file PIZTOPP.INP
 
@@ -133,6 +133,6 @@ Subtask 3 (28 điểm): Không có ràng buộc gì thêm.
 > **Note**: Giải thích ví dụ đầu tiên: Dãy ($27$, $28$, $81$) là một dãy con hợp lệ và có độ dài lớn nhất.số nguyên tố.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3ODM1MTQ3MSwtNDQ4MjMwMTQzLC05MD
+eyJoaXN0b3J5IjpbMjA2MDc3MDA2MCwtNDQ4MjMwMTQzLC05MD
 A0MDI4NjUsLTExMzY2NDE5MTQsLTIwODg3NDY2MTJdfQ==
 -->
