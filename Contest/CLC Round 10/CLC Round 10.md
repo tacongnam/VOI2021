@@ -3,7 +3,15 @@
 ### Hình thức thi: Thi offline, chấm ngay sau giờ làm bài trên Codeforces
 ### Thời gian thi: 3h
 
-### Thời gian thi: 
+|Tên  bài                 |File chương trình | Input | Output | TL|Điểm|
+|-------------------------------|-----------------------------|----|---|---|--| 
+|Tìm số      | FINDNUM.CPP | FINDNUM.INP | FINDNUM.OUT | 1s |40
+|Cặp số |PAIRTOP.CPP |PAIRTOP.INP |PAIRTOP.OUT| 1s|60
+|Đoạn phủ |SEGCOVER.CPP|SEGCOVER.INP|SEGCOVER.OUT|1s|60
+|Dãy số đẹp|GOODSEQ.CPP|GOODSEQ.INP|GOODSEQ.OUT|1s|40
+
+
+### Thời gian thi: 8/10/2020
 
 # A. Tìm số (FINDNUM - 40 điểm)
 
@@ -123,13 +131,6 @@ Subtask 3 (15 điểm): Không có điều kiện gì thêm.
 |-------------------------------|-----------------------------|
 |1<br>3<br>2 5<br>1 3<br>4 7<br> | 5 3 3|
 
-|Tên  bài                 |File chương trình | Input | Output | TL
-|-------------------------------|-----------------------------|----|---|---| 
-|Tìm số      | FINDNUM.CPP | FINDNUM.INP | FINDNUM.OUT | 1s
-|Cặp số |PAIRTOP.CPP |PAIRTOP.INP |PAIRTOP.OUT| s
-|Đoạn phủ |SEGCOVER.CPP|SEGCOVER.INP|SEGCOVER.OUT|1s
-|Dãy số đẹp|GOODSEQ.CPP|GOODSEQ.INP|GOODSEQ.OUT|1s
-
 # D. Dãy số đẹp (GOODSEQ– 40 điểm)
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
@@ -166,7 +167,7 @@ Subtask 4 (15 điểm): $1 \leq |s| \leq 2000$.
 |aaa|5|
 |abacaba|36|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2ODU5NDMyMywtMTY2NjE3MzYzNywzND
-IyNDM5OTQsLTQ0ODIzMDE0MywtOTAwNDAyODY1LC0xMTM2NjQx
-OTE0LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbOTk3MjMyNDU4LC0xNjY2MTczNjM3LDM0Mj
+I0Mzk5NCwtNDQ4MjMwMTQzLC05MDA0MDI4NjUsLTExMzY2NDE5
+MTQsLTIwODg3NDY2MTJdfQ==
 -->
