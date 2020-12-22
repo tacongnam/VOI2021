@@ -46,21 +46,22 @@ In ra $T$ dòng, mỗi dòng là kết quả của bài toán.
 
 Subtask 1 (15 điểm): $\sum{k} \leq 15$.
 
-Subtask 2 (25 điểm): $\sum{k} \leq 10^5$.
+Subtask 2 (25 điểm): $\sum{k} \leq 10^6$.
 
 ### Example
 
 |FX.INP                   |FX.OUT                        |
 |-------------------------------|-----------------------------|
-|1 <br> 2 3 4       | 4
+|2 <br> 2 3 3 <br> 2 3 4       | 7 <br>19 |
 
 > **Note**:  Ta có:
 > $f(1) = 2$
 > $f(2) = 3$
 > $f(3) = 2f(1) + f(2) = 2.2 + 3 = 7$
-> $f(1) = 2$
+> $f(4) = 3f(1) + 2f(2) + f(3) = 3.2 + 2.3 + 7 = 19$
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 # B. PIZZA (PIZTOPP – 70 điểm)
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 2,5s**
@@ -147,6 +148,6 @@ Subtask 3 (28 điểm): Không có ràng buộc gì thêm.
 > **Note**: Giải thích ví dụ đầu tiên: Dãy ($27$, $28$, $81$) là một dãy con hợp lệ và có độ dài lớn nhất.số nguyên tố.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMjM1MzM0MiwtOTAwNDAyODY1LC0xMT
+eyJoaXN0b3J5IjpbLTQ0ODIzMDE0MywtOTAwNDAyODY1LC0xMT
 M2NjQxOTE0LC0yMDg4NzQ2NjEyXX0=
 -->
