@@ -71,12 +71,13 @@ $F_3 = 2 + 1 = 3$.
 
 ### Input: Nhập từ file SEGCOVER.INP
 
-Dòng đầu tiên chứa số nguyên $T$ – thứ tự của subtask.
+Dòng đầu tiên chứa số nguyên $T$ – số bộ test $(T \leq 5)$
 
-Dòng thứ hai chứa hai số nguyên $n$, $m$ – số lượng người và số loại topping sẵn có khác nhau.
+$T$ nhóm dòng tiếp theo có dạng:
 
-$n$ dòng sau, mỗi dòng gồm $2$ số nguyên có dạng $x$  - miêu tả sở thích của người đó: $x < 0$ nếu người đó không thích loại topping $|x|$ hoặc $x > 0$ nếu người đó thích loại topping $x$ $(|x| \leq m)$. Đảm bảo $|x|$ của mỗi người đều phân biệt.
+Dòng đầu tiên chứa số nguyên $n$ - số lượng đoạn phủ.
 
+$n$ dòng sau, dòng thứ $i$ gồm hai số nguyên $x_i$, $y_i$
 ### Output: In ra file PIZTOPP.OUT
 
 Dòng đầu tiên, in ra số nguyên $t$ – số loại topping mà Hiệu có thể mua.
@@ -147,6 +148,6 @@ Subtask 3 (28 điểm): Không có ràng buộc gì thêm.
 > **Note**: Giải thích ví dụ đầu tiên: Dãy ($27$, $28$, $81$) là một dãy con hợp lệ và có độ dài lớn nhất.số nguyên tố.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODEzMDU0OTMsLTQ0ODIzMDE0MywtOT
-AwNDAyODY1LC0xMTM2NjQxOTE0LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTk4NTYxODUwNywtNDQ4MjMwMTQzLC05MD
+A0MDI4NjUsLTExMzY2NDE5MTQsLTIwODg3NDY2MTJdfQ==
 -->
