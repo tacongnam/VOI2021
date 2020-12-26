@@ -55,7 +55,7 @@ Subtask 2 (25 điểm): $\sum{k} \leq 10^6$.
 Cho hai dãy $A$ và $B$ gồm $N$ phần tử. Hãy tìm số lượng các cặp $(i, j)$ ($i < j$) sao cho $a_i + a_j > b_i + b_j$.
 
 ### Input: Nhập từ file PAIRTOP.INP
-Dòng đầu tiên chứa số nguyên dương $N$ ($2 \leq N \leq 2.10^5$);
+Dòng đầu tiên chứa số nguyên dương $N$ ($2 \leq N \leq 10^5$);
 
 Dòng thứ hai chứa $N$ số nguyên dương $A_i$ ($A_i \leq 10^9$).
 
@@ -166,7 +166,7 @@ Subtask 3 (15 điểm): $n \leq 10^5$.
 |-------------------------------|-----------------------------|
 |1<br>3<br>2 5<br>1 3<br>4 7<br> | 5 3 3|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NzY3MTcyMywtMTY2NjE3MzYzNywzND
-IyNDM5OTQsLTQ0ODIzMDE0MywtOTAwNDAyODY1LC0xMTM2NjQx
-OTE0LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE0NTIzMDYxOTMsMTA1NzY3MTcyMywtMT
+Y2NjE3MzYzNywzNDIyNDM5OTQsLTQ0ODIzMDE0MywtOTAwNDAy
+ODY1LC0xMTM2NjQxOTE0LC0yMDg4NzQ2NjEyXX0=
 -->
