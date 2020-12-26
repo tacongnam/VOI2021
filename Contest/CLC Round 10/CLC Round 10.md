@@ -18,7 +18,7 @@
 
 Cho dãy $x$ có dạng: $x_n = nx_0 + (n-1)x_1 + (n-2)x_2 + ... + (n-i).x_i + ... + x_{n-1}$
 
-Cho trước hai số $x_1 = a$, $x_2 = b$ và số $k$. Hãy in ra giá trị của $x_k$.
+Cho trước hai số $x_1 = a$, $x_2 = b$ và số $k$ $(a, b \leq 10^{9})$. Hãy in ra giá trị của $x_k$.
 
 ### Input: Nhập từ file FINDNUM.INP
 
@@ -173,7 +173,7 @@ Subtask 4 (5 điểm): $n \leq 10^6, a_i \leq 10^{18}$.
 |3<br>1 1 1|1|
 |5<br>1 2 3 4 5|0|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MDIyMjc4NSwtMzY4OTYxNjI0LC03Mz
+eyJoaXN0b3J5IjpbLTM1NDYxMzc0NSwtMzY4OTYxNjI0LC03Mz
 QzOTIyMDIsNTYzOTk1OTE4LC02NzU0MzIyMDUsMTk4OTA1OTA0
 MCwtMjAwNzM3ODE0NSwtNTg0OTM4OTY1LDEwNTc2NzE3MjMsLT
 E2NjYxNzM2MzcsMzQyMjQzOTk0LC00NDgyMzAxNDMsLTkwMDQw
