@@ -130,6 +130,18 @@ Khi xem lại trục số, dựa trên vị trí phủ của các đoạn và v�
 
 Gọi $c_u$ là số lượng đoạn ban đầu chứa đoạn mới thứ $u$. Gọi $k_1$, $k_2$, ..., $k_m$ là chỉ số các đoạn mới thuộc đoạn $[x_i, y_i]$ ban đầu. Ta định nghĩa $F_i$ là giá trị quan trọng của đoạn thứ $i$ ban đầu. Khi đó:  $F_i = \sum_{1}^m{c_{k_i}}$.
 
+Xét ví dụ $n = 3$ và các đoạn phủ ban đầu có toạ độ: $[2, 5]$, $[1, 3]$, $[4, 7]$. Trục số khi đó sẽ được nhìn như sau:
+
+![Trục số](https://i.ibb.co/zNJyTDv/trucso.png)
+
+Ta thấy các đoạn trên cắt nhau và tạo ra thành các đoạn nhỏ hơn: $[1, 2]$, $[2, 3]$, $[3, 4]$, $[4, 5]$, $[5, 7]$. Khi đó giá trị $c_i$ của 5 đoạn trên lần lượt là ${1, 2, 1, 2, 1}$. Ta có thể tính được các giá trị $F$:
+
+$F_1 = 2 + 1 + 2 = 5$.
+
+$F_2 = 1 + 2 = 3$.
+
+$F_3 = 2 + 1 = 3$.
+
 ### Input: Nhập từ file SEGCOVER.INP
 
 Dòng đầu tiên chứa số nguyên $T$ – số bộ test $(T \leq 5)$
@@ -158,7 +170,8 @@ Subtask 3 (15 điểm): $n \leq 10^5$.
 |-------------------------------|-----------------------------|
 |1<br>3<br>2 5<br>1 3<br>4 7<br> | 5 3 3|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NDkzODk2NSwxMDU3NjcxNzIzLC0xNj
-Y2MTczNjM3LDM0MjI0Mzk5NCwtNDQ4MjMwMTQzLC05MDA0MDI4
-NjUsLTExMzY2NDE5MTQsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTIwMDczNzgxNDUsLTU4NDkzODk2NSwxMD
+U3NjcxNzIzLC0xNjY2MTczNjM3LDM0MjI0Mzk5NCwtNDQ4MjMw
+MTQzLC05MDA0MDI4NjUsLTExMzY2NDE5MTQsLTIwODg3NDY2MT
+JdfQ==
 -->
