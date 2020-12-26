@@ -122,9 +122,11 @@ Subtask 4 (20 điểm): $1 \leq |s| \leq 2000$.
 
 Cho $n$ đoạn số, đoạn thứ $i$ phủ từ $x_i$ đến $y_i$ (bao gồm cả hai điểm $x_i$, $y_i$) trên trục số. Ta xếp chồng các đoạn này lên trục số thì nhận thấy các đoạn có thể rời nhau, tiếp xúc  nhau, hoặc cắt nhau.
 
-Khi xem lại trục số, dựa trên vị trí phủ của các đoạn và vị trí cắt nhau giữa hai đoạn, ta thấy các đoạn ban đầu sẽ tách thành các đoạn mới nhỏ hơn. Các đoạn này đều có tính chất: 
+Khi xem lại trục số, dựa trên vị trí phủ của các đoạn và vị trí cắt nhau giữa hai đoạn, ta thấy các đoạn ban đầu sẽ tách thành các đoạn mới nhỏ hơn. Các đoạn nhỏ hơn này đều có tính chất: 
 
 +) Xét đoạn $[u, v]$, hoặc tồn tại đoạn phủ sao cho chúng bắt đầu tại $u$, kết thúc tại một điểm lớn hơn hoặc bằng $v$, hoặc không tồn tại đoạn phủ nào trong $n$ đoạn phủ sao cho chúng bắt đầu tại một điểm thuộc $(u, v]$.
+
++) Không tồn tại hai đoạn $[a, b]$, $[u, v]$ sao cho $a \leq u \leq b \leq v$.
 
 Gọi $c_u$ là số lượng đoạn ban đầu chứa đoạn mới thứ $u$. Gọi $k_1$, $k_2$, ..., $k_m$ là chỉ số các đoạn mới thuộc đoạn $[x_i, y_i]$ ban đầu. Ta định nghĩa $F_i$ là giá trị quan trọng của đoạn thứ $i$ ban đầu. Khi đó:  $F_i = \sum_{1}^m{c_{k_i}}$.
 
@@ -168,7 +170,7 @@ Subtask 3 (15 điểm): $n \leq 10^5$.
 |-------------------------------|-----------------------------|
 |1<br>3<br>2 5<br>1 3<br>4 7<br> | 5 3 3|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NTkzNDE2NCwxMDU3NjcxNzIzLC0xNj
-Y2MTczNjM3LDM0MjI0Mzk5NCwtNDQ4MjMwMTQzLC05MDA0MDI4
-NjUsLTExMzY2NDE5MTQsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTIwMDczNzgxNDUsMTA1NzY3MTcyMywtMT
+Y2NjE3MzYzNywzNDIyNDM5OTQsLTQ0ODIzMDE0MywtOTAwNDAy
+ODY1LC0xMTM2NjQxOTE0LC0yMDg4NzQ2NjEyXX0=
 -->
