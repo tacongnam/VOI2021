@@ -120,9 +120,7 @@ Subtask 4 (20 điểm): $1 \leq |s| \leq 2000$.
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
 
-Bài toán liên quan đến đoạn phủ rất nổi tiếng, ví dụ như bài tìm số đoạn ít nhất để phủ lên đoạn $[a, b]$ bất kỳ.  Nam cũng muốn nghĩ một bài đoạn phủ và anh ấy đã nghĩ ra một bài như sau:
-
-Cho các đoạn số, đoạn thứ $i$ phủ trên đoạn $[x_i, y_i]$ trên trục số. Ta xếp chồng các đoạn này lên trục số thì nhận thấy các đoạn có thể rời nhau, cạnh nhau, hoặc cắt nhau.
+Cho $n$ đoạn số, đoạn thứ $i$ phủ từ $x_i$ đến $y_i$ trên trục số. Ta xếp chồng các đoạn này lên trục số thì nhận thấy các đoạn có thể rời nhau, cạnh nhau, hoặc cắt nhau.
 
 Khi xem lại trục số, dựa trên vị trí phủ của các đoạn và vị trí cắt nhau giữa hai đoạn, ta thấy các đoạn ban đầu sẽ tách thành các đoạn mới nhỏ hơn. Gọi $c_u$ là số lượng đoạn ban đầu chứa đoạn mới thứ $u$. Gọi $k_1$, $k_2$, ..., $k_m$ là chỉ số các đoạn mới thuộc đoạn $[x_i, y_i]$ ban đầu. Ta định nghĩa $F_i$ là giá trị quan trọng của đoạn thứ $i$ ban đầu. Khi đó:  $F_i = \sum_{1}^m{c_{k_i}}$.
 
@@ -166,7 +164,7 @@ Subtask 3 (15 điểm): $n \leq 10^5$.
 |-------------------------------|-----------------------------|
 |1<br>3<br>2 5<br>1 3<br>4 7<br> | 5 3 3|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTIzMDYxOTMsMTA1NzY3MTcyMywtMT
-Y2NjE3MzYzNywzNDIyNDM5OTQsLTQ0ODIzMDE0MywtOTAwNDAy
-ODY1LC0xMTM2NjQxOTE0LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTU4MzI3OTEyOSwxMDU3NjcxNzIzLC0xNj
+Y2MTczNjM3LDM0MjI0Mzk5NCwtNDQ4MjMwMTQzLC05MDA0MDI4
+NjUsLTExMzY2NDE5MTQsLTIwODg3NDY2MTJdfQ==
 -->
