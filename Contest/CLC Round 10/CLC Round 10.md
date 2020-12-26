@@ -149,7 +149,7 @@ Cho dãy $A$ gồm $n$ phần tử $a_1$, $a_2$, ..., $a_n$. Định nghĩa hàm
 
 ### Input: Nhập từ file SEQFUNC.INP
 
-Dòng đầu tiên chứa số nguyên dương $n$. Dòng thứ hai chứa $n$ số nguyên dương $a_i$ $(a_i \leq 10^{18})$.
+Dòng đầu tiên chứa số nguyên dương $n$. Dòng thứ hai chứa $n$ số nguyên dương $a_i$.
 
 ### Output: In ra file GOODSEQ.OUT
 
@@ -157,13 +157,13 @@ In ra một dòng là kết quả bài toán.
 
 ### Scoring
 
-Subtask 1 (10 điểm): $1 \leq |s| \leq 30$
+Subtask 1 (6 điểm): $n \leq 100$
 
-Subtask 2 (15 điểm): $1 \leq |s| \leq 80$
+Subtask 2 (9 điểm): $n \leq 1000$
 
-Subtask 3 (15 điểm): $1 \leq |s| \leq 200$.
+Subtask 3 (10 điểm): $n \leq 10^6, a_i \leq 10^{6}$.
 
-Subtask 4 (20 điểm): $1 \leq |s| \leq 2000$.
+Subtask 4 (15 điểm): $n \leq 10^5, a_i \leq 10^{18}$.
 
 ### Example
 
@@ -173,7 +173,7 @@ Subtask 4 (20 điểm): $1 \leq |s| \leq 2000$.
 |aaa|5|
 |abacaba|36|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE2MTEzMzc3LC03MzQzOTIyMDIsNTYzOT
+eyJoaXN0b3J5IjpbMzYxMDc4MjcxLC03MzQzOTIyMDIsNTYzOT
 k1OTE4LC02NzU0MzIyMDUsMTk4OTA1OTA0MCwtMjAwNzM3ODE0
 NSwtNTg0OTM4OTY1LDEwNTc2NzE3MjMsLTE2NjYxNzM2MzcsMz
 QyMjQzOTk0LC00NDgyMzAxNDMsLTkwMDQwMjg2NSwtMTEzNjY0
