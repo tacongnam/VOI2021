@@ -143,12 +143,7 @@ Subtask 4 (20 điểm): $1 \leq |s| \leq 2000$.
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 3s**
 
-Cho xâu $S$ gồm các chữ cái tiếng Anh in thường. Bạn cần phải đếm xem có bao nhiêu bộ $(i, j, u, v)$ với $1 \leq i \leq j < u \leq v \leq |s|$ sao cho xâu con liên tiếp $s[i...j]$ và $s[u...v]$ đều là hai xâu đối xứng.
-
-Xâu con liếp $s[a...b]$ của một xâu $s$ là xâu bao gồm dãy các phần tử liên tiếp $s_as_{a+1}...s_b$.
-
-Xâu $s$ được gọi là xâu đối xứng nếu ta viết xuôi hoặc viết ngược xâu đấy vẫn nhận được cùng một xâu. Ví dụ 'abacaba', 'abba', 'z' là xâu đối xứng.
-
+Cho dãy %A%
 ### Input: Nhập từ file GOODSEQ.INP
 
 Gồm một dòng chứa xâu $s$.
@@ -175,8 +170,9 @@ Subtask 4 (20 điểm): $1 \leq |s| \leq 2000$.
 |aaa|5|
 |abacaba|36|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYzOTk1OTE4LC02NzU0MzIyMDUsMTk4OT
-A1OTA0MCwtMjAwNzM3ODE0NSwtNTg0OTM4OTY1LDEwNTc2NzE3
-MjMsLTE2NjYxNzM2MzcsMzQyMjQzOTk0LC00NDgyMzAxNDMsLT
-kwMDQwMjg2NSwtMTEzNjY0MTkxNCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTczNDM5MjIwMiw1NjM5OTU5MTgsLTY3NT
+QzMjIwNSwxOTg5MDU5MDQwLC0yMDA3Mzc4MTQ1LC01ODQ5Mzg5
+NjUsMTA1NzY3MTcyMywtMTY2NjE3MzYzNywzNDIyNDM5OTQsLT
+Q0ODIzMDE0MywtOTAwNDAyODY1LC0xMTM2NjQxOTE0LC0yMDg4
+NzQ2NjEyXX0=
 -->
