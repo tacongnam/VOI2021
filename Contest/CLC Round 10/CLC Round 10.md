@@ -57,7 +57,7 @@ Cho $n$ đoạn số, đoạn thứ $i$ phủ từ $x_i$ đến $y_i$ (bao gồm
 
 Khi xem lại trục số, dựa trên vị trí phủ của các đoạn và vị trí cắt nhau giữa hai đoạn, ta thấy các đoạn ban đầu sẽ tách thành các đoạn mới nhỏ hơn. Các đoạn nhỏ hơn này đều có tính chất: 
 
-+) Xét đoạn $[u, v]$, hoặc tồn tại đoạn phủ sao cho chúng bắt đầu tại $u$, kết thúc tại một điểm lớn hơn hoặc bằng $v$, hoặc không tồn tại đoạn phủ nào trong $n$ đoạn phủ sao cho chúng bắt đầu tại một điểm thuộc $(u, v]$.
++) Xét đoạn $[u, v]$; hoặc tồn tại ít nhất một đoạn phủ trong $n$ đoạn phủ sao cho chúng bắt đầu tại $u$, kết thúc tại một điểm lớn hơn hoặc bằng $v$; hoặc không tồn tại đoạn phủ nào trong $n$ đoạn phủ sao cho chúng bắt đầu tại một điểm thuộc $(u, v]$; hoặc tồn tại ít nhất một đoạn phủ trong $n$ đoạn phủ sao cho chúng bắt đầu tại một điểm nhỏ hơn hoặc bằng $u$, kết thúc tại $v$.
 
 +) Không tồn tại hai đoạn $[a, b]$, $[u, v]$ sao cho $a \leq u \leq b \leq v$.
 
@@ -173,9 +173,9 @@ Subtask 4 (5 điểm): $n \leq 10^6, a_i \leq 10^{18}$.
 |3<br>1 1 1|1|
 |5<br>1 2 3 4 5|0|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NDYxMzc0NSwtMzY4OTYxNjI0LC03Mz
-QzOTIyMDIsNTYzOTk1OTE4LC02NzU0MzIyMDUsMTk4OTA1OTA0
-MCwtMjAwNzM3ODE0NSwtNTg0OTM4OTY1LDEwNTc2NzE3MjMsLT
-E2NjYxNzM2MzcsMzQyMjQzOTk0LC00NDgyMzAxNDMsLTkwMDQw
-Mjg2NSwtMTEzNjY0MTkxNCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE3MTAyNTg0NjAsLTM2ODk2MTYyNCwtNz
+M0MzkyMjAyLDU2Mzk5NTkxOCwtNjc1NDMyMjA1LDE5ODkwNTkw
+NDAsLTIwMDczNzgxNDUsLTU4NDkzODk2NSwxMDU3NjcxNzIzLC
+0xNjY2MTczNjM3LDM0MjI0Mzk5NCwtNDQ4MjMwMTQzLC05MDA0
+MDI4NjUsLTExMzY2NDE5MTQsLTIwODg3NDY2MTJdfQ==
 -->
