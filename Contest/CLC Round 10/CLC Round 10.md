@@ -6,9 +6,9 @@
 |Tên  bài                 |File chương trình | Input | Output | TL|Điểm|
 |-------------------------------|-----------------------------|----|---|---|--| 
 |Tìm số      | FINDNUM.CPP | FINDNUM.INP | FINDNUM.OUT | 1s |40
-|Cặp số |PAIRTOP.CPP |PAIRTOP.INP |PAIRTOP.OUT| 1s|60
-|Dãy số đẹp|GOODSEQ.CPP|GOODSEQ.INP|GOODSEQ.OUT|1s|60
 |Đoạn phủ |SEGCOVER.CPP|SEGCOVER.INP|SEGCOVER.OUT|1s|40
+|Dãy số đẹp|GOODSEQ.CPP|GOODSEQ.INP|GOODSEQ.OUT|1s|60
+
 
 ### Thời gian thi: 10/1/2020
 
@@ -139,7 +139,7 @@ Subtask 4 (20 điểm): $1 \leq |s| \leq 2000$.
 |aaa|5|
 |abacaba|36|
 
-# Dãy số (SEQFUNC - 40 điểm)
+# D. Dãy số (SEQFUNC - 40 điểm)
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 3s**
 
@@ -151,7 +151,7 @@ Cho dãy $A$ gồm $n$ phần tử $a_1$, $a_2$, ..., $a_n$. Định nghĩa hàm
 
 Dòng đầu tiên chứa số nguyên dương $n$. Dòng thứ hai chứa $n$ số nguyên dương $a_i$.
 
-### Output: In ra file GOODSEQ.OUT
+### Output: In ra file SEQFUNC.OUT
 
 In ra một dòng là kết quả bài toán.
 
@@ -161,19 +161,19 @@ Subtask 1 (6 điểm): $n \leq 100$
 
 Subtask 2 (9 điểm): $n \leq 1000$
 
-Subtask 3 (10 điểm): $n \leq 10^6, a_i \leq 10^{6}$.
+Subtask 3 (20 điểm): $n \leq 10^6, a_i \leq 10^{6}$.
 
-Subtask 4 (15 điểm): $n \leq 10^5, a_i \leq 10^{18}$.
+Subtask 4 (5 điểm): $n \leq 10^6, a_i \leq 10^{18}$.
 
 ### Example
 
-|GOODSEQ.INP                    |GOODSEQ.OUT                        |
+|SEQFUNC.INP                    |SEQFUNC.OUT                        |
 |-------------------------------|-----------------------------|
-|aa|1|
-|aaa|5|
-|abacaba|36|
+|7<br>1 2 1 1 2 2 1|8|
+|3<br>1 1 1|1|
+|5<br>1 2 3 4 5|0|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYxMDc4MjcxLC03MzQzOTIyMDIsNTYzOT
+eyJoaXN0b3J5IjpbNDA4MjA2NDU1LC03MzQzOTIyMDIsNTYzOT
 k1OTE4LC02NzU0MzIyMDUsMTk4OTA1OTA0MCwtMjAwNzM3ODE0
 NSwtNTg0OTM4OTY1LDEwNTc2NzE3MjMsLTE2NjYxNzM2MzcsMz
 QyMjQzOTk0LC00NDgyMzAxNDMsLTkwMDQwMjg2NSwtMTEzNjY0
