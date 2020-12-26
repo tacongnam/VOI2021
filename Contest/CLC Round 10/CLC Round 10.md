@@ -145,10 +145,11 @@ Subtask 4 (20 điểm): $1 \leq |s| \leq 2000$.
 
 Cho dãy $A$ gồm $n$ phần tử $a_1$, $a_2$, ..., $a_n$. Định nghĩa hàm $f(l, r, x)$ sẽ trả về số lượng phần tử nằm trong đoạn $[l, r]$ có giá trị bằng $x$.
 
-Đếm số cặp $(i, j)$ sao cho $f(1, i, a[i])$ 
-### Input: Nhập từ file GOODSEQ.INP
+Đếm số cặp $(i, j)$ $(i < j)$ sao cho $f(1, i, a[i]) > f(j, n, a[j])$ .
 
-Gồm một dòng chứa xâu $s$.
+### Input: Nhập từ file SEQFUNC.INP
+
+Dòng đầu tiên chứa số nguyên dương $n$. Dòng thứ hai chứa $n$ số nguyên dương $a_i$ $(a_i \leq 10^{18})$.
 
 ### Output: In ra file GOODSEQ.OUT
 
@@ -172,9 +173,9 @@ Subtask 4 (20 điểm): $1 \leq |s| \leq 2000$.
 |aaa|5|
 |abacaba|36|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNDcxMzA2OSwtNzM0MzkyMjAyLDU2Mz
-k5NTkxOCwtNjc1NDMyMjA1LDE5ODkwNTkwNDAsLTIwMDczNzgx
-NDUsLTU4NDkzODk2NSwxMDU3NjcxNzIzLC0xNjY2MTczNjM3LD
-M0MjI0Mzk5NCwtNDQ4MjMwMTQzLC05MDA0MDI4NjUsLTExMzY2
-NDE5MTQsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbNjE2MTEzMzc3LC03MzQzOTIyMDIsNTYzOT
+k1OTE4LC02NzU0MzIyMDUsMTk4OTA1OTA0MCwtMjAwNzM3ODE0
+NSwtNTg0OTM4OTY1LDEwNTc2NzE3MjMsLTE2NjYxNzM2MzcsMz
+QyMjQzOTk0LC00NDgyMzAxNDMsLTkwMDQwMjg2NSwtMTEzNjY0
+MTkxNCwtMjA4ODc0NjYxMl19
 -->
