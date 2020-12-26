@@ -2,6 +2,7 @@
 ### Tên kỳ thi: CLC Offline Round 10
 ### Hình thức thi: Thi offline, chấm ngay sau giờ làm bài trên Codeforces
 ### Thời gian thi: 3h
+### Đề thi có 6 trang, 4 bài
 
 |Tên  bài                 |File chương trình | Input | Output | TL|Điểm|
 |-------------------------------|-----------------------------|----|---|---|--| 
@@ -173,9 +174,10 @@ Subtask 4 (5 điểm): $n \leq 10^6, a_i \leq 10^{18}$.
 |3<br>1 1 1|1|
 |5<br>1 2 3 4 5|0|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODUxNjQxODEsLTM2ODk2MTYyNCwtNz
-M0MzkyMjAyLDU2Mzk5NTkxOCwtNjc1NDMyMjA1LDE5ODkwNTkw
-NDAsLTIwMDczNzgxNDUsLTU4NDkzODk2NSwxMDU3NjcxNzIzLC
-0xNjY2MTczNjM3LDM0MjI0Mzk5NCwtNDQ4MjMwMTQzLC05MDA0
-MDI4NjUsLTExMzY2NDE5MTQsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTUyNDExMjIxMSwtMTg4NTE2NDE4MSwtMz
+Y4OTYxNjI0LC03MzQzOTIyMDIsNTYzOTk1OTE4LC02NzU0MzIy
+MDUsMTk4OTA1OTA0MCwtMjAwNzM3ODE0NSwtNTg0OTM4OTY1LD
+EwNTc2NzE3MjMsLTE2NjYxNzM2MzcsMzQyMjQzOTk0LC00NDgy
+MzAxNDMsLTkwMDQwMjg2NSwtMTEzNjY0MTkxNCwtMjA4ODc0Nj
+YxMl19
 -->
