@@ -6,9 +6,9 @@
 |Tên  bài                 |File chương trình | Input | Output | TL|Điểm|
 |-------------------------------|-----------------------------|----|---|---|--| 
 |Tìm số      | FINDNUM.CPP | FINDNUM.INP | FINDNUM.OUT | 1s |40
-|Đoạn phủ |SEGCOVER.CPP|SEGCOVER.INP|SEGCOVER.OUT|1s|40
+|Đoạn phủ |SEGCOVER.CPP|SEGCOVER.INP|SEGCOVER.OUT|1s|60
 |Dãy số đẹp|GOODSEQ.CPP|GOODSEQ.INP|GOODSEQ.OUT|1s|60
-
+|Dãy số| SEGFUNC.CPP | SEGFUNC.INP | SEGFUNC.OUT | 3s |40
 
 ### Thời gian thi: 10/1/2020
 
@@ -173,9 +173,9 @@ Subtask 4 (5 điểm): $n \leq 10^6, a_i \leq 10^{18}$.
 |3<br>1 1 1|1|
 |5<br>1 2 3 4 5|0|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA4MjA2NDU1LC03MzQzOTIyMDIsNTYzOT
-k1OTE4LC02NzU0MzIyMDUsMTk4OTA1OTA0MCwtMjAwNzM3ODE0
-NSwtNTg0OTM4OTY1LDEwNTc2NzE3MjMsLTE2NjYxNzM2MzcsMz
-QyMjQzOTk0LC00NDgyMzAxNDMsLTkwMDQwMjg2NSwtMTEzNjY0
-MTkxNCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTM2ODk2MTYyNCwtNzM0MzkyMjAyLDU2Mz
+k5NTkxOCwtNjc1NDMyMjA1LDE5ODkwNTkwNDAsLTIwMDczNzgx
+NDUsLTU4NDkzODk2NSwxMDU3NjcxNzIzLC0xNjY2MTczNjM3LD
+M0MjI0Mzk5NCwtNDQ4MjMwMTQzLC05MDA0MDI4NjUsLTExMzY2
+NDE5MTQsLTIwODg3NDY2MTJdfQ==
 -->
