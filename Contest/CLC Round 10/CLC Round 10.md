@@ -49,7 +49,7 @@ Subtask 2 (25 điểm): $\sum{k} \leq 10^6$.
 > $f(4) = 3f(1) + 2f(2) + f(3) = 3.2 + 2.3 + 7 = 19$
 
 
-# B. Đoạn phủ (SEGCOVER – 40 điểm)
+# B. Đoạn phủ (SEGCOVER – 60 điểm)
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
 
@@ -139,10 +139,44 @@ Subtask 4 (20 điểm): $1 \leq |s| \leq 2000$.
 |aaa|5|
 |abacaba|36|
 
-# 
+# Dãy số (SEQFUNC - 40 điểm)
+
+### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 3s**
+
+Cho xâu $S$ gồm các chữ cái tiếng Anh in thường. Bạn cần phải đếm xem có bao nhiêu bộ $(i, j, u, v)$ với $1 \leq i \leq j < u \leq v \leq |s|$ sao cho xâu con liên tiếp $s[i...j]$ và $s[u...v]$ đều là hai xâu đối xứng.
+
+Xâu con liếp $s[a...b]$ của một xâu $s$ là xâu bao gồm dãy các phần tử liên tiếp $s_as_{a+1}...s_b$.
+
+Xâu $s$ được gọi là xâu đối xứng nếu ta viết xuôi hoặc viết ngược xâu đấy vẫn nhận được cùng một xâu. Ví dụ 'abacaba', 'abba', 'z' là xâu đối xứng.
+
+### Input: Nhập từ file GOODSEQ.INP
+
+Gồm một dòng chứa xâu $s$.
+
+### Output: In ra file GOODSEQ.OUT
+
+In ra một dòng là kết quả bài toán.
+
+### Scoring
+
+Subtask 1 (10 điểm): $1 \leq |s| \leq 30$
+
+Subtask 2 (15 điểm): $1 \leq |s| \leq 80$
+
+Subtask 3 (15 điểm): $1 \leq |s| \leq 200$.
+
+Subtask 4 (20 điểm): $1 \leq |s| \leq 2000$.
+
+### Example
+
+|GOODSEQ.INP                    |GOODSEQ.OUT                        |
+|-------------------------------|-----------------------------|
+|aa|1|
+|aaa|5|
+|abacaba|36|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NTQzMjIwNSwxOTg5MDU5MDQwLC0yMD
-A3Mzc4MTQ1LC01ODQ5Mzg5NjUsMTA1NzY3MTcyMywtMTY2NjE3
-MzYzNywzNDIyNDM5OTQsLTQ0ODIzMDE0MywtOTAwNDAyODY1LC
-0xMTM2NjQxOTE0LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbNTYzOTk1OTE4LC02NzU0MzIyMDUsMTk4OT
+A1OTA0MCwtMjAwNzM3ODE0NSwtNTg0OTM4OTY1LDEwNTc2NzE3
+MjMsLTE2NjYxNzM2MzcsMzQyMjQzOTk0LC00NDgyMzAxNDMsLT
+kwMDQwMjg2NSwtMTEzNjY0MTkxNCwtMjA4ODc0NjYxMl19
 -->
