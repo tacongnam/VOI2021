@@ -83,7 +83,7 @@ $T$ nhóm dòng tiếp theo có dạng:
 
 Dòng đầu tiên chứa số nguyên $n$ - số lượng đoạn phủ.
 
-$n$ dòng sau, dòng thứ $i$ gồm hai số nguyên $x_i$, $y_i$ $(1 \leq x_i, y_i \leq 10^9)$.
+$n$ dòng sau, dòng thứ $i$ gồm hai số nguyên $x_i$, $y_i$ $(1 \leq x_i, y_i \leq 10^{18})$.
 
 ### Output: In ra file SEGCOVER.OUT
 
@@ -95,7 +95,7 @@ Subtask 1 (10 điểm): $n \leq 10^2$.
 
 Subtask 2 (15 điểm): $n \leq 10^5$, $1 \leq x_i, y_i \leq 10^3$.
 
-Subtask 3 (15 điểm): $n \leq 10^5$.
+Subtask 3 (10 điểm): $n \leq 10^5$.
 
 ### Example
 
@@ -173,9 +173,9 @@ Subtask 4 (5 điểm): $n \leq 10^6, a_i \leq 10^{18}$.
 |3<br>1 1 1|1|
 |5<br>1 2 3 4 5|0|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2ODk2MTYyNCwtNzM0MzkyMjAyLDU2Mz
-k5NTkxOCwtNjc1NDMyMjA1LDE5ODkwNTkwNDAsLTIwMDczNzgx
-NDUsLTU4NDkzODk2NSwxMDU3NjcxNzIzLC0xNjY2MTczNjM3LD
-M0MjI0Mzk5NCwtNDQ4MjMwMTQzLC05MDA0MDI4NjUsLTExMzY2
-NDE5MTQsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTI1MDIyMjc4NSwtMzY4OTYxNjI0LC03Mz
+QzOTIyMDIsNTYzOTk1OTE4LC02NzU0MzIyMDUsMTk4OTA1OTA0
+MCwtMjAwNzM3ODE0NSwtNTg0OTM4OTY1LDEwNTc2NzE3MjMsLT
+E2NjYxNzM2MzcsMzQyMjQzOTk0LC00NDgyMzAxNDMsLTkwMDQw
+Mjg2NSwtMTEzNjY0MTkxNCwtMjA4ODc0NjYxMl19
 -->
