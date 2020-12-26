@@ -49,7 +49,7 @@ Subtask 2 (25 điểm): $\sum{k} \leq 10^6$.
 > $f(4) = 3f(1) + 2f(2) + f(3) = 3.2 + 2.3 + 7 = 19$
 
 
-# D. Đoạn phủ (SEGCOVER – 40 điểm)
+# B. Đoạn phủ (SEGCOVER – 40 điểm)
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
 
@@ -101,7 +101,9 @@ Subtask 3 (15 điểm): $n \leq 10^5$.
 
 |SEGCOVER.INP                    |SEGCOVER.OUT                        |
 |-------------------------------|-----------------------------|
-|1<br>3<br>2 5<br>1 3<br>4 7<br> | 5 3 3|# C. Dãy số đẹp (GOODSEQ– 60 điểm)
+|1<br>3<br>2 5<br>1 3<br>4 7<br> | 5 3 3|
+
+# C. Dãy số đẹp (GOODSEQ– 60 điểm)
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
 
@@ -137,9 +139,10 @@ Subtask 4 (20 điểm): $1 \leq |s| \leq 2000$.
 |aaa|5|
 |abacaba|36|
 
+# 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4OTA1OTA0MCwtMjAwNzM3ODE0NSwtNT
-g0OTM4OTY1LDEwNTc2NzE3MjMsLTE2NjYxNzM2MzcsMzQyMjQz
-OTk0LC00NDgyMzAxNDMsLTkwMDQwMjg2NSwtMTEzNjY0MTkxNC
-wtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTY3NTQzMjIwNSwxOTg5MDU5MDQwLC0yMD
+A3Mzc4MTQ1LC01ODQ5Mzg5NjUsMTA1NzY3MTcyMywtMTY2NjE3
+MzYzNywzNDIyNDM5OTQsLTQ0ODIzMDE0MywtOTAwNDAyODY1LC
+0xMTM2NjQxOTE0LC0yMDg4NzQ2NjEyXX0=
 -->
