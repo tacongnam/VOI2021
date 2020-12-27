@@ -159,7 +159,7 @@ $T$ dòng sau, mỗi dòng chứa hai số nguyên dương $N$, $M$.
 In ra $T$ một dòng là kết quả bài toán lấy phần dư cho $10^9 + 7$.
 
 ### Scoring
-Xét trên một test. Gọi số bộ test trong test đó là $T$, số bộ test mà bạn trả lời sai là $T'$. Khi đó số điểm bạn đạt được là: số điểm của test đó * $1- \dfrac{log_{10}{T'+1}}{log_{10}{T+1}}$
+Xét trên một test. Gọi số bộ test trong test đó là $T$, số bộ test mà bạn trả lời sai là $T'$. Khi đó hệ số bạn đạt được là: $1 - \dfrac{log_{10}(T'+1)}{log_{10}(T+1)}$. Số điểm bạn đạt được của test đó = số điểm của test * hệ số bạn đạt được.
 
 Subtask 1 (6 điểm): $T \leq 20$, $M^N \leq 10^6$.
 
@@ -175,7 +175,7 @@ Subtask 3 (14 điểm): $T \leq 10^5$, $N, M \leq 10^{18}$.
 |2 <br>2 2<br>3 4<br>| 4 <br> 60|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU4OTcwOTY2LC00MTMxODM5NTUsLTEyMj
+eyJoaXN0b3J5IjpbNzY3NjA4ODUwLC00MTMxODM5NTUsLTEyMj
 M5ODgxNTQsMTcwNzA2MzQ0Myw4NzY3OTY2OTgsMTA1MzQ5NzA4
 MCwtMTM0NDAyNTg5Niw0MTMwODE2NzEsLTEzNDQwMjU4OTYsMT
 A4NjExMDcwOCw2NzA1MzMyMDMsODcwOTk1NjEzLDY3MDUzMzIw
