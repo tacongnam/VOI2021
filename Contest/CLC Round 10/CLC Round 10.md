@@ -146,13 +146,13 @@ Subtask 4 (20 điểm): $1 \leq |s| \leq 2000$.
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 2s**
 
-Cho số $N$. Hãy đếm số dãy có độ dài $N$ sao cho không tồn tại ba phần tử liên tiếp có giá trị bằng nhau.
+Cho số $N$ và $M$. Hãy đếm số dãy có độ dài $N$ và các phần tử trong dãy thuộc đoạn $[1, M]$ sao cho không tồn tại ba phần tử liên tiếp có giá trị bằng nhau.
 
 ### Input: Nhập từ file CONSARR.INP
 
 Dòng thứ nhất chứa số nguyên dương $T$ - số bộ test.
 
-$T$ dòng sau, mỗi dòng chứa một số nguyên dương $N$.
+$T$ dòng sau, mỗi dòng chứa hai số nguyên dương $N$, $M$.
 
 ### Output: In ra file CONSARR.OUT
 
@@ -160,9 +160,9 @@ In ra $T$ một dòng là kết quả bài toán lấy phần dư cho $10^9 + 7$
 
 ### Scoring
 
-Subtask 1 (6 điểm): $T \leq 10$, $n \leq 6$.
+Subtask 1 (6 điểm): $T \leq 10$, $M^N \leq 10^6$.
 
-Subtask 2 (20 điểm): $T \leq 10$, $n \leq 10^5$.
+Subtask 2 (20 điểm): $T \leq 10$, $N, M \leq 10^5$.
 
 Subtask 3 (14 điểm): $T \leq 10^5$, $n \leq 10^{18}$.
 
@@ -173,13 +173,12 @@ Subtask 3 (14 điểm): $T \leq 10^5$, $n \leq 10^{18}$.
 |-------------------------------|-----------------------------|
 |2 <br>2 2<br>3 4<br>| 4 <br> 60|
 
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc2Nzk2Njk4LDEwNTM0OTcwODAsLTEzND
-QwMjU4OTYsNDEzMDgxNjcxLC0xMzQ0MDI1ODk2LDEwODYxMTA3
-MDgsNjcwNTMzMjAzLDg3MDk5NTYxMyw2NzA1MzMyMDMsMTMxNz
-M0NjgzLDU2OTQzMDU0MywxMjk3OTUzOTMzLDI3NTMyNDEzLC0z
-NDg2Njg1ODEsMjEzMDk0NDA1MiwtNzcyNDQyODA4LDEwMzU1ND
-E0MjIsLTE2NTA2NzIwNDgsLTUyNDExMjIxMSw2Njg5MjgwMzBd
+eyJoaXN0b3J5IjpbNDEzNTE1MzE2LDg3Njc5NjY5OCwxMDUzND
+k3MDgwLC0xMzQ0MDI1ODk2LDQxMzA4MTY3MSwtMTM0NDAyNTg5
+NiwxMDg2MTEwNzA4LDY3MDUzMzIwMyw4NzA5OTU2MTMsNjcwNT
+MzMjAzLDEzMTczNDY4Myw1Njk0MzA1NDMsMTI5Nzk1MzkzMywy
+NzUzMjQxMywtMzQ4NjY4NTgxLDIxMzA5NDQwNTIsLTc3MjQ0Mj
+gwOCwxMDM1NTQxNDIyLC0xNjUwNjcyMDQ4LC01MjQxMTIyMTFd
 fQ==
 -->
