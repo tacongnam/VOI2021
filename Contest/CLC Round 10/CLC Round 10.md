@@ -56,13 +56,13 @@ Subtask 2 (25 điểm): $\sum{(k + 1)} \leq 10^6$.
 
 Cho $n$ đoạn số, đoạn thứ $i$ phủ từ $x_i$ đến $y_i$ (bao gồm cả hai điểm $x_i$, $y_i$) trên trục số. Ta xếp chồng các đoạn này lên trục số thì nhận thấy các đoạn có thể rời nhau, tiếp xúc  nhau, hoặc cắt nhau.
 
-Khi xem lại trục số, dựa trên vị trí phủ của các đoạn và vị trí cắt nhau giữa hai đoạn, ta thấy các đoạn ban đầu sẽ tách thành các đoạn mới nhỏ hơn. Xét đoạn $[u, v] có tính chất:
+Khi xem lại trục số, dựa trên vị trí phủ của các đoạn và vị trí cắt nhau giữa hai đoạn, ta thấy các đoạn ban đầu sẽ tách thành các đoạn mới nhỏ hơn. Xét đoạn $[u, v]$ có tính chất:
 
- - Hoặc tồn tại ít nhất một đoạn phủ trong $n$ đoạn phủ sao cho chúng bắt đầu tại $u$, kết thúc tại một điểm lớn hơn hoặc bằng $v$; hoặc tồn tại ít nhất một đoạn phủ trong $n$ đoạn phủ sao cho chúng bắt đầu tại một điểm nhỏ hơn hoặc bằng $u$, kết thúc tại $v$;
+ - Tồn tại ít nhất một đoạn phủ trong $n$ đoạn phủ sao cho chúng bắt đầu tại $u$, kết thúc tại một điểm lớn hơn hoặc bằng $v$; hoặc bắt đầu tại một điểm nhỏ hơn hoặc bằng $u$, kết thúc tại $v$;
  
- - Không tồn tại đoạn phủ nào trong $n$ đoạn phủ sao cho chúng bắt đầu tại một điểm thuộc $(u, v]$; Không tồn tại đoạn phủ nào trong $n$ đoạn phủ sao cho chúng kết thúc tại một điểm thuộc $[u, v)$.
+ - Không tồn tại đoạn phủ nào trong $n$ đoạn phủ sao cho chúng bắt đầu tại một điểm thuộc $(u, v)$; Không tồn tại đoạn phủ nào trong $n$ đoạn phủ sao cho chúng kết thúc tại một điểm thuộc $(u, v)$.
 
-+) Không tồn tại hai đoạn khác nhau $[a, b]$, $[u, v]$ sao cho $a \leq u < b \leq v$.
+ -  Không tồn tại hai đoạn khác nhau $[a, b]$, $[u, v]$ sao cho $a \leq u < b \leq v$.
 
 Gọi $c_u$ là số lượng đoạn ban đầu chứa đoạn mới thứ $u$. Gọi $k_1$, $k_2$, ..., $k_m$ là chỉ số các đoạn mới thuộc đoạn $[x_i, y_i]$ ban đầu. Ta định nghĩa $F_i$ là giá trị quan trọng của đoạn thứ $i$ ban đầu. Khi đó:  $F_i = \sum_{1}^m{c_{k_i}}$.
 
@@ -176,11 +176,11 @@ Subtask 4 (5 điểm): $n \leq 10^6, a_i \leq 10^9$.
 |3<br>1 1 1|1|
 |5<br>1 2 3 4 5|0|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTE2NTM0MiwxMzE3MzQ2ODMsNTY5ND
-MwNTQzLDEyOTc5NTM5MzMsMjc1MzI0MTMsLTM0ODY2ODU4MSwy
-MTMwOTQ0MDUyLC03NzI0NDI4MDgsMTAzNTU0MTQyMiwtMTY1MD
-Y3MjA0OCwtNTI0MTEyMjExLDY2ODkyODAzMCwyMTM4MDI4MzMy
-LC01MjQxMTIyMTEsLTE4ODUxNjQxODEsLTM2ODk2MTYyNCwtNz
-M0MzkyMjAyLDU2Mzk5NTkxOCwtNjc1NDMyMjA1LDE5ODkwNTkw
-NDBdfQ==
+eyJoaXN0b3J5IjpbNjcwNTMzMjAzLDEzMTczNDY4Myw1Njk0Mz
+A1NDMsMTI5Nzk1MzkzMywyNzUzMjQxMywtMzQ4NjY4NTgxLDIx
+MzA5NDQwNTIsLTc3MjQ0MjgwOCwxMDM1NTQxNDIyLC0xNjUwNj
+cyMDQ4LC01MjQxMTIyMTEsNjY4OTI4MDMwLDIxMzgwMjgzMzIs
+LTUyNDExMjIxMSwtMTg4NTE2NDE4MSwtMzY4OTYxNjI0LC03Mz
+QzOTIyMDIsNTYzOTk1OTE4LC02NzU0MzIyMDUsMTk4OTA1OTA0
+MF19
 -->
