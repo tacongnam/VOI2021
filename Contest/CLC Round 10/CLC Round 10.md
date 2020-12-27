@@ -159,7 +159,7 @@ $T$ dòng sau, mỗi dòng chứa hai số nguyên dương $N$, $M$.
 In ra $T$ một dòng là kết quả bài toán lấy phần dư cho $10^9 + 7$.
 
 ### Scoring
-Xét trên một test. Gọi số bộ test trong test đó là $T$, số bộ test mà bạn trả lời đúng là $T'$. Khi đó số điểm bạn đạt được là: số điểm của test đó * $1 - log_{10}(T-T')$
+Xét trên một test. Gọi số bộ test trong test đó là $T$, số bộ test mà bạn trả lời đúng là $T'$. Khi đó số điểm bạn đạt được là: số điểm của test đó * $(1 - log_{10}[(T-T') * 10])$
 
 Subtask 1 (6 điểm): $T \leq 20$, $M^N \leq 10^6$.
 
@@ -175,11 +175,11 @@ Subtask 3 (14 điểm): $T \leq 10^5$, $N, M \leq 10^{18}$.
 |2 <br>2 2<br>3 4<br>| 4 <br> 60|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzM0NzkwODMsLTEyMjM5ODgxNTQsMT
-cwNzA2MzQ0Myw4NzY3OTY2OTgsMTA1MzQ5NzA4MCwtMTM0NDAy
-NTg5Niw0MTMwODE2NzEsLTEzNDQwMjU4OTYsMTA4NjExMDcwOC
-w2NzA1MzMyMDMsODcwOTk1NjEzLDY3MDUzMzIwMywxMzE3MzQ2
-ODMsNTY5NDMwNTQzLDEyOTc5NTM5MzMsMjc1MzI0MTMsLTM0OD
-Y2ODU4MSwyMTMwOTQ0MDUyLC03NzI0NDI4MDgsMTAzNTU0MTQy
-Ml19
+eyJoaXN0b3J5IjpbLTQxMzE4Mzk1NSwtMTIyMzk4ODE1NCwxNz
+A3MDYzNDQzLDg3Njc5NjY5OCwxMDUzNDk3MDgwLC0xMzQ0MDI1
+ODk2LDQxMzA4MTY3MSwtMTM0NDAyNTg5NiwxMDg2MTEwNzA4LD
+Y3MDUzMzIwMyw4NzA5OTU2MTMsNjcwNTMzMjAzLDEzMTczNDY4
+Myw1Njk0MzA1NDMsMTI5Nzk1MzkzMywyNzUzMjQxMywtMzQ4Nj
+Y4NTgxLDIxMzA5NDQwNTIsLTc3MjQ0MjgwOCwxMDM1NTQxNDIy
+XX0=
 -->
