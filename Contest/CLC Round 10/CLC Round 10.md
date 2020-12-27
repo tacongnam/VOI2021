@@ -80,13 +80,17 @@ $F_3 = 2 + 1 = 3$.
 
 ### Input: Nhập từ file SEGCOVER.INP
 
+Dòng đầu tiên chứa số nguyên $T$ – số bộ test $(T \leq 5)$
+
+$T$ nhóm dòng tiếp theo có dạng:
+
 Dòng đầu tiên chứa số nguyên $n$ - số lượng đoạn phủ.
 
 $n$ dòng sau, dòng thứ $i$ gồm hai số nguyên $x_i$, $y_i$ $(1 \leq x_i< y_i \leq 10^9)$.
 
 ### Output: In ra file SEGCOVER.OUT
 
-In ra một số nguyên là giá trị của mảng $F$.
+In ra $T$ dòng, mỗi dòng gồm $n$ số nguyên - giá trị của mảng $F$.
 
 ### Scoring
 
@@ -100,7 +104,7 @@ Subtask 3 (10 điểm): $n \leq 10^5$.
 
 |SEGCOVER.INP                    |SEGCOVER.OUT                        |
 |-------------------------------|-----------------------------|
-|3<br>2 5<br>1 3<br>4 7<br> | 5 3 3|
+|1<br>3<br>2 5<br>1 3<br>4 7<br> | 5 3 3|
 
 # C. Dãy số đẹp (GOODSEQ– 60 điểm)
 
@@ -172,11 +176,11 @@ Subtask 4 (5 điểm): $n \leq 10^6, a_i \leq 10^9$.
 |3<br>1 1 1|1|
 |5<br>1 2 3 4 5|0|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcwOTk1NjEzLDY3MDUzMzIwMywxMzE3Mz
-Q2ODMsNTY5NDMwNTQzLDEyOTc5NTM5MzMsMjc1MzI0MTMsLTM0
-ODY2ODU4MSwyMTMwOTQ0MDUyLC03NzI0NDI4MDgsMTAzNTU0MT
-QyMiwtMTY1MDY3MjA0OCwtNTI0MTEyMjExLDY2ODkyODAzMCwy
-MTM4MDI4MzMyLC01MjQxMTIyMTEsLTE4ODUxNjQxODEsLTM2OD
-k2MTYyNCwtNzM0MzkyMjAyLDU2Mzk5NTkxOCwtNjc1NDMyMjA1
-XX0=
+eyJoaXN0b3J5IjpbNjcwNTMzMjAzLDg3MDk5NTYxMyw2NzA1Mz
+MyMDMsMTMxNzM0NjgzLDU2OTQzMDU0MywxMjk3OTUzOTMzLDI3
+NTMyNDEzLC0zNDg2Njg1ODEsMjEzMDk0NDA1MiwtNzcyNDQyOD
+A4LDEwMzU1NDE0MjIsLTE2NTA2NzIwNDgsLTUyNDExMjIxMSw2
+Njg5MjgwMzAsMjEzODAyODMzMiwtNTI0MTEyMjExLC0xODg1MT
+Y0MTgxLC0zNjg5NjE2MjQsLTczNDM5MjIwMiw1NjM5OTU5MThd
+fQ==
 -->
