@@ -162,7 +162,7 @@ Subtask 1 (6 điểm): $n \leq 100$
 
 Subtask 2 (9 điểm): $n \leq 1000$
 
-Subtask 3 (20 điểm): $n \leq 10^6, a_i \leq 10^{6}$.
+Subtask 3 (20 điểm): $n \leq 10^6, a_i \leq 10^6$.
 
 Subtask 4 (5 điểm): $n \leq 10^6, a_i \leq 10^9$.
 
@@ -174,11 +174,11 @@ Subtask 4 (5 điểm): $n \leq 10^6, a_i \leq 10^9$.
 |3<br>1 1 1|1|
 |5<br>1 2 3 4 5|0|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY5NDMwNTQzLDEyOTc5NTM5MzMsMjc1Mz
-I0MTMsLTM0ODY2ODU4MSwyMTMwOTQ0MDUyLC03NzI0NDI4MDgs
-MTAzNTU0MTQyMiwtMTY1MDY3MjA0OCwtNTI0MTEyMjExLDY2OD
-kyODAzMCwyMTM4MDI4MzMyLC01MjQxMTIyMTEsLTE4ODUxNjQx
-ODEsLTM2ODk2MTYyNCwtNzM0MzkyMjAyLDU2Mzk5NTkxOCwtNj
-c1NDMyMjA1LDE5ODkwNTkwNDAsLTIwMDczNzgxNDUsLTU4NDkz
-ODk2NV19
+eyJoaXN0b3J5IjpbMTMxNzM0NjgzLDU2OTQzMDU0MywxMjk3OT
+UzOTMzLDI3NTMyNDEzLC0zNDg2Njg1ODEsMjEzMDk0NDA1Miwt
+NzcyNDQyODA4LDEwMzU1NDE0MjIsLTE2NTA2NzIwNDgsLTUyND
+ExMjIxMSw2Njg5MjgwMzAsMjEzODAyODMzMiwtNTI0MTEyMjEx
+LC0xODg1MTY0MTgxLC0zNjg5NjE2MjQsLTczNDM5MjIwMiw1Nj
+M5OTU5MTgsLTY3NTQzMjIwNSwxOTg5MDU5MDQwLC0yMDA3Mzc4
+MTQ1XX0=
 -->
