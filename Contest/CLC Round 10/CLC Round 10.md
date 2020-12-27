@@ -174,12 +174,28 @@ Subtask 3 (14 điểm): $T \leq 10^5$, $N, M \leq 10^{18}$.
 |-------------------------------|-----------------------------|
 |2 <br>2 2<br>3 4<br>| 4 <br> 60|
 
+<#list 1..30 as testNumber>
+    script 1 ${testNumber} > $
+</#list>
+<#list 1..60 as testNumber>
+    script 2 ${testNumber} > $
+</#list>
+<#list 1..100 as testNumber>
+    script 3 ${testNumber} > $
+</#list>
+<#list 1..15 as testNumber>
+    script 4 ${testNumber} > $
+</#list>
+<#list 1..35 as testNumber>
+    script 5 ${testNumber} > $
+</#list>
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY3NjA4ODUwLC00MTMxODM5NTUsLTEyMj
-M5ODgxNTQsMTcwNzA2MzQ0Myw4NzY3OTY2OTgsMTA1MzQ5NzA4
-MCwtMTM0NDAyNTg5Niw0MTMwODE2NzEsLTEzNDQwMjU4OTYsMT
-A4NjExMDcwOCw2NzA1MzMyMDMsODcwOTk1NjEzLDY3MDUzMzIw
-MywxMzE3MzQ2ODMsNTY5NDMwNTQzLDEyOTc5NTM5MzMsMjc1Mz
-I0MTMsLTM0ODY2ODU4MSwyMTMwOTQ0MDUyLC03NzI0NDI4MDhd
+eyJoaXN0b3J5IjpbLTM2MTgxMDM1NCw3Njc2MDg4NTAsLTQxMz
+E4Mzk1NSwtMTIyMzk4ODE1NCwxNzA3MDYzNDQzLDg3Njc5NjY5
+OCwxMDUzNDk3MDgwLC0xMzQ0MDI1ODk2LDQxMzA4MTY3MSwtMT
+M0NDAyNTg5NiwxMDg2MTEwNzA4LDY3MDUzMzIwMyw4NzA5OTU2
+MTMsNjcwNTMzMjAzLDEzMTczNDY4Myw1Njk0MzA1NDMsMTI5Nz
+k1MzkzMywyNzUzMjQxMywtMzQ4NjY4NTgxLDIxMzA5NDQwNTJd
 fQ==
 -->
