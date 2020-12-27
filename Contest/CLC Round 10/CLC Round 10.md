@@ -19,7 +19,7 @@
 
 Cho dãy $x$ có dạng: $x_n = nx_0 + (n-1)x_1 + (n-2)x_2 + ... + (n-i).x_i + ... + x_{n-1}$
 
-Cho trước hai số $x_0 = a$, $x_1 = b$ và số $k$ $(a, b \leq 10^{9})$. Hãy in ra giá trị của $x_k$.
+Cho trước hai số $x_0 = a$, $x_1 = b$ và số $k$ $(a, b \leq 10^{9})$. Hãy in ra giá trị của $x_k$ lấy phần dư cho $998754457$.
 
 ### Input: Nhập từ file FINDNUM.INP
 
@@ -174,11 +174,11 @@ Subtask 4 (5 điểm): $n \leq 10^6, a_i \leq 10^{18}$.
 |3<br>1 1 1|1|
 |5<br>1 2 3 4 5|0|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMDk0NDA1MiwtNzcyNDQyODA4LDEwMz
-U1NDE0MjIsLTE2NTA2NzIwNDgsLTUyNDExMjIxMSw2Njg5Mjgw
-MzAsMjEzODAyODMzMiwtNTI0MTEyMjExLC0xODg1MTY0MTgxLC
-0zNjg5NjE2MjQsLTczNDM5MjIwMiw1NjM5OTU5MTgsLTY3NTQz
-MjIwNSwxOTg5MDU5MDQwLC0yMDA3Mzc4MTQ1LC01ODQ5Mzg5Nj
-UsMTA1NzY3MTcyMywtMTY2NjE3MzYzNywzNDIyNDM5OTQsLTQ0
-ODIzMDE0M119
+eyJoaXN0b3J5IjpbLTM0ODY2ODU4MSwyMTMwOTQ0MDUyLC03Nz
+I0NDI4MDgsMTAzNTU0MTQyMiwtMTY1MDY3MjA0OCwtNTI0MTEy
+MjExLDY2ODkyODAzMCwyMTM4MDI4MzMyLC01MjQxMTIyMTEsLT
+E4ODUxNjQxODEsLTM2ODk2MTYyNCwtNzM0MzkyMjAyLDU2Mzk5
+NTkxOCwtNjc1NDMyMjA1LDE5ODkwNTkwNDAsLTIwMDczNzgxND
+UsLTU4NDkzODk2NSwxMDU3NjcxNzIzLC0xNjY2MTczNjM3LDM0
+MjI0Mzk5NF19
 -->
