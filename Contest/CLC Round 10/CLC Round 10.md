@@ -33,7 +33,7 @@ In ra $T$ dòng, mỗi dòng là kết quả của bài toán.
 
 ### Scoring
 
-Subtask 1 (15 điểm): $k \leq 15$, $T \leq 100$.
+Subtask 1 (15 điểm): $\sum{k} \leq 20$.
 
 Subtask 2 (25 điểm): $\sum{k} \leq 10^6$.
 
@@ -41,7 +41,7 @@ Subtask 2 (25 điểm): $\sum{k} \leq 10^6$.
 
 |FINDNUM.INP                   |FINDNUM.OUT                        |
 |-------------------------------|-----------------------------|
-|3 <br> 2 3 2 <br> 2 3 3 <br> 2 3 4 | 7 <br>19 <br>50|
+|3 <br> 2 3 2 <br> 2 3 3 <br> 2 3 4 | 7 <br>19 <br>50 |
 
 > **Note**:  Ta có:
 > $x_0 = 2$
@@ -174,11 +174,11 @@ Subtask 4 (5 điểm): $n \leq 10^6, a_i \leq 10^{18}$.
 |3<br>1 1 1|1|
 |5<br>1 2 3 4 5|0|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MjQ0MjgwOCwxMDM1NTQxNDIyLC0xNj
-UwNjcyMDQ4LC01MjQxMTIyMTEsNjY4OTI4MDMwLDIxMzgwMjgz
-MzIsLTUyNDExMjIxMSwtMTg4NTE2NDE4MSwtMzY4OTYxNjI0LC
-03MzQzOTIyMDIsNTYzOTk1OTE4LC02NzU0MzIyMDUsMTk4OTA1
-OTA0MCwtMjAwNzM3ODE0NSwtNTg0OTM4OTY1LDEwNTc2NzE3Mj
-MsLTE2NjYxNzM2MzcsMzQyMjQzOTk0LC00NDgyMzAxNDMsLTkw
-MDQwMjg2NV19
+eyJoaXN0b3J5IjpbMjEzMDk0NDA1MiwtNzcyNDQyODA4LDEwMz
+U1NDE0MjIsLTE2NTA2NzIwNDgsLTUyNDExMjIxMSw2Njg5Mjgw
+MzAsMjEzODAyODMzMiwtNTI0MTEyMjExLC0xODg1MTY0MTgxLC
+0zNjg5NjE2MjQsLTczNDM5MjIwMiw1NjM5OTU5MTgsLTY3NTQz
+MjIwNSwxOTg5MDU5MDQwLC0yMDA3Mzc4MTQ1LC01ODQ5Mzg5Nj
+UsMTA1NzY3MTcyMywtMTY2NjE3MzYzNywzNDIyNDM5OTQsLTQ0
+ODIzMDE0M119
 -->
