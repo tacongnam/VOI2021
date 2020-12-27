@@ -96,7 +96,7 @@ In ra $T$ dòng, mỗi dòng gồm $n$ số nguyên - giá trị của mảng $F
 
 Subtask 1 (10 điểm): $n \leq 10^2$.
 
-Subtask 2 (15 điểm): $n \leq 10^5$, $1 \leq x_i, y_i \leq 10^3$.
+Subtask 2 (15 điểm): $n \leq 10^5$, $1 \leq x_i, y_i \leq 10^2$.
 
 Subtask 3 (10 điểm): $n \leq 10^5$.
 
@@ -176,11 +176,11 @@ Subtask 4 (5 điểm): $n \leq 10^6, a_i \leq 10^9$.
 |3<br>1 1 1|1|
 |5<br>1 2 3 4 5|0|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcwNTMzMjAzLDg3MDk5NTYxMyw2NzA1Mz
-MyMDMsMTMxNzM0NjgzLDU2OTQzMDU0MywxMjk3OTUzOTMzLDI3
-NTMyNDEzLC0zNDg2Njg1ODEsMjEzMDk0NDA1MiwtNzcyNDQyOD
-A4LDEwMzU1NDE0MjIsLTE2NTA2NzIwNDgsLTUyNDExMjIxMSw2
-Njg5MjgwMzAsMjEzODAyODMzMiwtNTI0MTEyMjExLC0xODg1MT
-Y0MTgxLC0zNjg5NjE2MjQsLTczNDM5MjIwMiw1NjM5OTU5MThd
-fQ==
+eyJoaXN0b3J5IjpbMTA4NjExMDcwOCw2NzA1MzMyMDMsODcwOT
+k1NjEzLDY3MDUzMzIwMywxMzE3MzQ2ODMsNTY5NDMwNTQzLDEy
+OTc5NTM5MzMsMjc1MzI0MTMsLTM0ODY2ODU4MSwyMTMwOTQ0MD
+UyLC03NzI0NDI4MDgsMTAzNTU0MTQyMiwtMTY1MDY3MjA0OCwt
+NTI0MTEyMjExLDY2ODkyODAzMCwyMTM4MDI4MzMyLC01MjQxMT
+IyMTEsLTE4ODUxNjQxODEsLTM2ODk2MTYyNCwtNzM0MzkyMjAy
+XX0=
 -->
