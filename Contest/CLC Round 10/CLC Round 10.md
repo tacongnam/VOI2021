@@ -7,9 +7,9 @@
 |Tên  bài                 |File chương trình | Input | Output | TL|Điểm|
 |-------------------------------|-----------------------------|----|---|---|--| 
 |Tìm số      | FINDNUM.CPP | FINDNUM.INP | FINDNUM.OUT | 1,5s |40
-|Đoạn phủ |SEGCOVER.CPP|SEGCOVER.INP|SEGCOVER.OUT|1s|60
 |Biến đổi dãy|GCDOPR.CPP|GCDOPR.INP|GCDOPR.OUT|1s|60
-|Xây dựng dãy số| CONSARR.CPP |CONSARR.INP|CONSARR.OUT| 3s |40
+|Đoạn phủ |SEGCOVER.CPP|SEGCOVER.INP|SEGCOVER.OUT|1s|60
+|Xây dựng dãy số| CONSARR.CPP |CONSARR.INP|CONSARR.OUT| 1,5s |40
 
 ### Thời gian thi: 10/1/2020
 
@@ -50,11 +50,13 @@ Subtask 2 (25 điểm): $\sum{(k + 1)} \leq 10^6$.
 > $x_3 = 3x_0 + 2x_1 + x_2 = 3.2 + 2.3 + 7 = 19$
 > $x_4 = 4x_0 + 3x_1 + 2x_2 + x_3 = 4.2 + 3.3 + 2.7 + 19 = 50$
 
-# C. Biến đổi dãy (GCDOPR - 60 điểm)
+# B. Biến đổi dãy (GCDOPR - 60 điểm)
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
 
-Xét dãy 
+Cho dãy $a_1$, $a_2$, ..., $a_n$ có $n$ phần tử và $a_i = i$. Bạn có thể thực hiện truy vấn dưới đây một hoặc nhiều lần (có thể không thực hiện):
+
+- Chọn ra hai chỉ số $i < j$ rồi gán $a_
 
 ### Input: Nhập từ file GCDOPR.INP
 
@@ -170,11 +172,11 @@ Subtask 3 (14 điểm): $T \leq 10^5$, $N, M \leq 10^{18}$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQyMjI5NzIsMTUwODE1NjE1OSwtMT
-Q0ODkwNjM3Niw5NzEzMTU2NDgsLTEyMDQ1NjcwNjMsOTcxMzE1
-NjQ4LC0zNjE4MTAzNTQsNzY3NjA4ODUwLC00MTMxODM5NTUsLT
-EyMjM5ODgxNTQsMTcwNzA2MzQ0Myw4NzY3OTY2OTgsMTA1MzQ5
-NzA4MCwtMTM0NDAyNTg5Niw0MTMwODE2NzEsLTEzNDQwMjU4OT
-YsMTA4NjExMDcwOCw2NzA1MzMyMDMsODcwOTk1NjEzLDY3MDUz
-MzIwM119
+eyJoaXN0b3J5IjpbNDQ3NTMwODYsMTUwODE1NjE1OSwtMTQ0OD
+kwNjM3Niw5NzEzMTU2NDgsLTEyMDQ1NjcwNjMsOTcxMzE1NjQ4
+LC0zNjE4MTAzNTQsNzY3NjA4ODUwLC00MTMxODM5NTUsLTEyMj
+M5ODgxNTQsMTcwNzA2MzQ0Myw4NzY3OTY2OTgsMTA1MzQ5NzA4
+MCwtMTM0NDAyNTg5Niw0MTMwODE2NzEsLTEzNDQwMjU4OTYsMT
+A4NjExMDcwOCw2NzA1MzMyMDMsODcwOTk1NjEzLDY3MDUzMzIw
+M119
 -->
