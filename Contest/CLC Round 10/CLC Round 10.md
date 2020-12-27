@@ -15,7 +15,7 @@
 
 # A. Tìm số (FINDNUM - 40 điểm)
 
-### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 2s**
+### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1,5s**
 
 Cho dãy $x$ có dạng: $x_n = nx_0 + (n-1)x_1 + (n-2)x_2 + ... + (n-i).x_i + ... + x_{n-1}$
 
@@ -174,11 +174,11 @@ Subtask 4 (5 điểm): $n \leq 10^6, a_i \leq 10^{18}$.
 |3<br>1 1 1|1|
 |5<br>1 2 3 4 5|0|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc1MzI0MTMsLTM0ODY2ODU4MSwyMTMwOT
-Q0MDUyLC03NzI0NDI4MDgsMTAzNTU0MTQyMiwtMTY1MDY3MjA0
-OCwtNTI0MTEyMjExLDY2ODkyODAzMCwyMTM4MDI4MzMyLC01Mj
-QxMTIyMTEsLTE4ODUxNjQxODEsLTM2ODk2MTYyNCwtNzM0Mzky
-MjAyLDU2Mzk5NTkxOCwtNjc1NDMyMjA1LDE5ODkwNTkwNDAsLT
-IwMDczNzgxNDUsLTU4NDkzODk2NSwxMDU3NjcxNzIzLC0xNjY2
-MTczNjM3XX0=
+eyJoaXN0b3J5IjpbLTE0NDc0Nzc4MTksMjc1MzI0MTMsLTM0OD
+Y2ODU4MSwyMTMwOTQ0MDUyLC03NzI0NDI4MDgsMTAzNTU0MTQy
+MiwtMTY1MDY3MjA0OCwtNTI0MTEyMjExLDY2ODkyODAzMCwyMT
+M4MDI4MzMyLC01MjQxMTIyMTEsLTE4ODUxNjQxODEsLTM2ODk2
+MTYyNCwtNzM0MzkyMjAyLDU2Mzk5NTkxOCwtNjc1NDMyMjA1LD
+E5ODkwNTkwNDAsLTIwMDczNzgxNDUsLTU4NDkzODk2NSwxMDU3
+NjcxNzIzXX0=
 -->
