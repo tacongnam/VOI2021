@@ -6,7 +6,7 @@
 
 |Tên  bài                 |File chương trình | Input | Output | TL|Điểm|
 |-------------------------------|-----------------------------|----|---|---|--| 
-|Tìm số      | FINDNUM.CPP | FINDNUM.INP | FINDNUM.OUT | 1s |40
+|Tìm số      | FINDNUM.CPP | FINDNUM.INP | FINDNUM.OUT | 2s |40
 |Đoạn phủ |SEGCOVER.CPP|SEGCOVER.INP|SEGCOVER.OUT|1s|60
 |Dãy số đẹp|GOODSEQ.CPP|GOODSEQ.INP|GOODSEQ.OUT|1s|60
 |Dãy số| SEGFUNC.CPP | SEGFUNC.INP | SEGFUNC.OUT | 3s |40
@@ -15,7 +15,7 @@
 
 # A. Tìm số (FINDNUM - 40 điểm)
 
-### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
+### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 2s**
 
 Cho dãy $x$ có dạng: $x_n = nx_0 + (n-1)x_1 + (n-2)x_2 + ... + (n-i).x_i + ... + x_{n-1}$
 
@@ -33,9 +33,9 @@ In ra $T$ dòng, mỗi dòng là kết quả của bài toán.
 
 ### Scoring
 
-Subtask 1 (15 điểm): $\sum{k} \leq 20$.
+Subtask 1 (15 điểm): $\sum{(k + 1)} \leq 20$.
 
-Subtask 2 (25 điểm): $\sum{k} \leq 10^6$.
+Subtask 2 (25 điểm): $\sum{(k + 1))} \leq 10^6$.
 
 ### Example
 
@@ -174,11 +174,11 @@ Subtask 4 (5 điểm): $n \leq 10^6, a_i \leq 10^{18}$.
 |3<br>1 1 1|1|
 |5<br>1 2 3 4 5|0|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0ODY2ODU4MSwyMTMwOTQ0MDUyLC03Nz
-I0NDI4MDgsMTAzNTU0MTQyMiwtMTY1MDY3MjA0OCwtNTI0MTEy
-MjExLDY2ODkyODAzMCwyMTM4MDI4MzMyLC01MjQxMTIyMTEsLT
-E4ODUxNjQxODEsLTM2ODk2MTYyNCwtNzM0MzkyMjAyLDU2Mzk5
-NTkxOCwtNjc1NDMyMjA1LDE5ODkwNTkwNDAsLTIwMDczNzgxND
-UsLTU4NDkzODk2NSwxMDU3NjcxNzIzLC0xNjY2MTczNjM3LDM0
-MjI0Mzk5NF19
+eyJoaXN0b3J5IjpbMTMxMTkwNTYyMCwtMzQ4NjY4NTgxLDIxMz
+A5NDQwNTIsLTc3MjQ0MjgwOCwxMDM1NTQxNDIyLC0xNjUwNjcy
+MDQ4LC01MjQxMTIyMTEsNjY4OTI4MDMwLDIxMzgwMjgzMzIsLT
+UyNDExMjIxMSwtMTg4NTE2NDE4MSwtMzY4OTYxNjI0LC03MzQz
+OTIyMDIsNTYzOTk1OTE4LC02NzU0MzIyMDUsMTk4OTA1OTA0MC
+wtMjAwNzM3ODE0NSwtNTg0OTM4OTY1LDEwNTc2NzE3MjMsLTE2
+NjYxNzM2MzddfQ==
 -->
