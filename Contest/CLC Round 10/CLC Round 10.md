@@ -162,9 +162,9 @@ In ra $T$ một dòng là kết quả bài toán lấy phần dư cho $10^9 + 7$
 
 Subtask 1 (6 điểm): $T \leq 10$, $M^N \leq 10^6$.
 
-Subtask 2 (20 điểm): $T \leq 10$, $N, M \leq 10^5$.
+Subtask 2 (20 điểm): $T \leq 10$, $N \leq 10^5$, $M \leq 10^{18}$.
 
-Subtask 3 (14 điểm): $T \leq 10^5$, $n \leq 10^{18}$.
+Subtask 3 (14 điểm): $T \leq 10^5$, $N, M \leq 10^{18}$.
 
 
 ### Example
@@ -174,11 +174,11 @@ Subtask 3 (14 điểm): $T \leq 10^5$, $n \leq 10^{18}$.
 |2 <br>2 2<br>3 4<br>| 4 <br> 60|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEzNTE1MzE2LDg3Njc5NjY5OCwxMDUzND
-k3MDgwLC0xMzQ0MDI1ODk2LDQxMzA4MTY3MSwtMTM0NDAyNTg5
-NiwxMDg2MTEwNzA4LDY3MDUzMzIwMyw4NzA5OTU2MTMsNjcwNT
-MzMjAzLDEzMTczNDY4Myw1Njk0MzA1NDMsMTI5Nzk1MzkzMywy
-NzUzMjQxMywtMzQ4NjY4NTgxLDIxMzA5NDQwNTIsLTc3MjQ0Mj
-gwOCwxMDM1NTQxNDIyLC0xNjUwNjcyMDQ4LC01MjQxMTIyMTFd
-fQ==
+eyJoaXN0b3J5IjpbMTcwNzA2MzQ0Myw4NzY3OTY2OTgsMTA1Mz
+Q5NzA4MCwtMTM0NDAyNTg5Niw0MTMwODE2NzEsLTEzNDQwMjU4
+OTYsMTA4NjExMDcwOCw2NzA1MzMyMDMsODcwOTk1NjEzLDY3MD
+UzMzIwMywxMzE3MzQ2ODMsNTY5NDMwNTQzLDEyOTc5NTM5MzMs
+Mjc1MzI0MTMsLTM0ODY2ODU4MSwyMTMwOTQ0MDUyLC03NzI0ND
+I4MDgsMTAzNTU0MTQyMiwtMTY1MDY3MjA0OCwtNTI0MTEyMjEx
+XX0=
 -->
