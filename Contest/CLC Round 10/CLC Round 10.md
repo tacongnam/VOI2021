@@ -41,13 +41,13 @@ Subtask 2 (25 điểm): $\sum{k} \leq 10^6$.
 
 |FINDNUM.INP                   |FINDNUM.OUT                        |
 |-------------------------------|-----------------------------|
-|2 <br> 2 3 3 <br> 2 3 4       | 7 <br>19 |
+|2 <br> 2 3 2 <br> 2 3 3       | 7 <br>19 |
 
 > **Note**:  Ta có:
 > $x_0 = 2$
 > $x_1 = 3$
-> $x_2 = 2x_1 + x_2 = 2.2 + 3 = 7$
-> $x_3 = 3x_1 + 2x_2 + x_3 = 3.2 + 2.3 + 7 = 19$
+> $x_2 = 2x_0 + x_1 = 2.2 + 3 = 7$
+> $x_3 = 3x_0 + 2x_1 + x_2 = 3.2 + 2.3 + 7 = 19$
 
 
 # B. Đoạn phủ (SEGCOVER – 60 điểm)
@@ -174,11 +174,11 @@ Subtask 4 (5 điểm): $n \leq 10^6, a_i \leq 10^{18}$.
 |3<br>1 1 1|1|
 |5<br>1 2 3 4 5|0|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMDM0OTQyNSwtNTI0MTEyMjExLDY2OD
-kyODAzMCwyMTM4MDI4MzMyLC01MjQxMTIyMTEsLTE4ODUxNjQx
-ODEsLTM2ODk2MTYyNCwtNzM0MzkyMjAyLDU2Mzk5NTkxOCwtNj
-c1NDMyMjA1LDE5ODkwNTkwNDAsLTIwMDczNzgxNDUsLTU4NDkz
-ODk2NSwxMDU3NjcxNzIzLC0xNjY2MTczNjM3LDM0MjI0Mzk5NC
-wtNDQ4MjMwMTQzLC05MDA0MDI4NjUsLTExMzY2NDE5MTQsLTIw
-ODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTE2NTA2NzIwNDgsLTUyNDExMjIxMSw2Nj
+g5MjgwMzAsMjEzODAyODMzMiwtNTI0MTEyMjExLC0xODg1MTY0
+MTgxLC0zNjg5NjE2MjQsLTczNDM5MjIwMiw1NjM5OTU5MTgsLT
+Y3NTQzMjIwNSwxOTg5MDU5MDQwLC0yMDA3Mzc4MTQ1LC01ODQ5
+Mzg5NjUsMTA1NzY3MTcyMywtMTY2NjE3MzYzNywzNDIyNDM5OT
+QsLTQ0ODIzMDE0MywtOTAwNDAyODY1LC0xMTM2NjQxOTE0LC0y
+MDg4NzQ2NjEyXX0=
 -->
