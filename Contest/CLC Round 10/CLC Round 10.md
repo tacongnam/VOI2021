@@ -41,7 +41,7 @@ Subtask 2 (25 điểm): $\sum{k} \leq 10^6$.
 
 |FINDNUM.INP                   |FINDNUM.OUT                        |
 |-------------------------------|-----------------------------|
-|3 <br> 2 3 2 <br> 2 3 3 <br> 2 3 4 | 7 <br>19 <br>50 |
+|3 <br> 2 3 2 <br> 2 3 3 <br> 2 3 4 | 7 <br>19 <br>50|
 
 > **Note**:  Ta có:
 > $x_0 = 2$
@@ -174,7 +174,7 @@ Subtask 4 (5 điểm): $n \leq 10^6, a_i \leq 10^{18}$.
 |3<br>1 1 1|1|
 |5<br>1 2 3 4 5|0|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NzU4OTkxNCwtMTY1MDY3MjA0OCwtNT
+eyJoaXN0b3J5IjpbMTAzNTU0MTQyMiwtMTY1MDY3MjA0OCwtNT
 I0MTEyMjExLDY2ODkyODAzMCwyMTM4MDI4MzMyLC01MjQxMTIy
 MTEsLTE4ODUxNjQxODEsLTM2ODk2MTYyNCwtNzM0MzkyMjAyLD
 U2Mzk5NTkxOCwtNjc1NDMyMjA1LDE5ODkwNTkwNDAsLTIwMDcz
