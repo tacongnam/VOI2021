@@ -8,7 +8,7 @@
 |-------------------------------|-----------------------------|----|---|---|--| 
 |Tìm số      | FINDNUM.CPP | FINDNUM.INP | FINDNUM.OUT | 1,5s |40
 |Đoạn phủ |SEGCOVER.CPP|SEGCOVER.INP|SEGCOVER.OUT|1s|60
-|Dãy số đẹp|GOODSEQ.CPP|GOODSEQ.INP|GOODSEQ.OUT|1s|60
+|Biến đổi dãy|GCDOPR.CPP|GCDOPR.INP|GCDOPR.OUT|1s|60
 |Xây dựng dãy số| CONSARR.CPP |CONSARR.INP|CONSARR.OUT| 3s |40
 
 ### Thời gian thi: 10/1/2020
@@ -106,7 +106,7 @@ Subtask 3 (30 điểm): $n \leq 10^5$.
 |-------------------------------|-----------------------------|
 |1<br>3<br>2 5<br>1 3<br>4 7<br> | 5 3 3|
 
-# C. Dãy số đẹp (GOODSEQ– 60 điểm)
+# C. Biến đổi dãy (GCDOPR - 60 điểm)
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
 
@@ -174,11 +174,11 @@ Subtask 3 (14 điểm): $T \leq 10^5$, $N, M \leq 10^{18}$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwODE1NjE1OSwtMTQ0ODkwNjM3Niw5Nz
-EzMTU2NDgsLTEyMDQ1NjcwNjMsOTcxMzE1NjQ4LC0zNjE4MTAz
-NTQsNzY3NjA4ODUwLC00MTMxODM5NTUsLTEyMjM5ODgxNTQsMT
-cwNzA2MzQ0Myw4NzY3OTY2OTgsMTA1MzQ5NzA4MCwtMTM0NDAy
-NTg5Niw0MTMwODE2NzEsLTEzNDQwMjU4OTYsMTA4NjExMDcwOC
-w2NzA1MzMyMDMsODcwOTk1NjEzLDY3MDUzMzIwMywxMzE3MzQ2
-ODNdfQ==
+eyJoaXN0b3J5IjpbMTgwNDkwMDU3LDE1MDgxNTYxNTksLTE0ND
+g5MDYzNzYsOTcxMzE1NjQ4LC0xMjA0NTY3MDYzLDk3MTMxNTY0
+OCwtMzYxODEwMzU0LDc2NzYwODg1MCwtNDEzMTgzOTU1LC0xMj
+IzOTg4MTU0LDE3MDcwNjM0NDMsODc2Nzk2Njk4LDEwNTM0OTcw
+ODAsLTEzNDQwMjU4OTYsNDEzMDgxNjcxLC0xMzQ0MDI1ODk2LD
+EwODYxMTA3MDgsNjcwNTMzMjAzLDg3MDk5NTYxMyw2NzA1MzMy
+MDNdfQ==
 -->
