@@ -33,7 +33,7 @@ In ra $T$ dòng, mỗi dòng là kết quả của bài toán.
 
 ### Scoring
 
-Subtask 1 (15 điểm): $\sum{k} \leq 15$.
+Subtask 1 (15 điểm): $k \leq 15$, $T \leq 100$.
 
 Subtask 2 (25 điểm): $\sum{k} \leq 10^6$.
 
@@ -174,11 +174,11 @@ Subtask 4 (5 điểm): $n \leq 10^6, a_i \leq 10^{18}$.
 |3<br>1 1 1|1|
 |5<br>1 2 3 4 5|0|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNTU0MTQyMiwtMTY1MDY3MjA0OCwtNT
-I0MTEyMjExLDY2ODkyODAzMCwyMTM4MDI4MzMyLC01MjQxMTIy
-MTEsLTE4ODUxNjQxODEsLTM2ODk2MTYyNCwtNzM0MzkyMjAyLD
-U2Mzk5NTkxOCwtNjc1NDMyMjA1LDE5ODkwNTkwNDAsLTIwMDcz
-NzgxNDUsLTU4NDkzODk2NSwxMDU3NjcxNzIzLC0xNjY2MTczNj
-M3LDM0MjI0Mzk5NCwtNDQ4MjMwMTQzLC05MDA0MDI4NjUsLTEx
-MzY2NDE5MTRdfQ==
+eyJoaXN0b3J5IjpbLTc3MjQ0MjgwOCwxMDM1NTQxNDIyLC0xNj
+UwNjcyMDQ4LC01MjQxMTIyMTEsNjY4OTI4MDMwLDIxMzgwMjgz
+MzIsLTUyNDExMjIxMSwtMTg4NTE2NDE4MSwtMzY4OTYxNjI0LC
+03MzQzOTIyMDIsNTYzOTk1OTE4LC02NzU0MzIyMDUsMTk4OTA1
+OTA0MCwtMjAwNzM3ODE0NSwtNTg0OTM4OTY1LDEwNTc2NzE3Mj
+MsLTE2NjYxNzM2MzcsMzQyMjQzOTk0LC00NDgyMzAxNDMsLTkw
+MDQwMjg2NV19
 -->
