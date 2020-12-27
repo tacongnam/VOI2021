@@ -88,11 +88,12 @@ Subtask 3 (40 điểm): $\sum{n} \leq 10^5$, số lượng các bước chuyển
 
 ### Example
 
-|GOODSEQ.INP                    |GOODSEQ.OUT                        |
+|GCDOPR.INP                    |GCDOPR.OUT                        |
 |-------------------------------|-----------------------------|
-|aa|1|
-|aaa|5|
-|abacaba|36|
+|1<br>3<br>1 2 2<br>4<br>1 2 3 2|
+
+> **Note**: 
+> - Trong test thứ nhất không tồn tại cách để đưa dãy 
 
 # C. Đoạn phủ (SEGCOVER – 60 điểm)
 
@@ -182,11 +183,11 @@ Subtask 3 (14 điểm): $T \leq 10^5$, $N, M \leq 10^{18}$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MTI2NjIyMiwxNTA4MTU2MTU5LC0xND
-Q4OTA2Mzc2LDk3MTMxNTY0OCwtMTIwNDU2NzA2Myw5NzEzMTU2
-NDgsLTM2MTgxMDM1NCw3Njc2MDg4NTAsLTQxMzE4Mzk1NSwtMT
-IyMzk4ODE1NCwxNzA3MDYzNDQzLDg3Njc5NjY5OCwxMDUzNDk3
-MDgwLC0xMzQ0MDI1ODk2LDQxMzA4MTY3MSwtMTM0NDAyNTg5Ni
-wxMDg2MTEwNzA4LDY3MDUzMzIwMyw4NzA5OTU2MTMsNjcwNTMz
-MjAzXX0=
+eyJoaXN0b3J5IjpbLTE5MTkyNjU1MjUsMTUwODE1NjE1OSwtMT
+Q0ODkwNjM3Niw5NzEzMTU2NDgsLTEyMDQ1NjcwNjMsOTcxMzE1
+NjQ4LC0zNjE4MTAzNTQsNzY3NjA4ODUwLC00MTMxODM5NTUsLT
+EyMjM5ODgxNTQsMTcwNzA2MzQ0Myw4NzY3OTY2OTgsMTA1MzQ5
+NzA4MCwtMTM0NDAyNTg5Niw0MTMwODE2NzEsLTEzNDQwMjU4OT
+YsMTA4NjExMDcwOCw2NzA1MzMyMDMsODcwOTk1NjEzLDY3MDUz
+MzIwM119
 -->
