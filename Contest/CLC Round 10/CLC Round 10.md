@@ -56,7 +56,7 @@ Subtask 2 (25 điểm): $\sum{(k + 1)} \leq 10^6$.
 
 Cho dãy $a_1$, $a_2$, ..., $a_n$ có $n$ phần tử và $a_i = i$. Bạn có thể thực hiện truy vấn dưới đây một hoặc nhiều lần (có thể không thực hiện):
 
-- Chọn ra hai chỉ số $i < j$ rồi gán $a_i = a_j =gcd(a_i, a_j)$.
+- Chọn ra hai chỉ số $i$, $j$ ($i$ có thể bằng $j$) rồi gán $a_i = a_j =gcd(a_i, a_j)$.
 
 Cho dãy $b_1$, $b_2$, ..., $b_n$. Hãy in ra các bước để chuyển đổi dãy $a$ thành dãy $b$.
 
@@ -76,7 +76,7 @@ In ra $T$ nhóm dòng:
 
 Dòng đầu tiên chứa số nguyên $p$ $(p \geq 0$) - số lượng các bước chuyển đổi. Chú ý, số lượng $p$ sẽ bị giới hạn trong từng subtask. Nếu không tồn tại, in ra -1.
 
-$p$ dòng sau, mỗi dòng chứa hai số nguyên $i$, $j$ $(1 \leq i \neq j \leq n$). Chú ý rằng thứ tự trước sau của $i$ và $j$ là không quan trọng ($i$ $j$ hoặc $j$ $i$ đều được).
+$p$ dòng sau, mỗi dòng chứa hai số nguyên $i$, $j$ $(1 \leq i, j \leq n$). Chú ý rằng thứ tự trước sau của $i$ và $j$ là không quan trọng ($i$ $j$ hoặc $j$ $i$ đều được).
 
 ### Scoring
 
@@ -90,7 +90,7 @@ Subtask 3 (40 điểm): $\sum{n} \leq 10^5$, số lượng các bước chuyển
 
 |GCDOPR.INP                    |GCDOPR.OUT                        |
 |-------------------------------|-----------------------------|
-|1<br>3<br>1 2 2<br>4<br>1 2 1 1|-1<br>1<br>4 3
+|2<br>3<br>1 2 2<br>4<br>1 2 1 1|-1<br>1<br>4 3
 
 > **Note**: 
 > Trong test thứ nhất không tồn tại cách để đưa dãy $a$ thành dãy $b$.
@@ -185,7 +185,7 @@ Subtask 3 (14 điểm): $T \leq 10^5$, $N, M \leq 10^{18}$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDA2MTcwMTcsMTUwODE1NjE1OSwtMT
+eyJoaXN0b3J5IjpbLTEyNDk0ODQyMjUsMTUwODE1NjE1OSwtMT
 Q0ODkwNjM3Niw5NzEzMTU2NDgsLTEyMDQ1NjcwNjMsOTcxMzE1
 NjQ4LC0zNjE4MTAzNTQsNzY3NjA4ODUwLC00MTMxODM5NTUsLT
 EyMjM5ODgxNTQsMTcwNzA2MzQ0Myw4NzY3OTY2OTgsMTA1MzQ5
