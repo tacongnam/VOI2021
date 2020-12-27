@@ -19,7 +19,7 @@
 
 Cho dãy $x$ có dạng: $x_n = nx_0 + (n-1)x_1 + (n-2)x_2 + ... + (n-i).x_i + ... + x_{n-1}$
 
-Cho trước hai số $x_1 = a$, $x_2 = b$ và số $k$ $(a, b \leq 10^{9})$. Hãy in ra giá trị của $x_k$ lấy phần dư cho $998745547$.
+Cho trước hai số $x_1 = a$, $x_2 = b$ và số $k$ $(a, b \leq 10^{9})$. Hãy in ra giá trị của $x_k$.
 
 ### Input: Nhập từ file FINDNUM.INP
 
@@ -33,11 +33,10 @@ In ra $T$ dòng, mỗi dòng là kết quả của bài toán.
 
 ### Scoring
 
-Subtask 1 (8 điểm): $\sum{k} \leq 15$.
+Subtask 1 (15 điểm): $\sum{k} \leq 15$.
 
-Subtask 2 (15 điểm): $\sum{k} \leq 10^6$.
+Subtask 2 (25 điểm): $\sum{k} \leq 10^6$.
 
-Subtask 3 (17 điểm): $\sum{k} \leq 10^{18}$.
 ### Example
 
 |FINDNUM.INP                   |FINDNUM.OUT                        |
@@ -175,10 +174,11 @@ Subtask 4 (5 điểm): $n \leq 10^6, a_i \leq 10^{18}$.
 |3<br>1 1 1|1|
 |5<br>1 2 3 4 5|0|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY4OTI4MDMwLDIxMzgwMjgzMzIsLTUyND
-ExMjIxMSwtMTg4NTE2NDE4MSwtMzY4OTYxNjI0LC03MzQzOTIy
-MDIsNTYzOTk1OTE4LC02NzU0MzIyMDUsMTk4OTA1OTA0MCwtMj
-AwNzM3ODE0NSwtNTg0OTM4OTY1LDEwNTc2NzE3MjMsLTE2NjYx
-NzM2MzcsMzQyMjQzOTk0LC00NDgyMzAxNDMsLTkwMDQwMjg2NS
-wtMTEzNjY0MTkxNCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTUyNDExMjIxMSw2Njg5MjgwMzAsMjEzOD
+AyODMzMiwtNTI0MTEyMjExLC0xODg1MTY0MTgxLC0zNjg5NjE2
+MjQsLTczNDM5MjIwMiw1NjM5OTU5MTgsLTY3NTQzMjIwNSwxOT
+g5MDU5MDQwLC0yMDA3Mzc4MTQ1LC01ODQ5Mzg5NjUsMTA1NzY3
+MTcyMywtMTY2NjE3MzYzNywzNDIyNDM5OTQsLTQ0ODIzMDE0My
+wtOTAwNDAyODY1LC0xMTM2NjQxOTE0LC0yMDg4NzQ2NjEyXX0=
+
 -->
