@@ -163,9 +163,9 @@ Xét trên một test. Gọi số bộ test trong test đó là $T$, số bộ t
 
 Subtask 1 (6 điểm): $T \leq 20$, $M^N \leq 10^6$.
 
-Subtask 2 (20 điểm): $T \leq 20$, $N \leq 10^5$, $M \leq 10^{18}$.
+Subtask 2 (25 điểm): $T \leq 20$, $N \leq 10^5$, $M \leq 10^{18}$.
 
-Subtask 3 (14 điểm): $T \leq 10^5$, $N, M \leq 10^{18}$.
+Subtask 3 (9 điểm): $T \leq 10^5$, $N, M \leq 10^{18}$.
 
 
 ### Example
@@ -176,11 +176,11 @@ Subtask 3 (14 điểm): $T \leq 10^5$, $N, M \leq 10^{18}$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcxMzE1NjQ4LC0zNjE4MTAzNTQsNzY3Nj
-A4ODUwLC00MTMxODM5NTUsLTEyMjM5ODgxNTQsMTcwNzA2MzQ0
-Myw4NzY3OTY2OTgsMTA1MzQ5NzA4MCwtMTM0NDAyNTg5Niw0MT
-MwODE2NzEsLTEzNDQwMjU4OTYsMTA4NjExMDcwOCw2NzA1MzMy
-MDMsODcwOTk1NjEzLDY3MDUzMzIwMywxMzE3MzQ2ODMsNTY5ND
-MwNTQzLDEyOTc5NTM5MzMsMjc1MzI0MTMsLTM0ODY2ODU4MV19
-
+eyJoaXN0b3J5IjpbLTEyMDQ1NjcwNjMsOTcxMzE1NjQ4LC0zNj
+E4MTAzNTQsNzY3NjA4ODUwLC00MTMxODM5NTUsLTEyMjM5ODgx
+NTQsMTcwNzA2MzQ0Myw4NzY3OTY2OTgsMTA1MzQ5NzA4MCwtMT
+M0NDAyNTg5Niw0MTMwODE2NzEsLTEzNDQwMjU4OTYsMTA4NjEx
+MDcwOCw2NzA1MzMyMDMsODcwOTk1NjEzLDY3MDUzMzIwMywxMz
+E3MzQ2ODMsNTY5NDMwNTQzLDEyOTc5NTM5MzMsMjc1MzI0MTNd
+fQ==
 -->
