@@ -56,11 +56,19 @@ Subtask 2 (25 điểm): $\sum{(k + 1)} \leq 10^6$.
 
 Cho dãy $a_1$, $a_2$, ..., $a_n$ có $n$ phần tử và $a_i = i$. Bạn có thể thực hiện truy vấn dưới đây một hoặc nhiều lần (có thể không thực hiện):
 
-- Chọn ra hai chỉ số $i < j$ rồi gán $a_
+- Chọn ra hai chỉ số $i < j$ rồi gán $a_i = a_j =gcd(a_i, a_j)$.
+
+Cho dãy $b_1$, $b_2$, ..., $b_n$. Hãy xác định xem có tồn tại cách thực hiện truy vấn để biến dãy $a$ thành dãy $b$ hay không.
 
 ### Input: Nhập từ file GCDOPR.INP
 
-Gồm một dòng chứa xâu $S$.
+Dòng đầu tiên nhập một số nguyên $T$ – số test trong bài toán.
+
+$T$ nhóm dòng sau, mỗi nhóm dòng có dạng:
+
+Dòng đầu tiên chứa số nguyên $n$ - độ dài dãy.
+
+Dòng thứ hai chứa $n$ số nguy
 
 ### Output: In ra file GCDOPR.OUT
 
@@ -172,11 +180,11 @@ Subtask 3 (14 điểm): $T \leq 10^5$, $N, M \leq 10^{18}$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ3NTMwODYsMTUwODE1NjE1OSwtMTQ0OD
-kwNjM3Niw5NzEzMTU2NDgsLTEyMDQ1NjcwNjMsOTcxMzE1NjQ4
-LC0zNjE4MTAzNTQsNzY3NjA4ODUwLC00MTMxODM5NTUsLTEyMj
-M5ODgxNTQsMTcwNzA2MzQ0Myw4NzY3OTY2OTgsMTA1MzQ5NzA4
-MCwtMTM0NDAyNTg5Niw0MTMwODE2NzEsLTEzNDQwMjU4OTYsMT
-A4NjExMDcwOCw2NzA1MzMyMDMsODcwOTk1NjEzLDY3MDUzMzIw
-M119
+eyJoaXN0b3J5IjpbMTY4NTM5NzU5OCwxNTA4MTU2MTU5LC0xND
+Q4OTA2Mzc2LDk3MTMxNTY0OCwtMTIwNDU2NzA2Myw5NzEzMTU2
+NDgsLTM2MTgxMDM1NCw3Njc2MDg4NTAsLTQxMzE4Mzk1NSwtMT
+IyMzk4ODE1NCwxNzA3MDYzNDQzLDg3Njc5NjY5OCwxMDUzNDk3
+MDgwLC0xMzQ0MDI1ODk2LDQxMzA4MTY3MSwtMTM0NDAyNTg5Ni
+wxMDg2MTEwNzA4LDY3MDUzMzIwMyw4NzA5OTU2MTMsNjcwNTMz
+MjAzXX0=
 -->
