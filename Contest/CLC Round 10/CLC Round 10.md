@@ -144,7 +144,7 @@ Subtask 4 (20 điểm): $1 \leq |s| \leq 2000$.
 
 # D. Xây dựng dãy số (CONSARR - 40 điểm)
 
-### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 2s**
+### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1,5s**
 
 Cho số $N$ và $M$. Hãy đếm số dãy có độ dài $N$ và các phần tử trong dãy thuộc đoạn $[1, M]$ sao cho không tồn tại ba phần tử liên tiếp có giá trị bằng nhau.
 
@@ -176,11 +176,11 @@ Subtask 3 (14 điểm): $T \leq 10^5$, $N, M \leq 10^{18}$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcxMzE1NjQ4LC0xMjA0NTY3MDYzLDk3MT
-MxNTY0OCwtMzYxODEwMzU0LDc2NzYwODg1MCwtNDEzMTgzOTU1
-LC0xMjIzOTg4MTU0LDE3MDcwNjM0NDMsODc2Nzk2Njk4LDEwNT
-M0OTcwODAsLTEzNDQwMjU4OTYsNDEzMDgxNjcxLC0xMzQ0MDI1
-ODk2LDEwODYxMTA3MDgsNjcwNTMzMjAzLDg3MDk5NTYxMyw2Nz
-A1MzMyMDMsMTMxNzM0NjgzLDU2OTQzMDU0MywxMjk3OTUzOTMz
-XX0=
+eyJoaXN0b3J5IjpbLTE0NDg5MDYzNzYsOTcxMzE1NjQ4LC0xMj
+A0NTY3MDYzLDk3MTMxNTY0OCwtMzYxODEwMzU0LDc2NzYwODg1
+MCwtNDEzMTgzOTU1LC0xMjIzOTg4MTU0LDE3MDcwNjM0NDMsOD
+c2Nzk2Njk4LDEwNTM0OTcwODAsLTEzNDQwMjU4OTYsNDEzMDgx
+NjcxLC0xMzQ0MDI1ODk2LDEwODYxMTA3MDgsNjcwNTMzMjAzLD
+g3MDk5NTYxMyw2NzA1MzMyMDMsMTMxNzM0NjgzLDU2OTQzMDU0
+M119
 -->
