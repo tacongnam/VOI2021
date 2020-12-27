@@ -66,11 +66,9 @@ Dòng đầu tiên nhập hai số nguyên $\theta$ và $T$ – thứ tự của
 
 $T$ nhóm dòng sau, mỗi nhóm dòng có dạng:
 
-Dòng đầu tiên chứa số nguyên $n$ - độ dài dãy.
+Dòng đầu tiên chứa số nguyên $n$ - độ dài dãy. $(n \leq 10^
 
-Dòng thứ hai chứa $n$ số nguyên dương $a_1$, $a_2$, ..., $a_n$.
-
-Dòng thứ ba chứa $n$ số nguyên dương $b_1$, $b_2$, ..., $b_n$.
+Dòng thứ hai chứa $n$ số nguyên dương $b_1$, $b_2$, ..., $b_n$.
 
 ### Output: In ra file GCDOPR.OUT
 
@@ -82,9 +80,9 @@ $p$ dòng sau, mỗi dòng chứa hai số nguyên $i$, $j$ $(1 \leq i \neq j \l
 
 ### Scoring
 
-Subtask 1 (10 điểm): $T = 2$, $N \l
+Subtask 1 (10 điểm): $N \leq 4$, số lượng các bước chuyển đổi với mỗi subtask giới hạn trong $10^6$ phép chuyển đổi.
 
-Subtask 2 (15 điểm): $1 \leq |s| \leq 80$
+Subtask 2 (15 điểm): $N \leq 10$, số lượng các bước chuyển đổi với mỗi subtask giới hạn trong $10^6$ phép chuyển đổi.
 
 Subtask 3 (15 điểm): $1 \leq |s| \leq 200$.
 
@@ -186,11 +184,11 @@ Subtask 3 (14 điểm): $T \leq 10^5$, $N, M \leq 10^{18}$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MTU4NjM0OCwxNTA4MTU2MTU5LC0xND
-Q4OTA2Mzc2LDk3MTMxNTY0OCwtMTIwNDU2NzA2Myw5NzEzMTU2
-NDgsLTM2MTgxMDM1NCw3Njc2MDg4NTAsLTQxMzE4Mzk1NSwtMT
-IyMzk4ODE1NCwxNzA3MDYzNDQzLDg3Njc5NjY5OCwxMDUzNDk3
-MDgwLC0xMzQ0MDI1ODk2LDQxMzA4MTY3MSwtMTM0NDAyNTg5Ni
-wxMDg2MTEwNzA4LDY3MDUzMzIwMyw4NzA5OTU2MTMsNjcwNTMz
-MjAzXX0=
+eyJoaXN0b3J5IjpbNjQ1MzcwMDA1LDE1MDgxNTYxNTksLTE0ND
+g5MDYzNzYsOTcxMzE1NjQ4LC0xMjA0NTY3MDYzLDk3MTMxNTY0
+OCwtMzYxODEwMzU0LDc2NzYwODg1MCwtNDEzMTgzOTU1LC0xMj
+IzOTg4MTU0LDE3MDcwNjM0NDMsODc2Nzk2Njk4LDEwNTM0OTcw
+ODAsLTEzNDQwMjU4OTYsNDEzMDgxNjcxLC0xMzQ0MDI1ODk2LD
+EwODYxMTA3MDgsNjcwNTMzMjAzLDg3MDk5NTYxMyw2NzA1MzMy
+MDNdfQ==
 -->
