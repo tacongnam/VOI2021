@@ -66,9 +66,9 @@ Dòng đầu tiên nhập hai số nguyên $\theta$ và $T$ – thứ tự của
 
 $T$ nhóm dòng sau, mỗi nhóm dòng có dạng:
 
-Dòng đầu tiên chứa số nguyên $n$ - độ dài dãy. $(n \leq 10^
+Dòng đầu tiên chứa số nguyên $n$ - độ dài dãy $(n \leq 10^4)$.
 
-Dòng thứ hai chứa $n$ số nguyên dương $b_1$, $b_2$, ..., $b_n$.
+Dòng thứ hai chứa $n$ số nguyên dương $b_1$, $b_2$, ..., $b_n$ $(b_i \leq i)$.
 
 ### Output: In ra file GCDOPR.OUT
 
@@ -80,11 +80,11 @@ $p$ dòng sau, mỗi dòng chứa hai số nguyên $i$, $j$ $(1 \leq i \neq j \l
 
 ### Scoring
 
-Subtask 1 (10 điểm): $N \leq 4$, số lượng các bước chuyển đổi với mỗi subtask giới hạn trong $10^6$ phép chuyển đổi.
+Subtask 1 (9 điểm): $N \leq 4$, số lượng các bước chuyển đổi với mỗi subtask giới hạn trong $10^6$ phép chuyển đổi.
 
-Subtask 2 (15 điểm): $N \leq 10$, số lượng các bước chuyển đổi với mỗi subtask giới hạn trong $10^6$ phép chuyển đổi.
+Subtask 2 (6 điểm): Tối đa có một chỉ số $p$ sao cho $b_p \neq p$, số lượng các bước chuyển đổi với mỗi subtask giới hạn trong $10^6$ phép chuyển đổi.
 
-Subtask 3 (15 điểm): $1 \leq |s| \leq 200$.
+Subtask 3 (20 điểm): $1 \leq |s| \leq 200$.
 
 Subtask 4 (20 điểm): $1 \leq |s| \leq 2000$.
 
@@ -184,11 +184,11 @@ Subtask 3 (14 điểm): $T \leq 10^5$, $N, M \leq 10^{18}$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ1MzcwMDA1LDE1MDgxNTYxNTksLTE0ND
-g5MDYzNzYsOTcxMzE1NjQ4LC0xMjA0NTY3MDYzLDk3MTMxNTY0
-OCwtMzYxODEwMzU0LDc2NzYwODg1MCwtNDEzMTgzOTU1LC0xMj
-IzOTg4MTU0LDE3MDcwNjM0NDMsODc2Nzk2Njk4LDEwNTM0OTcw
-ODAsLTEzNDQwMjU4OTYsNDEzMDgxNjcxLC0xMzQ0MDI1ODk2LD
-EwODYxMTA3MDgsNjcwNTMzMjAzLDg3MDk5NTYxMyw2NzA1MzMy
-MDNdfQ==
+eyJoaXN0b3J5IjpbLTEyMjAyMDgzMDUsMTUwODE1NjE1OSwtMT
+Q0ODkwNjM3Niw5NzEzMTU2NDgsLTEyMDQ1NjcwNjMsOTcxMzE1
+NjQ4LC0zNjE4MTAzNTQsNzY3NjA4ODUwLC00MTMxODM5NTUsLT
+EyMjM5ODgxNTQsMTcwNzA2MzQ0Myw4NzY3OTY2OTgsMTA1MzQ5
+NzA4MCwtMTM0NDAyNTg5Niw0MTMwODE2NzEsLTEzNDQwMjU4OT
+YsMTA4NjExMDcwOCw2NzA1MzMyMDMsODcwOTk1NjEzLDY3MDUz
+MzIwM119
 -->
