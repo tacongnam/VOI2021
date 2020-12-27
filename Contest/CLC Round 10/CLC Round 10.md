@@ -9,7 +9,7 @@
 |Tìm số      | FINDNUM.CPP | FINDNUM.INP | FINDNUM.OUT | 1,5s |40
 |Đoạn phủ |SEGCOVER.CPP|SEGCOVER.INP|SEGCOVER.OUT|1s|60
 |Dãy số đẹp|GOODSEQ.CPP|GOODSEQ.INP|GOODSEQ.OUT|1s|60
-|Dãy số| SEGFUNC.CPP | SEGFUNC.INP | SEGFUNC.OUT | 3s |40
+|Xây dựng dãy số| CONSARR.CPP |CONSARR.INP|CONSARR.OUT| 3s |40
 
 ### Thời gian thi: 10/1/2020
 
@@ -159,8 +159,6 @@ $T$ dòng sau, mỗi dòng chứa hai số nguyên dương $N$, $M$.
 In ra $T$ một dòng là kết quả bài toán lấy phần dư cho $10^9 + 7$.
 
 ### Scoring
-Xét trên một test. Gọi số bộ test trong test đó là $T$, số bộ test mà bạn trả lời sai là $T'$. Khi đó hệ số bạn đạt được là: $1 - \dfrac{log_{10}(T'+1)}{log_{10}(T+1)}$. Số điểm bạn đạt được của test đó = số điểm của test * hệ số bạn đạt được.
-
 Subtask 1 (6 điểm): $T \leq 20$, $M^N \leq 10^6$.
 
 Subtask 2 (20 điểm): $T \leq 20$, $N \leq 10^5$, $M \leq 10^{18}$.
@@ -176,11 +174,11 @@ Subtask 3 (14 điểm): $T \leq 10^5$, $N, M \leq 10^{18}$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDg5MDYzNzYsOTcxMzE1NjQ4LC0xMj
-A0NTY3MDYzLDk3MTMxNTY0OCwtMzYxODEwMzU0LDc2NzYwODg1
-MCwtNDEzMTgzOTU1LC0xMjIzOTg4MTU0LDE3MDcwNjM0NDMsOD
-c2Nzk2Njk4LDEwNTM0OTcwODAsLTEzNDQwMjU4OTYsNDEzMDgx
-NjcxLC0xMzQ0MDI1ODk2LDEwODYxMTA3MDgsNjcwNTMzMjAzLD
-g3MDk5NTYxMyw2NzA1MzMyMDMsMTMxNzM0NjgzLDU2OTQzMDU0
-M119
+eyJoaXN0b3J5IjpbMTUwODE1NjE1OSwtMTQ0ODkwNjM3Niw5Nz
+EzMTU2NDgsLTEyMDQ1NjcwNjMsOTcxMzE1NjQ4LC0zNjE4MTAz
+NTQsNzY3NjA4ODUwLC00MTMxODM5NTUsLTEyMjM5ODgxNTQsMT
+cwNzA2MzQ0Myw4NzY3OTY2OTgsMTA1MzQ5NzA4MCwtMTM0NDAy
+NTg5Niw0MTMwODE2NzEsLTEzNDQwMjU4OTYsMTA4NjExMDcwOC
+w2NzA1MzMyMDMsODcwOTk1NjEzLDY3MDUzMzIwMywxMzE3MzQ2
+ODNdfQ==
 -->
