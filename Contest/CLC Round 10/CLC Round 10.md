@@ -80,13 +80,11 @@ $p$ dòng sau, mỗi dòng chứa hai số nguyên $i$, $j$ $(1 \leq i \neq j \l
 
 ### Scoring
 
-Subtask 1 (9 điểm): $N \leq 4$, số lượng các bước chuyển đổi với mỗi subtask giới hạn trong $10^6$ phép chuyển đổi.
+Subtask 1 (9 điểm): $T = 1$, $N \leq 4$, số lượng các bước chuyển đổi với mỗi subtask giới hạn trong $10^6$ phép chuyển đổi.
 
-Subtask 2 (6 điểm): Tối đa có một chỉ số $p$ sao cho $b_p \neq p$, số lượng các bước chuyển đổi với mỗi subtask giới hạn trong $10^6$ phép chuyển đổi.
+Subtask 2 (6 điểm): $T = 10$. Tối đa có một chỉ số $p$ sao cho $b_p \neq p$, số lượng các bước chuyển đổi với mỗi subtask giới hạn trong $10^5$ phép chuyển đổi.
 
-Subtask 3 (20 điểm): $1 \leq |s| \leq 200$.
-
-Subtask 4 (20 điểm): $1 \leq |s| \leq 2000$.
+Subtask 3 (20 điểm): $T = 1$\sum{n} \leq 10^5$. số lượng các bước chuyển đổi với mỗi subtask giới hạn trong $10^6$ phép chuyển đổi.
 
 ### Example
 
@@ -184,11 +182,11 @@ Subtask 3 (14 điểm): $T \leq 10^5$, $N, M \leq 10^{18}$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjAyMDgzMDUsMTUwODE1NjE1OSwtMT
-Q0ODkwNjM3Niw5NzEzMTU2NDgsLTEyMDQ1NjcwNjMsOTcxMzE1
-NjQ4LC0zNjE4MTAzNTQsNzY3NjA4ODUwLC00MTMxODM5NTUsLT
-EyMjM5ODgxNTQsMTcwNzA2MzQ0Myw4NzY3OTY2OTgsMTA1MzQ5
-NzA4MCwtMTM0NDAyNTg5Niw0MTMwODE2NzEsLTEzNDQwMjU4OT
-YsMTA4NjExMDcwOCw2NzA1MzMyMDMsODcwOTk1NjEzLDY3MDUz
-MzIwM119
+eyJoaXN0b3J5IjpbMTQ2ODYzMzMyOSwxNTA4MTU2MTU5LC0xND
+Q4OTA2Mzc2LDk3MTMxNTY0OCwtMTIwNDU2NzA2Myw5NzEzMTU2
+NDgsLTM2MTgxMDM1NCw3Njc2MDg4NTAsLTQxMzE4Mzk1NSwtMT
+IyMzk4ODE1NCwxNzA3MDYzNDQzLDg3Njc5NjY5OCwxMDUzNDk3
+MDgwLC0xMzQ0MDI1ODk2LDQxMzA4MTY3MSwtMTM0NDAyNTg5Ni
+wxMDg2MTEwNzA4LDY3MDUzMzIwMyw4NzA5OTU2MTMsNjcwNTMz
+MjAzXX0=
 -->
