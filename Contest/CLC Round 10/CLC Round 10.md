@@ -50,7 +50,39 @@ Subtask 2 (25 điểm): $\sum{(k + 1)} \leq 10^6$.
 > $x_3 = 3x_0 + 2x_1 + x_2 = 3.2 + 2.3 + 7 = 19$
 > $x_4 = 4x_0 + 3x_1 + 2x_2 + x_3 = 4.2 + 3.3 + 2.7 + 19 = 50$
 
-# B. Đoạn phủ (SEGCOVER – 60 điểm)
+# C. Biến đổi dãy (GCDOPR - 60 điểm)
+
+### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
+
+Xét dãy 
+
+### Input: Nhập từ file GCDOPR.INP
+
+Gồm một dòng chứa xâu $S$.
+
+### Output: In ra file GCDOPR.OUT
+
+In ra một dòng là kết quả bài toán.
+
+### Scoring
+
+Subtask 1 (10 điểm): $1 \leq |s| \leq 30$
+
+Subtask 2 (15 điểm): $1 \leq |s| \leq 80$
+
+Subtask 3 (15 điểm): $1 \leq |s| \leq 200$.
+
+Subtask 4 (20 điểm): $1 \leq |s| \leq 2000$.
+
+### Example
+
+|GOODSEQ.INP                    |GOODSEQ.OUT                        |
+|-------------------------------|-----------------------------|
+|aa|1|
+|aaa|5|
+|abacaba|36|
+
+# C. Đoạn phủ (SEGCOVER – 60 điểm)
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
 
@@ -106,42 +138,6 @@ Subtask 3 (30 điểm): $n \leq 10^5$.
 |-------------------------------|-----------------------------|
 |1<br>3<br>2 5<br>1 3<br>4 7<br> | 5 3 3|
 
-# C. Biến đổi dãy (GCDOPR - 60 điểm)
-
-### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1s**
-
-Cho xâu $S$ gồm các chữ cái tiếng Anh in thường. Bạn cần phải đếm xem có bao nhiêu bộ $(i, j, u, v)$ với $1 \leq i \leq j < u \leq v \leq |s|$ sao cho xâu con liên tiếp $s[i...j]$ và $s[u...v]$ đều là hai xâu đối xứng.
-
-Xâu con liếp $s[a...b]$ của một xâu $s$ là xâu bao gồm dãy các phần tử liên tiếp $s_as_{a+1}...s_b$.
-
-Xâu $s$ được gọi là xâu đối xứng nếu ta viết xuôi hoặc viết ngược xâu đấy vẫn nhận được cùng một xâu. Ví dụ 'abacaba', 'abba', 'z' là xâu đối xứng.
-
-### Input: Nhập từ file GOODSEQ.INP
-
-Gồm một dòng chứa xâu $S$.
-
-### Output: In ra file GOODSEQ.OUT
-
-In ra một dòng là kết quả bài toán.
-
-### Scoring
-
-Subtask 1 (10 điểm): $1 \leq |s| \leq 30$
-
-Subtask 2 (15 điểm): $1 \leq |s| \leq 80$
-
-Subtask 3 (15 điểm): $1 \leq |s| \leq 200$.
-
-Subtask 4 (20 điểm): $1 \leq |s| \leq 2000$.
-
-### Example
-
-|GOODSEQ.INP                    |GOODSEQ.OUT                        |
-|-------------------------------|-----------------------------|
-|aa|1|
-|aaa|5|
-|abacaba|36|
-
 # D. Xây dựng dãy số (CONSARR - 40 điểm)
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 1,5s**
@@ -174,11 +170,11 @@ Subtask 3 (14 điểm): $T \leq 10^5$, $N, M \leq 10^{18}$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNDkwMDU3LDE1MDgxNTYxNTksLTE0ND
-g5MDYzNzYsOTcxMzE1NjQ4LC0xMjA0NTY3MDYzLDk3MTMxNTY0
-OCwtMzYxODEwMzU0LDc2NzYwODg1MCwtNDEzMTgzOTU1LC0xMj
-IzOTg4MTU0LDE3MDcwNjM0NDMsODc2Nzk2Njk4LDEwNTM0OTcw
-ODAsLTEzNDQwMjU4OTYsNDEzMDgxNjcxLC0xMzQ0MDI1ODk2LD
-EwODYxMTA3MDgsNjcwNTMzMjAzLDg3MDk5NTYxMyw2NzA1MzMy
-MDNdfQ==
+eyJoaXN0b3J5IjpbLTE4OTQyMjI5NzIsMTUwODE1NjE1OSwtMT
+Q0ODkwNjM3Niw5NzEzMTU2NDgsLTEyMDQ1NjcwNjMsOTcxMzE1
+NjQ4LC0zNjE4MTAzNTQsNzY3NjA4ODUwLC00MTMxODM5NTUsLT
+EyMjM5ODgxNTQsMTcwNzA2MzQ0Myw4NzY3OTY2OTgsMTA1MzQ5
+NzA4MCwtMTM0NDAyNTg5Niw0MTMwODE2NzEsLTEzNDQwMjU4OT
+YsMTA4NjExMDcwOCw2NzA1MzMyMDMsODcwOTk1NjEzLDY3MDUz
+MzIwM119
 -->
