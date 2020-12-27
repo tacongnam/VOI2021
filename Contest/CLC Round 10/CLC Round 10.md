@@ -80,11 +80,11 @@ $p$ dòng sau, mỗi dòng chứa hai số nguyên $i$, $j$ $(1 \leq i \neq j \l
 
 ### Scoring
 
-Subtask 1 (9 điểm): $T = 1$, $N \leq 4$, số lượng các bước chuyển đổi với mỗi subtask giới hạn trong $10^6$ phép chuyển đổi.
+Subtask 1 (10 điểm): $T = 1$, $N \leq 4$, số lượng các bước chuyển đổi với mỗi test giới hạn trong $10^6$ phép chuyển đổi.
 
-Subtask 2 (6 điểm): $T = 10$. Tối đa có một chỉ số $p$ sao cho $b_p \neq p$, số lượng các bước chuyển đổi với mỗi subtask giới hạn trong $10^5$ phép chuyển đổi.
+Subtask 2 (10 điểm): $T = 10$. Tối đa có một chỉ số $p$ sao cho $b_p \neq p$, số lượng các bước chuyển đổi với mỗi test giới hạn trong $10^5$ phép chuyển đổi.
 
-Subtask 3 (20 điểm): $T = 1$\sum{n} \leq 10^5$. số lượng các bước chuyển đổi với mỗi subtask giới hạn trong $10^6$ phép chuyển đổi.
+Subtask 3 (40 điểm): $\sum{n} \leq 10^5$, số lượng các bước chuyển đổi với mỗi test giới hạn trong $n$ phép chuyển đổi.
 
 ### Example
 
@@ -182,7 +182,7 @@ Subtask 3 (14 điểm): $T \leq 10^5$, $N, M \leq 10^{18}$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2ODYzMzMyOSwxNTA4MTU2MTU5LC0xND
+eyJoaXN0b3J5IjpbLTY5MTI2NjIyMiwxNTA4MTU2MTU5LC0xND
 Q4OTA2Mzc2LDk3MTMxNTY0OCwtMTIwNDU2NzA2Myw5NzEzMTU2
 NDgsLTM2MTgxMDM1NCw3Njc2MDg4NTAsLTQxMzE4Mzk1NSwtMT
 IyMzk4ODE1NCwxNzA3MDYzNDQzLDg3Njc5NjY5OCwxMDUzNDk3
