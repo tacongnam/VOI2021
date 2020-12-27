@@ -118,7 +118,7 @@ Xâu $s$ được gọi là xâu đối xứng nếu ta viết xuôi hoặc vi�
 
 ### Input: Nhập từ file GOODSEQ.INP
 
-Gồm một dòng chứa xâu $s$.
+Gồm một dòng chứa xâu $S$.
 
 ### Output: In ra file GOODSEQ.OUT
 
@@ -176,11 +176,11 @@ Subtask 4 (5 điểm): $n \leq 10^6, a_i \leq 10^9$.
 |3<br>1 1 1|1|
 |5<br>1 2 3 4 5|0|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDQwMjU4OTYsNDEzMDgxNjcxLC0xMz
-Q0MDI1ODk2LDEwODYxMTA3MDgsNjcwNTMzMjAzLDg3MDk5NTYx
-Myw2NzA1MzMyMDMsMTMxNzM0NjgzLDU2OTQzMDU0MywxMjk3OT
-UzOTMzLDI3NTMyNDEzLC0zNDg2Njg1ODEsMjEzMDk0NDA1Miwt
-NzcyNDQyODA4LDEwMzU1NDE0MjIsLTE2NTA2NzIwNDgsLTUyND
-ExMjIxMSw2Njg5MjgwMzAsMjEzODAyODMzMiwtNTI0MTEyMjEx
+eyJoaXN0b3J5IjpbMTA1MzQ5NzA4MCwtMTM0NDAyNTg5Niw0MT
+MwODE2NzEsLTEzNDQwMjU4OTYsMTA4NjExMDcwOCw2NzA1MzMy
+MDMsODcwOTk1NjEzLDY3MDUzMzIwMywxMzE3MzQ2ODMsNTY5ND
+MwNTQzLDEyOTc5NTM5MzMsMjc1MzI0MTMsLTM0ODY2ODU4MSwy
+MTMwOTQ0MDUyLC03NzI0NDI4MDgsMTAzNTU0MTQyMiwtMTY1MD
+Y3MjA0OCwtNTI0MTEyMjExLDY2ODkyODAzMCwyMTM4MDI4MzMy
 XX0=
 -->
