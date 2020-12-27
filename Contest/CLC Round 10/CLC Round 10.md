@@ -56,9 +56,11 @@ Subtask 2 (25 điểm): $\sum{(k + 1)} \leq 10^6$.
 
 Cho $n$ đoạn số, đoạn thứ $i$ phủ từ $x_i$ đến $y_i$ (bao gồm cả hai điểm $x_i$, $y_i$) trên trục số. Ta xếp chồng các đoạn này lên trục số thì nhận thấy các đoạn có thể rời nhau, tiếp xúc  nhau, hoặc cắt nhau.
 
-Khi xem lại trục số, dựa trên vị trí phủ của các đoạn và vị trí cắt nhau giữa hai đoạn, ta thấy các đoạn ban đầu sẽ tách thành các đoạn mới nhỏ hơn. Các đoạn nhỏ hơn này đều có tính chất: 
+Khi xem lại trục số, dựa trên vị trí phủ của các đoạn và vị trí cắt nhau giữa hai đoạn, ta thấy các đoạn ban đầu sẽ tách thành các đoạn mới nhỏ hơn. Xét đoạn $[u, v] có tính chất:
 
-+) Xét đoạn $[u, v]$; hoặc tồn tại ít nhất một đoạn phủ trong $n$ đoạn phủ sao cho chúng bắt đầu tại $u$, kết thúc tại một điểm lớn hơn hoặc bằng $v$; hoặc không tồn tại đoạn phủ nào trong $n$ đoạn phủ sao cho chúng bắt đầu tại một điểm thuộc $(u, v]$; hoặc tồn tại ít nhất một đoạn phủ trong $n$ đoạn phủ sao cho chúng bắt đầu tại một điểm nhỏ hơn hoặc bằng $u$, kết thúc tại $v$; hoặc không tồn tại đoạn phủ nào trong $n$ đoạn phủ sao cho chúng kết thúc tại một điểm thuộc $[u, v)$.
+ - Hoặc tồn tại ít nhất một đoạn phủ trong $n$ đoạn phủ sao cho chúng bắt đầu tại $u$, kết thúc tại một điểm lớn hơn hoặc bằng $v$; hoặc tồn tại ít nhất một đoạn phủ trong $n$ đoạn phủ sao cho chúng bắt đầu tại một điểm nhỏ hơn hoặc bằng $u$, kết thúc tại $v$;
+ 
+ - Không tồn tại đoạn phủ nào trong $n$ đoạn phủ sao cho chúng bắt đầu tại một điểm thuộc $(u, v]$; Không tồn tại đoạn phủ nào trong $n$ đoạn phủ sao cho chúng kết thúc tại một điểm thuộc $[u, v)$.
 
 +) Không tồn tại hai đoạn khác nhau $[a, b]$, $[u, v]$ sao cho $a \leq u < b \leq v$.
 
@@ -174,11 +176,11 @@ Subtask 4 (5 điểm): $n \leq 10^6, a_i \leq 10^9$.
 |3<br>1 1 1|1|
 |5<br>1 2 3 4 5|0|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNzM0NjgzLDU2OTQzMDU0MywxMjk3OT
-UzOTMzLDI3NTMyNDEzLC0zNDg2Njg1ODEsMjEzMDk0NDA1Miwt
-NzcyNDQyODA4LDEwMzU1NDE0MjIsLTE2NTA2NzIwNDgsLTUyND
-ExMjIxMSw2Njg5MjgwMzAsMjEzODAyODMzMiwtNTI0MTEyMjEx
-LC0xODg1MTY0MTgxLC0zNjg5NjE2MjQsLTczNDM5MjIwMiw1Nj
-M5OTU5MTgsLTY3NTQzMjIwNSwxOTg5MDU5MDQwLC0yMDA3Mzc4
-MTQ1XX0=
+eyJoaXN0b3J5IjpbLTIxMTE2NTM0MiwxMzE3MzQ2ODMsNTY5ND
+MwNTQzLDEyOTc5NTM5MzMsMjc1MzI0MTMsLTM0ODY2ODU4MSwy
+MTMwOTQ0MDUyLC03NzI0NDI4MDgsMTAzNTU0MTQyMiwtMTY1MD
+Y3MjA0OCwtNTI0MTEyMjExLDY2ODkyODAzMCwyMTM4MDI4MzMy
+LC01MjQxMTIyMTEsLTE4ODUxNjQxODEsLTM2ODk2MTYyNCwtNz
+M0MzkyMjAyLDU2Mzk5NTkxOCwtNjc1NDMyMjA1LDE5ODkwNTkw
+NDBdfQ==
 -->
