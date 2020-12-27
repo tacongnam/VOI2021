@@ -78,10 +78,11 @@ In ra $T$ nhóm dòng:
 
 Dòng đầu tiên chứa số nguyên $p$ $(p \geq 0$) - số lượng các bước chuyển đổi. Chú ý, số lượng $p$ sẽ bị giới hạn trong từng subtask.
 
-$p$ dòng sau, mỗi dòng chứa hai số nguyên $i$, $j$ $(1 \leq i \diff j \leq n$)
+$p$ dòng sau, mỗi dòng chứa hai số nguyên $i$, $j$ $(1 \leq i \neq j \leq n$). Chú ý rằng thứ tự trước sau của $i$ và $j$ là không quan trọng ($i$ $j$ hoặc $j$ $i$ đều được).
+
 ### Scoring
 
-Subtask 1 (10 điểm): $1 \leq |s| \leq 30$
+Subtask 1 (10 điểm): $T = 2$, $N \l
 
 Subtask 2 (15 điểm): $1 \leq |s| \leq 80$
 
@@ -185,11 +186,11 @@ Subtask 3 (14 điểm): $T \leq 10^5$, $N, M \leq 10^{18}$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ5NjE3NTUzLDE1MDgxNTYxNTksLTE0ND
-g5MDYzNzYsOTcxMzE1NjQ4LC0xMjA0NTY3MDYzLDk3MTMxNTY0
-OCwtMzYxODEwMzU0LDc2NzYwODg1MCwtNDEzMTgzOTU1LC0xMj
-IzOTg4MTU0LDE3MDcwNjM0NDMsODc2Nzk2Njk4LDEwNTM0OTcw
-ODAsLTEzNDQwMjU4OTYsNDEzMDgxNjcxLC0xMzQ0MDI1ODk2LD
-EwODYxMTA3MDgsNjcwNTMzMjAzLDg3MDk5NTYxMyw2NzA1MzMy
-MDNdfQ==
+eyJoaXN0b3J5IjpbMTE0MTU4NjM0OCwxNTA4MTU2MTU5LC0xND
+Q4OTA2Mzc2LDk3MTMxNTY0OCwtMTIwNDU2NzA2Myw5NzEzMTU2
+NDgsLTM2MTgxMDM1NCw3Njc2MDg4NTAsLTQxMzE4Mzk1NSwtMT
+IyMzk4ODE1NCwxNzA3MDYzNDQzLDg3Njc5NjY5OCwxMDUzNDk3
+MDgwLC0xMzQ0MDI1ODk2LDQxMzA4MTY3MSwtMTM0NDAyNTg5Ni
+wxMDg2MTEwNzA4LDY3MDUzMzIwMyw4NzA5OTU2MTMsNjcwNTMz
+MjAzXX0=
 -->
