@@ -62,7 +62,7 @@ Cho dãy $b_1$, $b_2$, ..., $b_n$. Hãy in ra các bước để chuyển đổi
 
 ### Input: Nhập từ file GCDOPR.INP
 
-Dòng đầu tiên nhập một số nguyên $T$ – số test trong bài toán.
+Dòng đầu tiên nhập hai số nguyên $\theta$ và $T$ – thứ tự của subtask và số test trong bài toán.
 
 $T$ nhóm dòng sau, mỗi nhóm dòng có dạng:
 
@@ -76,8 +76,9 @@ Dòng thứ ba chứa $n$ số nguyên dương $b_1$, $b_2$, ..., $b_n$.
 
 In ra $T$ nhóm dòng:
 
-Dòng đầu tiên chứa số nguyên $p$ $(p \geq 0$):L
+Dòng đầu tiên chứa số nguyên $p$ $(p \geq 0$) - số lượng các bước chuyển đổi. Chú ý, số lượng $p$ sẽ bị giới hạn trong từng subtask.
 
+$p$ dòng sau, mỗi dòng chứa hai số nguyên $i$, $j$ $(1 \leq i \diff j \leq n$)
 ### Scoring
 
 Subtask 1 (10 điểm): $1 \leq |s| \leq 30$
@@ -184,7 +185,7 @@ Subtask 3 (14 điểm): $T \leq 10^5$, $N, M \leq 10^{18}$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgwMDYzNjkwLDE1MDgxNTYxNTksLTE0ND
+eyJoaXN0b3J5IjpbOTQ5NjE3NTUzLDE1MDgxNTYxNTksLTE0ND
 g5MDYzNzYsOTcxMzE1NjQ4LC0xMjA0NTY3MDYzLDk3MTMxNTY0
 OCwtMzYxODEwMzU0LDc2NzYwODg1MCwtNDEzMTgzOTU1LC0xMj
 IzOTg4MTU0LDE3MDcwNjM0NDMsODc2Nzk2Njk4LDEwNTM0OTcw
