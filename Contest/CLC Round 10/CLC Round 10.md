@@ -142,15 +142,13 @@ Subtask 4 (20 điểm): $1 \leq |s| \leq 2000$.
 |aaa|5|
 |abacaba|36|
 
-# D. Dãy số (SEQFUNC - 40 điểm)
+# D. Xây dựng dãy số (CONSARR - 40 điểm)
 
 ### **Memory limit: 1024MB  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  Time limit: 3s**
 
-Cho dãy $A$ gồm $n$ phần tử $a_1$, $a_2$, ..., $a_n$. Định nghĩa hàm $f(l, r, x)$ sẽ trả về số lượng phần tử nằm trong đoạn $[l, r]$ có giá trị bằng $x$.
+Cho số $N$. Hãy đếm số dãy có độ dài $N$ sao cho không tồn tại ba phần tử liên tiếp có giá trị bằng nhau.
 
-Đếm số cặp $(i, j)$ $(i < j)$ sao cho $f(1, i, a[i]) > f(j, n, a[j])$ .
-
-### Input: Nhập từ file SEQFUNC.INP
+### Input: Nhập từ file CONSARR .INP
 
 Dòng đầu tiên chứa số nguyên dương $n$. Dòng thứ hai chứa $n$ số nguyên dương $a_i$.
 
@@ -176,11 +174,11 @@ Subtask 4 (5 điểm): $n \leq 10^6, a_i \leq 10^9$.
 |3<br>1 1 1|1|
 |5<br>1 2 3 4 5|0|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MzQ5NzA4MCwtMTM0NDAyNTg5Niw0MT
-MwODE2NzEsLTEzNDQwMjU4OTYsMTA4NjExMDcwOCw2NzA1MzMy
-MDMsODcwOTk1NjEzLDY3MDUzMzIwMywxMzE3MzQ2ODMsNTY5ND
-MwNTQzLDEyOTc5NTM5MzMsMjc1MzI0MTMsLTM0ODY2ODU4MSwy
-MTMwOTQ0MDUyLC03NzI0NDI4MDgsMTAzNTU0MTQyMiwtMTY1MD
-Y3MjA0OCwtNTI0MTEyMjExLDY2ODkyODAzMCwyMTM4MDI4MzMy
+eyJoaXN0b3J5IjpbMTk4Nzg3MTUwNSwxMDUzNDk3MDgwLC0xMz
+Q0MDI1ODk2LDQxMzA4MTY3MSwtMTM0NDAyNTg5NiwxMDg2MTEw
+NzA4LDY3MDUzMzIwMyw4NzA5OTU2MTMsNjcwNTMzMjAzLDEzMT
+czNDY4Myw1Njk0MzA1NDMsMTI5Nzk1MzkzMywyNzUzMjQxMywt
+MzQ4NjY4NTgxLDIxMzA5NDQwNTIsLTc3MjQ0MjgwOCwxMDM1NT
+QxNDIyLC0xNjUwNjcyMDQ4LC01MjQxMTIyMTEsNjY4OTI4MDMw
 XX0=
 -->
