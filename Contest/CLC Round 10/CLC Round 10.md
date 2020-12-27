@@ -19,7 +19,7 @@
 
 Cho dãy $x$ có dạng: $x_n = nx_0 + (n-1)x_1 + (n-2)x_2 + ... + (n-i).x_i + ... + x_{n-1}$
 
-Cho trước hai số $x_1 = a$, $x_2 = b$ và số $k$ $(a, b \leq 10^{9})$. Hãy in ra giá trị của $x_k$.
+Cho trước hai số $x_0 = a$, $x_1 = b$ và số $k$ $(a, b \leq 10^{9})$. Hãy in ra giá trị của $x_k$.
 
 ### Input: Nhập từ file FINDNUM.INP
 
@@ -44,10 +44,10 @@ Subtask 2 (25 điểm): $\sum{k} \leq 10^6$.
 |2 <br> 2 3 3 <br> 2 3 4       | 7 <br>19 |
 
 > **Note**:  Ta có:
-> $f(1) = 2$
-> $f(2) = 3$
-> $f(3) = 2f(1) + f(2) = 2.2 + 3 = 7$
-> $f(4) = 3f(1) + 2f(2) + f(3) = 3.2 + 2.3 + 7 = 19$
+> $x_0 = 2$
+> $x_1 = 3$
+> $x_2 = 2x_1 + x_2 = 2.2 + 3 = 7$
+> $x_3 = 3x_1 + 2x_2 + x_3 = 3.2 + 2.3 + 7 = 19$
 
 
 # B. Đoạn phủ (SEGCOVER – 60 điểm)
@@ -174,11 +174,11 @@ Subtask 4 (5 điểm): $n \leq 10^6, a_i \leq 10^{18}$.
 |3<br>1 1 1|1|
 |5<br>1 2 3 4 5|0|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNDExMjIxMSw2Njg5MjgwMzAsMjEzOD
-AyODMzMiwtNTI0MTEyMjExLC0xODg1MTY0MTgxLC0zNjg5NjE2
-MjQsLTczNDM5MjIwMiw1NjM5OTU5MTgsLTY3NTQzMjIwNSwxOT
-g5MDU5MDQwLC0yMDA3Mzc4MTQ1LC01ODQ5Mzg5NjUsMTA1NzY3
-MTcyMywtMTY2NjE3MzYzNywzNDIyNDM5OTQsLTQ0ODIzMDE0My
-wtOTAwNDAyODY1LC0xMTM2NjQxOTE0LC0yMDg4NzQ2NjEyXX0=
-
+eyJoaXN0b3J5IjpbMTAxMDM0OTQyNSwtNTI0MTEyMjExLDY2OD
+kyODAzMCwyMTM4MDI4MzMyLC01MjQxMTIyMTEsLTE4ODUxNjQx
+ODEsLTM2ODk2MTYyNCwtNzM0MzkyMjAyLDU2Mzk5NTkxOCwtNj
+c1NDMyMjA1LDE5ODkwNTkwNDAsLTIwMDczNzgxNDUsLTU4NDkz
+ODk2NSwxMDU3NjcxNzIzLC0xNjY2MTczNjM3LDM0MjI0Mzk5NC
+wtNDQ4MjMwMTQzLC05MDA0MDI4NjUsLTExMzY2NDE5MTQsLTIw
+ODg3NDY2MTJdfQ==
 -->
