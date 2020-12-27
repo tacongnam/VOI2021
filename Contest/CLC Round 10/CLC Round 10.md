@@ -154,7 +154,7 @@ Dòng thứ nhất chứa số nguyên dương $T$ - số bộ test.
 
 $T$ dòng sau, mỗi dòng chứa một số nguyên dương $N$.
 
-### Output: In ra file SEQFUNC.OUT
+### Output: In ra file CONSARR.OUT
 
 In ra $T$ một dòng là kết quả bài toán lấy phần dư cho $10^9 + 7$.
 
@@ -162,25 +162,23 @@ In ra $T$ một dòng là kết quả bài toán lấy phần dư cho $10^9 + 7$
 
 Subtask 1 (6 điểm): $T \leq 10$, $n \leq 6$.
 
-Subtask 2 (15 điểm): $T \leq 10$, $n \leq 10^5$.
+Subtask 2 (20 điểm): $T \leq 10$, $n \leq 10^5$.
 
-Subtask 3 (19 điểm): $T \leq 10^5$, $n \leq 10^{18}$.
+Subtask 3 (14 điểm): $T \leq 10^5$, $n \leq 10^{18}$.
 
-Subtask 4 (5 điểm): $n \leq 10^6, a_i \leq 10^9$.
 
 ### Example
 
-|SEQFUNC.INP                    |SEQFUNC.OUT                        |
+|CONSARR.INP                    |CONSARR.OUT         |
 |-------------------------------|-----------------------------|
-|7<br>1 2 1 1 2 2 1|8|
-|3<br>1 1 1|1|
-|5<br>1 2 3 4 5|0|
+|2 <br>2 2<br>3 4<br>| 4 <br> 60|
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMzA5MDM5NSwxMDUzNDk3MDgwLC0xMz
-Q0MDI1ODk2LDQxMzA4MTY3MSwtMTM0NDAyNTg5NiwxMDg2MTEw
-NzA4LDY3MDUzMzIwMyw4NzA5OTU2MTMsNjcwNTMzMjAzLDEzMT
-czNDY4Myw1Njk0MzA1NDMsMTI5Nzk1MzkzMywyNzUzMjQxMywt
-MzQ4NjY4NTgxLDIxMzA5NDQwNTIsLTc3MjQ0MjgwOCwxMDM1NT
-QxNDIyLC0xNjUwNjcyMDQ4LC01MjQxMTIyMTEsNjY4OTI4MDMw
-XX0=
+eyJoaXN0b3J5IjpbMTYxMjQxNDE5LDEwNTM0OTcwODAsLTEzND
+QwMjU4OTYsNDEzMDgxNjcxLC0xMzQ0MDI1ODk2LDEwODYxMTA3
+MDgsNjcwNTMzMjAzLDg3MDk5NTYxMyw2NzA1MzMyMDMsMTMxNz
+M0NjgzLDU2OTQzMDU0MywxMjk3OTUzOTMzLDI3NTMyNDEzLC0z
+NDg2Njg1ODEsMjEzMDk0NDA1MiwtNzcyNDQyODA4LDEwMzU1ND
+E0MjIsLTE2NTA2NzIwNDgsLTUyNDExMjIxMSw2Njg5MjgwMzBd
+fQ==
 -->
