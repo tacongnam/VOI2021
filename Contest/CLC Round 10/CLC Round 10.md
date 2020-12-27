@@ -35,7 +35,7 @@ In ra $T$ dòng, mỗi dòng là kết quả của bài toán.
 
 Subtask 1 (15 điểm): $\sum{(k + 1)} \leq 20$.
 
-Subtask 2 (25 điểm): $\sum{(k + 1))} \leq 10^6$.
+Subtask 2 (25 điểm): $\sum{(k + 1)} \leq 10^6$.
 
 ### Example
 
@@ -174,11 +174,11 @@ Subtask 4 (5 điểm): $n \leq 10^6, a_i \leq 10^{18}$.
 |3<br>1 1 1|1|
 |5<br>1 2 3 4 5|0|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMTkwNTYyMCwtMzQ4NjY4NTgxLDIxMz
-A5NDQwNTIsLTc3MjQ0MjgwOCwxMDM1NTQxNDIyLC0xNjUwNjcy
-MDQ4LC01MjQxMTIyMTEsNjY4OTI4MDMwLDIxMzgwMjgzMzIsLT
-UyNDExMjIxMSwtMTg4NTE2NDE4MSwtMzY4OTYxNjI0LC03MzQz
-OTIyMDIsNTYzOTk1OTE4LC02NzU0MzIyMDUsMTk4OTA1OTA0MC
-wtMjAwNzM3ODE0NSwtNTg0OTM4OTY1LDEwNTc2NzE3MjMsLTE2
-NjYxNzM2MzddfQ==
+eyJoaXN0b3J5IjpbMjc1MzI0MTMsLTM0ODY2ODU4MSwyMTMwOT
+Q0MDUyLC03NzI0NDI4MDgsMTAzNTU0MTQyMiwtMTY1MDY3MjA0
+OCwtNTI0MTEyMjExLDY2ODkyODAzMCwyMTM4MDI4MzMyLC01Mj
+QxMTIyMTEsLTE4ODUxNjQxODEsLTM2ODk2MTYyNCwtNzM0Mzky
+MjAyLDU2Mzk5NTkxOCwtNjc1NDMyMjA1LDE5ODkwNTkwNDAsLT
+IwMDczNzgxNDUsLTU4NDkzODk2NSwxMDU3NjcxNzIzLC0xNjY2
+MTczNjM3XX0=
 -->
